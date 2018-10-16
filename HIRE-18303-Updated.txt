@@ -8,12 +8,14 @@ select * from T_SourceType (nolock) where CompanyId = 1517 and Deleted  = 0 and 
 'My_Computer_Career_-_Dallas',
 'Rachel Sanders',
 'RecruiterMilitary.com',
-'Test') and ParentId = 296831
+'RecruitMilitary.com',
+'Indeed',
+'Test') and ParentId = 296831  --71 records
 
 
-select * from T_SourceType (nolock) where CompanyId = 1517 and Deleted  = 0 and Name like ('My_Computer_Carrier_%_Dallas')--296831
+select * from T_SourceType (nolock) where CompanyId = 1517 and Deleted  = 0 and Name like ('My_Computer_Carrier_%_Dallas')--296831  --1 record
 
-select * from T_SourceType (nolock)  where CompanyId = 1517 and Deleted  = 0 and Name = 'KU_IT' and ParentId = 296831
+select * from T_SourceType (nolock)  where CompanyId = 1517 and Deleted  = 0 and Name = 'KU_IT' and ParentId = 296831 --2 records
 
 --Main Query
 Update T_SourceType Set Deleted = 1 where CompanyId = 1517 and Deleted  = 0 and Name in ('Asher_College',
