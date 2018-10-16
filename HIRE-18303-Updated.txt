@@ -1,0 +1,53 @@
+select * from T_User (nolock) where Email = 'colin.forbes@caltech.com'--1517
+
+select * from T_SourceType (nolock) where CompanyId = 1517 and Deleted  = 0 and Name in ('Asher_College',
+'Craigslist',
+'Deborah_Gentry',
+'Leader_Quest',
+'My_Computer_Carrier_-_Dallas',
+'My_Computer_Career_-_Dallas',
+'Rachel Sanders',
+'RecruiterMilitary.com',
+'RecruitMilitary.com',
+'Indeed',
+'Test') and ParentId = 296831  --71 records
+
+
+select * from T_SourceType (nolock) where CompanyId = 1517 and Deleted  = 0 and Name like ('My_Computer_Carrier_%_Dallas')--296831  --1 record
+
+select * from T_SourceType (nolock)  where CompanyId = 1517 and Deleted  = 0 and Name = 'KU_IT' and ParentId = 296831 --2 records
+
+--Main Query
+Update T_SourceType Set Deleted = 1 where CompanyId = 1517 and Deleted  = 0 and Name in ('Asher_College',
+'Craigslist',
+'Deborah_Gentry',
+'Leader_Quest',
+'My_Computer_Carrier_-_Dallas',
+'My_Computer_Career_-_Dallas',
+'Rachel Sanders',
+'RecruiterMilitary.com',
+'RecruitMilitary.com',
+'Indeed',
+'Test') and ParentId = 296831
+
+Update T_SourceType Set Deleted = 1 where CompanyId = 1517 and Deleted  = 0 and Name like ('My_Computer_Carrier_%_Dallas') and ParentId = 296831
+
+Update T_SourceType Set Name = 'KU' where CompanyId = 1517 and Deleted  = 0 and Name = 'KU_IT' and ParentId = 296831
+
+--Rollback Query
+Update T_SourceType Set Deleted = 0 where CompanyId = 1517 and Deleted  = 0 and Name in ('Asher_College',
+'Craigslist',
+'Deborah_Gentry',
+'Leader_Quest',
+'My_Computer_Carrier_-_Dallas',
+'My_Computer_Career_-_Dallas',
+'Rachel Sanders',
+'RecruiterMilitary.com',
+'RecruitMilitary.com',
+'Indeed',
+'Test') and ParentId = 296831
+
+Update T_SourceType Set Deleted = 0 where CompanyId = 1517 and Deleted  = 0 and Name like ('My_Computer_Carrier_%_Dallas') and ParentId = 296831
+
+Update T_SourceType Set Name = 'KU_IT' where CompanyId = 1517 and Deleted  = 0 and Name = 'KU' and ParentId = 296831
+
