@@ -1,0 +1,9 @@
+select * from T_User (nolock) where Email = 'ggarcia@torrid.com'--5086
+
+select * from T_CustomField (nolock) where CompanyId = 5086 and Deleted = 0 and FieldCode = 'checkr_assessment_report_link_xxdbvfwq'
+
+select * from T_CustomFieldContent (nolock) where CompanyId = 5086 and FieldId = 110370
+
+Update T_CustomField Set Kind = 14, ValueList='api.checkr.com,dashboard.checkr.com' where CompanyId = 5086 and Deleted = 0 and FieldCode = 'checkr_assessment_report_link_xxdbvfwq' and Id = 110370
+
+Update T_CustomField Set Kind = 0, ValueList='' where CompanyId = 5086 and Deleted = 0 and FieldCode = 'checkr_assessment_report_link_xxdbvfwq' and Id = 110370

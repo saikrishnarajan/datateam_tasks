@@ -1,0 +1,16 @@
+select * from T_User (nolock) where Email = 'rdiaz@certainaffinity.com'--6557
+
+select * from T_CustomField (nolock) where CompanyId = 6557 and Deleted=0 and FieldCode in ('annualized_salary','hourly_rate','portfolio_links')--136145,136146,137531
+
+select * from T_ViewField (nolock) where CompanyId = 6557 and Deleted = 0 and FieldId in (136145,136146,137531)
+
+
+--Main Query
+Update T_ViewField Set Deleted = 1 where CompanyId = 6557 and Deleted=0 and FieldId in (136145,136146,137531)
+
+Update T_CustomField Set Deleted = 1 where CompanyId = 6557 and Deleted=0 and FieldCode in ('annualized_salary','hourly_rate','portfolio_links')
+
+--Rollback Query
+Update T_ViewField Set Deleted = 0 where CompanyId = 6557 and Deleted=0 and FieldId in (136145,136146,137531)
+
+Update T_CustomField Set Deleted = 0 where CompanyId = 6557 and Deleted=0 and FieldCode in ('annualized_salary','hourly_rate','portfolio_links')
