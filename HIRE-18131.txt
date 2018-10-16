@@ -1,0 +1,47 @@
+select * from T_User (nolock) where Email = 'msmith@zscaler.com'--1256
+
+select * from T_SourceType (nolock) where CompanyId = 1256 and Deleted = 0 and Name in ('Bauer Career Gateway',
+'Business_AE','facebook_app','Indeed Prime','Indeed3','s4Tqofwv','s9g1qgwB','sAXnJgwo','scu4qgwV','se1fDfwR',
+'seiiqgwZ','sEjjYhw0','sh8y3hwM','sKG5Ogw4','sn2N2hw0','sO3UZgwv','sQVrofwk','stGTIgwv','sTjjYhwf','suPdVgwc',
+'sY7U2hwN','syJBXgwA','szjjYhwV','szrAGgw1','American_Corporate_Counsel_(ACC)','Job_Description','McCombs Job Board',
+'Recruiter_Tiff','s8yNUgw8','s9yLXhwb','saPGSgwi','sEwkMgw1','siwtYhw1','sJgQMfwl','sjkUKfw1','sm0p7hwE','smijYhwH',
+'smrDMfwW','sp11DfwO','sPf0Dfwr','sPjjYhwb','sXLDygwE','sY8U2hwO','technicalsymposium.com','T-Net_Job_Board',
+'LI','LinkedIn_Adhttps://app.jobvite.com/j?cj=o5xG3fw5,L','LinkedIn_Adhttps://app.jobvite.com/j?cj=obTG3fwx,L',
+'s0Lodgw7','s7GHNgw2','sipo0hwR','sjvwogwt','sKS6mgwP','skuhngwd','srhg5gwO','ssNGYhwF','stOeEgwU','DICE_Ad',
+'s5Tqofww','saXNJfwn','sbzBIgwO','scbKDgwv','scTqofwD','seLVPgwu','sPUuVhwU','AddThis','DJ','sIo3KgwE','sL5mxgwu',
+'sQECGgwx','sbEuogws','sVE5xgwW','gftindia','Kit_List','TC','sJo3KgwF','ssW2Pgw0','sbORfgwQ','sgbMNgwL','s9XNJfwm')
+
+--497780
+--530712
+--531010
+--586330
+--589134
+--599992
+--602088
+--610327
+--622259
+
+--ParentId = 255092
+
+--Main Query
+Update T_SourceType Set Deleted = 1 where CompanyId = 1256 and Deleted  = 0 and Name in ('Kit_List',
+'DICE_Ad',
+'DICE_Ad',
+'Business_AE',
+'LI',
+'American_Corporate_Counsel_(ACC)',
+'Recruiter_Tiff',
+'Job_Description',
+'T-Net_Job_Board') and ParentId = 255092
+
+--Roll back Query
+Update T_SourceType Set Deleted = 0 where CompanyId = 1256 and Deleted  = 0 and Name in ('Kit_List',
+'DICE_Ad',
+'DICE_Ad',
+'Business_AE',
+'LI',
+'American_Corporate_Counsel_(ACC)',
+'Recruiter_Tiff',
+'Job_Description',
+'T-Net_Job_Board') and ParentId = 255092
+
