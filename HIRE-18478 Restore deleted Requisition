@@ -1,0 +1,12 @@
+select * from T_Company (nolock) where name like '%ServiceNow%'--1159
+
+select * from T_Job (nolock) where CompanyId =1159 and RequisitionId = '19276'
+
+--update script -
+
+update T_Job set Deleted = 0 ,Modified = getdate() where CompanyId = 1159 and id = 3189271 and RequisitionId = '19276'
+
+
+--Rollback script -
+
+update T_Job set Deleted = 1 ,Modified = getdate() where CompanyId = 1159 and id = 3189271 and RequisitionId = '19276'
