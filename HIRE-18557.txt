@@ -1,0 +1,13 @@
+select * from T_User (nolock) where Email = 'skoning@livevox.com'--6928
+
+select * from T_CustomField (nolock) where CompanyId = 6928 and Deleted = 0 and FieldCode = 'comments__reason_for_hire'--Id=149797
+
+select * from T_ViewField (nolock) where CompanyId = 6928 and Deleted = 0 and FieldId = 149797--no records
+
+select * from T_CustomFieldContent (nolock) where CompanyId = 6928 and FieldId = 149797--no records
+
+--Main Query
+Update T_CustomField Set Deleted = 1 where CompanyId = 6928 and Deleted = 0 and FieldCode = 'comments__reason_for_hire'
+
+--Rollback Query
+Update T_CustomField Set Deleted = 0 where CompanyId = 6928 and Deleted = 0 and FieldCode = 'comments__reason_for_hire'
