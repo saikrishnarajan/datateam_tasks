@@ -1,0 +1,26 @@
+select * from T_User (nolock) where Email = 'ktownsend@vmdcorp.com'--6465
+
+select  * from T_Application (nolock) where CompanyId=6465 and DeletedHM =0
+
+select 6465,Id,125582,1, CASE when AppWorkStatus = 0 then 'None'
+                           when AppWorkStatus = 1 then 'US Citizen'
+                           when AppWorkStatus = 2 then 'Permanent Resident'
+                           when AppWorkStatus = 3 then 'H1 Visa'
+                           when AppWorkStatus = 4 then 'TN Visa'
+                           when AppWorkStatus = 5 then 'F1 Visa'
+                           when AppWorkStatus = 6 then 'Decline to Self Identify' END,1 from T_Application(nolock) where CompanyId = 6465 
+         and DeletedHM=0 and  NOT EXISTS (Select Id From T_CustomFieldContent(nolock) WHERE T_CustomFieldContent.ItemId = T_Application.id and FieldId=125582)
+
+select * from T_CustomField (nolock) where CompanyId=6465 and Name = 'Current Work Status'
+
+select * from T_CustomFieldContent (nolock) where CompanyId=6465 and FieldId=125582
+
+--Main Query       
+INSERT INTO T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind)
+select 6465,Id,125582,1, CASE when AppWorkStatus = 0 then 'None'
+                           when AppWorkStatus = 1 then 'US Citizen'
+                           when AppWorkStatus = 2 then 'Permanent Resident'
+                           when AppWorkStatus = 3 then 'H1 Visa'
+                           when AppWorkStatus = 4 then 'TN Visa'
+                           when AppWorkStatus = 5 then 'F1 Visa'
+                           when AppWorkStatus = 6 then 'Decline to Self Identify' END,1 from T_Application(nolock) where CompanyId = 6465 and DeletedHM=0 and  NOT EXISTS (Select Id From T_CustomFieldContent(nolock) WHERE T_CustomFieldContent.ItemId = T_Application.id and FieldId=125582)
