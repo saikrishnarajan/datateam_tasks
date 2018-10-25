@@ -1,0 +1,14 @@
+select * from T_Company (nolock) where name like '%JBS%'--6285
+select * from T_Candidate (nolock) where CompanyId =6285 and Email = 'dayazu0530@gmail.com' --69566270
+select  CandidateId,* from T_Application (nolock) where CompanyId =6285 and CandidateId = 69566270
+select * from T_Job (nolock) where CompanyId =6285 and RequisitionId in ('6885')
+select * from T_Job (nolock) where CompanyId =6285 and id = 3204191
+
+
+INSERT INTO T_Candidate (CompanyId,FirstName,LastName,Email,Title,Address,Address2,City,PostalCode
+,State,Country,HomePhone,WorkPhone,Mobile,Fax,Company,ApplicationCount,BlackListed)
+VALUES(6285,'Azucena','Ugarte Zozaya','','','3032 42nd Ave','','Greeley','80634','CO','','','','','','',1,0)
+select SCOPE_IDENTITY()
+update T_Application set CandidateId =SCOPE_IDENTITY() , Modified = getdate() where CompanyId =6285 and id=100681854
+
+update T_Candidate set ApplicationCount =2 where CompanyId =6285 and id = 69566270
