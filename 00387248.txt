@@ -90,7 +90,7 @@ select * from T_Application (nolock) where CompanyId = 6810 and DeletedHM=0 and 
 
 --Main Query
 Update T_Application Set ConsentStatus = 'ACCEPTED', ConsentDate = SentDate, 
-DeletionDate = DATEADD(month, 60, SentDate), Modified=GETDATE() where Id in (select Id from T_Application (nolock) where CompanyId = 6810 and DeletedHM=0 and JobId in ('3214903',
+DeletionDate = DATEADD(month, 36, SentDate), Modified=GETDATE() where Id in (select Id from T_Application (nolock) where CompanyId = 6810 and DeletedHM=0 and JobId in ('3214903',
 '3214904',
 '3214905',
 '3214906',
