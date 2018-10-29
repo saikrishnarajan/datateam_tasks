@@ -1,0 +1,13 @@
+select * from T_Location (nolock) where CompanyId = 6810 and Deleted = 0 and Id =348203--For location Italy
+
+select * from T_Job (nolock) where CompanyId = 6810 and Deleted = 0 and RequisitionId in  ('IT_001','IT_002','103','104') and LocationId=348203
+
+select * from T_Application (nolock) where CompanyId = 6810 and DeletedHM = 0 and Source = 'Import' and JobId in (3214912,3214913,3214925,3214926)
+
+--Main Query
+Update T_Application Set ConsentStatus = 'ACCEPTED', ConsentDate = SentDate, 
+DeletionDate = DATEADD(month, 36, SentDate), Modified=GETDATE() where CompanyId = 6810 and DeletedHM = 0 and Source = 'Import' and JobId in (3214912,3214913,3214925,3214926)
+
+--Rollback Query
+Update T_Application Set ConsentStatus = NULL, ConsentDate = NULL, 
+DeletionDate = NULL, Modified=GETDATE() where CompanyId = 6810 and DeletedHM = 0 and Source = 'Import' and JobId in (3214912,3214913,3214925,3214926)
