@@ -3,7 +3,7 @@ select * from T_User (nolock) where Email = 'jcook@acrelief.com'--6422
 select * from T_Company (nolock) where Id = 6422
 
 --Main Query
-Update T_Company SET Address = '4835 Eastgate Mall,', PostalCode = 92121 where id = 6735
+Update T_Company set Address = '4835 Eastgate Mall,', PostalCode = 92121 where id = 6422
 
 --Rollback Query
-Update T_Company SET Address = '591 Camino De La Reina', PostalCode = 92108 where id = 6735
+Update T_Company set Address = '591 Camino De La Reina', PostalCode = 92108 where id = 6422
