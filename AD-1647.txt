@@ -1,0 +1,10 @@
+select * from T_User (nolock) where Email = 'ethomas@idealconcepts.com'--6639
+
+select * from T_CustomField (nolock) where CompanyId = 6639 and Deleted=0 and FieldCode = 'recruiter_2' and Id = 133294
+
+
+--Main Query to Chnage custom field type from EmployeeNoDefault to Employee
+Update T_CustomField Set Kind = 10 where CompanyId = 6639 and Deleted=0 and FieldCode = 'recruiter_2' and Id = 133294
+
+--Rollback Query
+Update T_CustomField Set Kind = 11 where CompanyId = 6639 and Deleted=0 and FieldCode = 'recruiter_2' and Id = 133294
