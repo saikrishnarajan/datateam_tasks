@@ -1,0 +1,10 @@
+select * from T_User (nolock) where Email = 'kgriffit@advancedtech.com'--6612
+
+select * from T_CustomField (nolock) where CompanyId = 6612 and Deleted=0 and FieldCode = 'replacement_employee_name' and Id = 146921
+
+
+--Main Query to Chnage custom field type from EmployeeNoDefault to Employee
+Update T_CustomField Set Kind = 11 where CompanyId = 6612 and Deleted=0 and FieldCode = 'replacement_employee_name' and Id = 146921
+
+--Rollback Query
+Update T_CustomField Set Kind = 10 where CompanyId = 6612 and Deleted=0 and FieldCode = 'replacement_employee_name' and Id = 146921
