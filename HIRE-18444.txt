@@ -30,7 +30,7 @@ WHILE (@counter<=30 )
   WAITFOR DELAY '00:00:20'; --Wait for 20 seconds before updating next batch of 3000
 
 --Main Query Starts Here
-Update top(3000) T_Application Set WorkflowState = 22849, Disposition=71332, Modified=GETDATE() where CompanyId = 703 and id =(select Id from T_Application (nolock) where CompanyId = 703 and DeletedHM = 0 
+Update top(3000) T_Application Set WorkflowState = 22849, Disposition=71332, Modified=GETDATE() where CompanyId = 703 and id in(select Id from T_Application (nolock) where CompanyId = 703 and DeletedHM = 0 
 and WorkflowState NOT IN (22847,22849,152261,152264,152293,193497,242966,242968,260364,276755,276757,276885,276887,279023,279025,279026)
 and JobId in (select id from T_Job (nolock) where CompanyId=703 and Deleted = 0 and State in (2,4))) and Disposition !=71332
 
@@ -45,3 +45,9 @@ select @@ROWCOUNT as RecordsUpdated ,@counter as IterationNumber
          
 END  
 PRINT 'No more rows to update';
+
+---Main query to insert into CandidateStateUpdate
+Insert Into T_CandidateStateUpdate (CompanyId, ApplicationId, UserId, StateId, Date)
+       (select CompanyId, Id, userId, 22849, getDate() from T_Application (nolock) where CompanyId = 703 and DeletedHM = 0 
+and WorkflowState IN (22847,22849,152261,152264,152293,193497,242966,242968,260364,276755,276757,276885,276887,279023,279025,279026) and
+Disposition = 71332 and Modified > '2018-11-22 18:00:00.000')
