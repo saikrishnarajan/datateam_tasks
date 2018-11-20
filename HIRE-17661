@@ -1,0 +1,15 @@
+db.getCollection('feed').find({"companyId":5611,
+    "target.targetId" : 90496628
+    })
+ 
+
+ update script :-
+
+db.getCollection('feed').remove({"companyId":5611,
+    "target.targetId" : 90496628
+    })
+
+
+ Rollback:- 
+
+ Will take the backup before execute
