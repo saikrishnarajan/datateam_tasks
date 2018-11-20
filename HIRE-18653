@@ -1,0 +1,19 @@
+
+select * from T_Company (nolock) where name like '%Greenberg%'--6402
+
+select * from T_SourceType (nolock) where CompanyId =6402 and ParentId =627798 and id in (654148,650880,654004,654005,653398,654009)
+
+•	AABANY  --654148
+•	Direct Applications  --650880
+•	Associate – Corp. Finance --654004
+•	Paralegal – Corp. and Real Estate  --654005
+•	Referrals Real Estate and Corporate Paralegal --653398
+•	Technology Specialist - IP --654009
+
+--Update script :-
+
+update T_SourceType set Deleted =1 ,modifieddate = getdate() where CompanyId =6402 and ParentId =627798 and id in (654148,650880,654004,654005,653398,654009)
+
+--Rollback script:- 
+
+update T_SourceType set Deleted =0 ,modifieddate = getdate() where CompanyId =6402 and ParentId =627798 and id in (654148,650880,654004,654005,653398,654009)
