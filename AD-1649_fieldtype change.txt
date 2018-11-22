@@ -1,0 +1,21 @@
+
+select CompanyId,Company,* from T_user (nolock) where Email = 'slahiff@wayfair.com'--703
+
+select * from T_CustomField (nolock) where CompanyId = 703 and FieldCode = 'candidate_owner' -- id = 148908
+
+select * from T_CustomField (nolock) where CompanyId = 703 and FieldCode = 'referring_employees_name' -- id = 149471
+
+/* 
+BEGIN TRAN
+Update T_customfield set kind = 11 Where companyid = 703 and id in (148908,149471) 
+COMMIT
+*/
+
+/*
+--rollback query
+BEGIN TRAN
+Update T_CustomField 
+Set Kind = 10 Where CompanyId = 703
+And Id in (148908,149471)
+COMMIT
+*/
