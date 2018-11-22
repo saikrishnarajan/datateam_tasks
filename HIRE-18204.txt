@@ -1,0 +1,14 @@
+Select* from T_Company (nolock) where name like '%Hulu%'--1064
+
+select * from T_Workflow (nolock) where CompanyId =1064 and Title= 'Intern'--5402
+
+select * from T_InterviewType (nolock) where CompanyId= 1064 and Title in ('PS1 Scheduling Initiated','Additional Phone Screen') and Deleted = 0--5916,21303
+
+select * from T_CandidateState (nolock) where CompanyId = 1064 and Deleted= 0 and  Name = 'PS1 Scheduling Initiated' and WorkflowId=5402 --no records
+
+--Insert Query
+Insert into T_CandidateState (CompanyId,Name,Title,Kind,ItemId,Position,Deleted,Flags,WorkflowId,HiringManagerRestricted,createddate,modifieddate)
+						values (1064,'PS1 Scheduling Initiated','PS1 Scheduling Initiated',1,5916,45,0,0,5402,0,GETDATE(),GETDATE())
+
+--Rollback Query
+Update T_CandidateState Set Deleted=1 where CompanyId=1064 and Deleted= 0 and  Name = 'PS1 Scheduling Initiated' and WorkflowId=5402
