@@ -1,0 +1,25 @@
+select * from T_Company (nolock) where name like '%LiveVox%'--6928
+
+
+select * from T_CustomField (nolock) where CompanyId = 6928 and id in (150717,150725,150718)
+
+--'%salary%'-- 150717
+--'%AOP%'--150725
+-- '%Currency%' --150718
+
+
+select * from T_ViewField(nolock) where FieldId in (150717,150725,150718)
+
+
+--update script :-
+
+update T_CustomField set Deleted =1 where CompanyId = 6928 and id in (150717,150725,150718)
+
+update T_ViewField set Deleted =1 where CompanyId =6928 and FieldId in (150717,150725,150718)
+
+--Rollback script :-
+
+update T_CustomField set Deleted =0 where CompanyId = 6928 and id in (150717,150725,150718)
+
+update T_ViewField set Deleted =0 where CompanyId =6928 and FieldId in (150717,150725,150718)
+
