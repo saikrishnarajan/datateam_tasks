@@ -1,0 +1,3 @@
+Use crmdb;
+Update Contact Set deleted=TRUE,updatedate=now() WHERE companyId = 6588
+And Id in (81691693,81693817,81694687,81698404,81701005,81691670,81693794,81692643);
