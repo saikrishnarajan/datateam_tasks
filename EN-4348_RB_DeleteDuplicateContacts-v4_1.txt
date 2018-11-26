@@ -1,0 +1,16 @@
+use crmdb;
+Update Contact Set deleted = null, updateDate = "06/14/2018 10:24:52" Where companyId = 6588 And Id = 81691670;
+
+Update Contact Set deleted = null, updateDate = "06/14/2018 10:14:38" Where companyId = 6588 And Id = 81691693;
+
+Update Contact Set deleted = null, updateDate = "06/14/2018 10:08:16" Where companyId = 6588 And Id = 81692643;
+
+Update Contact Set deleted = null, updateDate = "06/14/2018 10:13:12" Where companyId = 6588 And Id = 81693794;
+
+Update Contact Set deleted = null, updateDate = "06/14/2018 08:36:15" Where companyId = 6588 And Id = 81693817;
+
+Update Contact Set deleted = null, updateDate = "06/14/2018 08:00:48" Where companyId = 6588 And Id = 81694687;
+
+Update Contact Set deleted = null, updateDate = "06/14/2018 09:55:29" Where companyId = 6588 And Id = 81698404;
+
+Update Contact Set deleted = null, updateDate = "06/14/2018 10:09:38" Where companyId = 6588 And Id = 81701005;
