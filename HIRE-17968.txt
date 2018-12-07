@@ -1,0 +1,22 @@
+select * from T_User (nolock) where Email='ethomas@idealconcepts.com'--6639
+
+select * from T_SourceType (nolock) where CompanyId=6639 and Deleted=0 and Name in('Indeed.com_-_Sourced','Careerbuilder_-_Sourced',
+'LinkedIn_-_Sourced','Stack_Overflow_-_Sourced')--650323,650324,650325,650326
+
+select * from T_Application (nolock) where CompanyId=6639 and SourceType in (650323,650324,650325,650326)--no data
+
+--Main Query
+/* 
+BEGIN TRAN
+Update T_SourceType 
+Set Deleted = 1 Where CompanyId=6639 and Id in (650323,650324,650325,650326)
+COMMIT
+*/
+
+--Rollback query
+/* 
+BEGIN TRAN
+Update T_SourceType 
+Set Deleted = 0 Where CompanyId=6639 and Id in (650323,650324,650325,650326)
+COMMIT
+*/
