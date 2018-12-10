@@ -29,6 +29,7 @@ select @@ROWCOUNT as RecordsUpdated ,@counter as IterationNumber
          
 END  
 PRINT 'No more rows to update';
+
 --Main Query
 update T_Job Set Deleted=1, Modified=getdate() where Sentdate <= '2018-01-01 00:00:00.000' 
 and Deleted =0 and CompanyId=1771
