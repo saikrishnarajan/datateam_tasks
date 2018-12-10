@@ -1,7 +1,10 @@
 select * from T_User (nolock) where Email = 'sophie.mcneill@indochino.com'--1771
 
-select * from T_Application (nolock) where CompanyId = 1771 and DeletedHM = 0 and SentDate <= '2018-01-01 00:00:00.000'--count=19993
+select * from T_Application (nolock) where CompanyId = 1771 and DeletedHM = 0 and SentDate <= '2018-01-01 00:00:00.000'--19993 records
 
+select * from T_Job (nolock) where CompanyId = 1771 and Deleted = 0 and SentDate <= '2018-01-01 00:00:00.000'--307 records
+
+--Main query
 --Run query in bacthes of 3000 until affected rows is (0)
 declare @counter int
 set @counter =0
@@ -25,9 +28,15 @@ select @@ROWCOUNT as RecordsUpdated ,@counter as IterationNumber
       CONTINUE
          
 END  
-PRINT 'No more rows to update'; 
+PRINT 'No more rows to update';
+--Main Query
+update T_Job Set Deleted=1, Modified=getdate() where Sentdate <= '2018-01-01 00:00:00.000' 
+and Deleted =0 and CompanyId=1771
 
 --Roll Back Query
 update T_Application
 set deletionDate=null
 where CompanyId=1771 DeletedHM=0 and SentDate < '2018-01-01 00:00:00.000'
+
+update T_Job Set Deleted=0, Modified=getdate() where Sentdate <= '2018-01-01 00:00:00.000' 
+and Deleted =0 and CompanyId=1771
