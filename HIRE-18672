@@ -1,0 +1,33 @@
+
+select * from T_CustomForm (nolock) where companyId = 6300
+
+
+update script:-
+
+--update T_CustomForm set deleted =0 ,isDefault =1 where companyId = 6430 and id = 2678
+
+--update T_CustomForm set deleted = 0 ,isDefault = 1 where companyId = 1914 and id = 3174
+
+--update T_CustomForm set isDefault =1 where companyId = 4764 and id = 18
+
+--update T_CustomForm set isDefault = 1 where companyId = 5299 and id =26
+
+--update T_CustomForm set isDefault = 1 where companyId = 6442 and id = 2775
+
+--update T_CustomForm set isDefault = 1 where companyId = 6443 and id = 4933
+
+
+
+Rollback script :-
+
+--update T_CustomForm set deleted = 1 ,isDefault = 0 where companyId = 6430 and id = 2678
+
+--update T_CustomForm set deleted = 1 ,isDefault = 0 where companyId = 1914 and id = 3174
+
+--update T_CustomForm set isDefault =0 where companyId = 4764 and id = 18
+
+--update T_CustomForm set isDefault = 0 where companyId = 5299 and id =26
+
+--update T_CustomForm set isDefault = 0 where companyId = 6442 and id = 2775
+
+--update T_CustomForm set isDefault = 0 where companyId = 6443 and id = 4933
