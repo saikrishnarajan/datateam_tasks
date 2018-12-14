@@ -1,0 +1,204 @@
+--update Script --
+--update T_Job set PrimaryRecruiterId = 44191746 ,Modified = getdate() where CompanyId =3683 and RequisitionId in ('458','467','471','395','469','529','538','555','397','398','494','527','532','553','233','396','423','468','535','401','422','466','526','536','549','537','554')
+--update T_Job set PrimaryRecruiterId = 44214232 , Modified = getdate() where CompanyId = 3683 and RequisitionId in ('550','PH-01','340','374','383','414','416','427','444','522','420','463','476','256','338','343','364','375','417','419','445','461','472','473','509','543','381','385','415','462','464','475','525','534','309','332','380','384','411','421','432','442','516','517','253','287','341','344','365','389','510','523')
+--update T_Job set PrimaryRecruiterId = 43934600 , Modified = getdate() where CompanyId = 3683 and RequisitionId in ('208','210','259','265','267','271','334','352','362','390','392','393','441','443','447','465','176','194','251','275','282','355','357','359','378','399','404','407','455','456','491','493','505','511','518','531','545','552','142','272','335','337','370','388','402','405','408','436','460','485','486','489','492','506','530','533','548','542','137','248','366','386','391','403','413','425','431','439','453','488','502','503','508','484','AV-01','209','322','347','354','356','358','373','379','406','412','448','481','504','507','512','524','544','547','247','252','262','263','280','342','346','350','360','363','387','409','428','430','446','450','451','487','490','513','519','541','546','376')
+
+
+--Rollback :-
+PrimaryRecID	Id	Title
+41404452	1270921	Purchasing Manager                                                                                                                                    
+41404452	1501880	Engineer, Body Closures                                                                                                                               
+43934600	2259267	Casa Grande, Arizona (All Positions)                                                                                                                  
+41404452	2309619	Lead Battery Systems Mechanical Engineer                                                                                                              
+44534895	2424102	Test Engineer                                                                                                                                         
+43934600	2494711	Powertrain Validation Engineer                                                                                                                        
+43934600	2555427	Low Voltage Harness Engineer                                                                                                                          
+43934600	2555438	Mechanical Engineer, High Voltage                                                                                                                     
+43934600	2555449	Senior Mechanical Engineer                                                                                                                            
+44027641	2717568	Prototype Battery Build Manager                                                                                                                       
+44534895	2726676	Manager, Seating Systems                                                                                                                              
+44534895	2726681	Lighting Systems - Lead Mechanical/Thermal Engineer                                                                                                   
+44214232	2727855	Senior Computing Platform Integration Engineer                                                                                                        
+44534895	2727862	Sr. Autonomous Vehicle Integration and Build Operations Engineer                                                                                      
+44214232	2727882	Senior Engineer Network Communications                                                                                                                
+44214232	2728031	Senior Hardware Design Engineer                                                                                                                       
+44214232	2728607	Development Engineer – Aluminum Structures Joining                                                                                                    
+44534895	2737004	Drive Unit Test and Validation Engineer/Manager                                                                                                       
+44534895	2741032	NVH CAE Engineer                                                                                                                                      
+44214232	2744972	Digital Modeler                                                                                                                                       
+44534895	2745794	Sr. Manager, Engineering Tools CAD,CAM.PLM                                                                                                            
+41404452	2756397	Senior Mechanical Engineer, Chassis                                                                                                                   
+41404452	2756401	Senior Technical Specialist, Chassis                                                                                                                  
+44534895	2757549	Senior Dimensional Engineer                                                                                                                           
+44534895	2775152	Director, Chassis and Vehicle Dynamics Engineering                                                                                                    
+44534895	2787724	Senior Engineer, Wire Harness Systems                                                                                                                 
+44214232	2804554	Technical Program Manager, Infotainment                                                                                                               
+41404452	2929972	Intern, Electrical Systems Integration                                                                                                                
+43934600	3005715	Senior Mechanical Engineer, Battery Enclosure                                                                                                         
+44214232	3026174	Technical Specialist, Motor Control Engineering                                                                                                       
+41404452	3027847	Battery Build Technician                                                                                                                              
+41404452	3027852	Battery Build Operator                                                                                                                                
+44214232	3034924	Functional Safety Manager                                                                                                                             
+44214232	3034932	Staff Engineer, Automotive E/E Systems Integration                                                                                                    
+44214232	3034953	Senior Embedded Software Engineer Functional Safety, Platform Software                                                                                
+44214232	3034984	Senior Software Engineer, Network Communications                                                                                                      
+44214232	3034995	Functional Safety Engineer                                                                                                                            
+44191746	3036442	Senior Embedded Software Engineer, Platform Software                                                                                                  
+44214232	3036945	Senior Software Engineer, Vehicle User Interface                                                                                                      
+41404452	3072559	Power Electronics Hardware, Senior Engineer                                                                                                           
+41404452	3072605	Power Electronics Firmware, Senior Engineer                                                                                                           
+41404452	3093463	Technician, Prototype Build                                                                                                                           
+41404452	3095562	Technician, EV Drive Unit Build                                                                                                                       
+41404452	3114849	Engineer, Closures Systems                                                                                                                            
+41404452	3114868	Senior Engineer, Closures Systems                                                                                                                     
+41404452	3114907	Senior Engineer, Body Structures                                                                                                                      
+41404452	3114914	Engineer, Body Structures                                                                                                                             
+41404452	3114971	Engineer, Dynamic Sealing Systems                                                                                                                     
+41404452	3115012	Engineer, Body Closures Hardware                                                                                                                      
+41404452	3115054	Design Engineer, Body in White (BIW)                                                                                                                  
+41404452	3122899	Engineer, Interior Components and Systems                                                                                                             
+44534895	3142889	Senior Engineer, Battery Lifetime, Performance and Modeling                                                                                           
+44214232	3164444	Battery Algorithms Senior Engineer                                                                                                                    
+0	        3168542	Intern, Software Engineering                                                                                                                          
+41404452	3171847	Senior Technical Specialist, Vehicle Dynamics                                                                                                         
+43934600	3186405	CAE Engineer Durability                                                                                                                               
+44534895	3188002	Vehicle Performance Development Engineer                                                                                                              
+44214232	3188738	Engineering Manager, Data Engineering                                                                                                                 
+41404452	3189330	New Graduate Software Engineer                                                                                                                        
+44214232	3189344	Perception Algorithm Engineer - Autonomous Driving                                                                                                    
+41404452	3191041	New Graduate Hardware Engineer                                                                                                                        
+44534895	3195691	New Graduate Mechanical Design Engineer                                                                                                               
+44214232	3195946	Software Engineer                                                                                                                                     
+44214232	3195960	Electronics Hardware Engineer                                                                                                                         
+44214232	3196274	Senior Hardware EE/Architect - Infotainment & Digital Cockpit                                                                                         
+44214232	3197081	Engineering Manager - Cyber Security                                                                                                                  
+44214232	3197816	Senior Data Engineer - Data Engineering                                                                                                               
+41404452	3197907	PCB Layout Design Engineer                                                                                                                            
+41404452	3198321	Design Engineer, HVAC and Thermal System                                                                                                              
+44214232	3199361	HelpDesk Technician                                                                                                                                   
+44214232	3200015	Senior Engineer, Controls                                                                                                                             
+41404452	3200293	Technician, Prototype Build                                                                                                                           
+44214232	3200322	Senior Homologation Engineer                                                                                                                          
+44214232	3200336	Sr. Restraint System Design Release Engineer                                                                                                          
+43934600	3200344	Senior CAE Engineer -- Crashworthiness                                                                                                                
+44027641	3200415	Sr. Manufacturing Equipment Engineer – (Powertrain – Battery)                                                                                         
+44027641	3200421	Sr. Manufacturing Equipment Engineer – (Powertrain – Motor)                                                                                           
+44027641	3200425	Sr. Manufacturing Equipment Engineer (General Assembly)                                                                                               
+44027641	3200445	Manufacturing Engineer                                                                                                                                
+44214232	3200452	Refrigeration Engineer, HVAC and Thermal System                                                                                                       
+44027641	3200498	Senior Controls Engineer                                                                                                                              
+44534895	3201621	Engineer (All Levels), Complete Seat                                                                                                                  
+44534895	3201624	Senior Engineer, Seating Soft Trim and Comfort                                                                                                        
+41404452	3201632	Design Engineers (all levels), Exterior Systems                                                                                                       
+41404452	3201658	Aero-Thermal Engineer                                                                                                                                 
+44214232	3201687	Feature Owner / Product Owner - Advanced Driver Assistance Systems                                                                                    
+44214232	3201755	Technical Expert ADAS/ Autonomous Driving                                                                                                             
+44214232	3201887	Motion Planning Engineer - Autonomous Driving                                                                                                         
+43934600	3202168	Test Engineer, Durability                                                                                                                             
+44214232	3202528	Architect/Lead - Vehicle Electronics                                                                                                                  
+43934600	3202547	Financial Analyst – Program and Product Cost                                                                                                          
+44534895	3204280	Electromagnetic Analysis Engineer (all levels)                                                                                                        
+44027641	3204387	Global Supply Manager, Chassis Systems                                                                                                                
+44214232	3204392	Global Supply Manager, Powertrain Systems                                                                                                             
+44214232	3204396	Global Supply Manager, Cooling/Thermal Systems                                                                                                        
+44027641	3204406	Group Manager, Capital Equipment and Indirect Purchasing                                                                                              
+44027641	3204428	Global Supply Manager - Body Systems (BIW), Stampings, Castings                                                                                       
+44027641	3204430	Global Supply Manager, Capital Equipment                                                                                                              
+44214232	3204439	Supplier Quality Engineer (All Levels)                                                                                                                
+44027641	3204445	Manufacturing Engineering Manager, General Assembly                                                                                                   
+44027641	3204654	Manufacturing Engineering Manager, Body in White                                                                                                      
+41404452	3205871	Senior CMF Designer                                                                                                                                   
+44214232	3206601	Senior/Lead Engineer - Cyber Security                                                                                                                 
+44534895	3207508	Aero-Thermal Engineer, HVAC and Thermal System                                                                                                        
+41404452	3208185	User Experience Designer                                                                                                                              
+44534895	3208314	Drive Unit Test and Validation Engineer/Manager                                                                                                       
+44214232	3208387	Embedded Software Engineer, Platform Software                                                                                                         
+41404452	3209685	Exterior Lead Designer                                                                                                                                
+44534895	3210387	Senior Adhesives Specialist                                                                                                                           
+44534895	3211798	Technical Lead, Autonomous Driving HW Platform                                                                                                        
+44027641	3212276	Supplier Quality Engineer - PCB/PCBA                                                                                                                  
+44214232	3212314	Senior Requirements Engineer ADAS/AD                                                                                                                  
+44214232	3213656	Global Supply Manager                                                                                                                                 
+44214232	3216367	Senior Embedded Software Engineer AUTOSAR, Platform Software                                                                                          
+41404452	3216704	Technical Program Engineer                                                                                                                            
+21813443	3216710	Digital Designer                                                                                                                                      
+44534895	3216962	Test Technician, Battery Cell, Module and Pack                                                                                                        
+44214232	3217979	Software Architect                                                                                                                                    
+44534895	3217998	Software Engineer ADAS/AD Simulation                                                                                                                  
+41404452	3218861	Mechanical Engineer, Hardware Design and Packaging                                                                                                    
+41404452	3219177	Lead Brand Designer                                                                                                                                   
+41404452	3219178	Visual Design Lead                                                                                                                                    
+44027641	3221229	Casa Grande General                                                                                                                                   
+43934600	3223131	Battery Safety Engineer                                                                                                                               
+44214232	3223224	Group Manager, Global Supply- Software application and services                                                                                       
+44214232	3223230	Group Manager, Global Supply- 12V accessories and harness                                                                                             
+44214232	3223243	Group Manager, Global Supply- Infotainment                                                                                                            
+44214232	3223267	Group Manager, Global Supply- Power Systems/Component                                                                                                 
+43934600	3224968	General and Administrative                                                                                                                            
+44027641	3224972	Paint Shop Sr. Mfg. Equipment / Facilities Engineer or Manager                                                                                        
+44027641	3224999	Paint and Sealer Materials Engineer or Manager                                                                                                        
+44027641	3225011	Paint Shop Robotic Application Engineer                                                                                                               
+44027641	3225421	Electrical Engineer, Facilities                                                                                                                       
+44191746	3225505	Greenfield Facility Sr. Manager / Director                                                                                                            
+44214232	3225653	Global Supply Manager – Closures                                                                                                                      
+44214232	3225657	Global Supply Manager – Exterior Trim                                                                                                                 
+44214232	3225660	Global Supply Manager – Interior Trim                                                                                                                 
+44214232	3225663	Global Supply Manager – Seating                                                                                                                       
+44534895	3234627	Technical Specialist, Charging Infrastructure and Smart Energy                                                                                        
+43934600	3237130	Controller - Accounting                                                                                                                               
+44534895	3239604	Design Release Engineer - Lighting Systems                                                                                                            
+43934600	3239954	Internships 2019 (General Administration)                                                                                                             
+41404452	3239981	Internships 2019 (Engineering)                                                                                                                        
+41404452	3240204	Thermal Analyst, Multi-Physics                                                                                                                        
+43934600	3240373	Analyst, Business Development and Strategy                                                                                                            
+44214232	3241594	Craftsmanship Engineer                                                                                                                                
+43934600	3241955	Technical Recruiter (Automotive - Software)                                                                                                           
+43934600	3241989	Technical Recruiter (Automotive - Hardware)                                                                                                           
+43934600	3242017	Technical Sourcer (Automotive - HW and SW)                                                                                                            
+43934600	3243574	Facilities Maintenance Engineer                                                                                                                       
+44534895	3248649	Sr. CAD/PLM Administrator                                                                                                                             
+43934600	3249809	Sensor Technology Specialist / Sensor Integration Engineer – ADAS/Autonomous Driving                                                                  
+44214232	3249860	Lead Interior Clay Modeler                                                                                                                            
+43934600	3250789	Staff Accountant                                                                                                                                      
+41404452	3250894	Aeroacoustics Engineer                                                                                                                                
+43934600	3251058	Staff Accountant                                                                                                                                      
+44214232	3251087	Technical Program Manager / Project Manager for ADAS / Autonomous Driving                                                                             
+44214232	3253441	Software Team Manager/Leader                                                                                                                          
+44214232	3253653	Senior Engineer, Motor Controls                                                                                                                       
+26770766	3253810	Front End Developer                                                                                                                                   
+44214232	3254339	Contract Attorney                                                                                                                                     
+26770766	3255053	Technical Operations Program Manager, Service Engineering                                                                                             
+41404452	3255606	Supply Chain Analyst                                                                                                                                  
+44214232	3256657	Senior/Lead Audio Hardware Engineer                                                                                                                   
+44214232	3260204	Mechanical Engineer - ADAS Packaging                                                                                                                  
+41404452	3260286	Engineer - Chassis & Vehicle Dynamics Simulation                                                                                                      
+44214232	3262321	Software Architect                                                                                                                                    
+44214232	3263628	Senior Hardware Design Engineer – Control and Connectivity Electronic                                                                                 
+44534895	3263962	Fastener Engineer                                                                                                                                     
+41404452	3268129	Sr. Manager, Enterprise Systems                                                                                                                       
+44027641	3270025	Process Engineer, Body in White                                                                                                                       
+44027641	3270041	Manufacturing Engineer, Body in White                                                                                                                 
+41404452	3270066	Sr. Manufacturing Engineer BIW - Design For Manufacturing                                                                                             
+26770766	3270175	Content Marketing Manager                                                                                                                             
+41404452	3271725	Senior UX Design Manager                                                                                                                              
+44027641	3272085	Manufacturing Engineering Director                                                                                                                    
+44534895	3274669	Mechanical Engineer - HVAC & Thermal Systems                                                                                                          
+44214232	3277088	Systems Engineer, Automotive Controls                                                                                                                 
+44027641	3277447	Sr. Manufacturing Equipment Engineer (General Assembly)                                                                                               
+44027641	3278405	Manufacturing Engineer                                                                                                                                
+44027641	3278406	Sr. Manufacturing Equipment Engineer – (Powertrain – Motor)                                                                                           
+44027641	3278408	Sr. Manufacturing Equipment Engineer – (Powertrain – Battery)                                                                                         
+43703884	3284693	Director, Global Talent Acquisition                                                                                                                   
+43800902	3286252	Feature Owner / Hardware Integration Lead – Driver Monitoring System                                                                                  
+44214232	3286489	Supplier Quality Manager                                                                                                                              
+43934600	3292787	CAE Engineer – Pedestrian and Occupant Safety Analysis                                                                                                
+41404452	3292822	Sr. Director Retail Development                                                                                                                       
+43703884	3292884	Receptionist - Lobby Ambassador                                                                                                                       
+26770766	3293107	Finance Analyst – Manufacturing & Facilities                                                                                                          
+26770766	3293108	Finance Analyst – Corporate Consolidation                                                                                                             
+43934600	3294557	Facilities Engineer                                                                                                                                   
+44214232	3299525	Sr. Manager, Vehicle Integration and Validation                                                                                                       
+43934600	3299680	Camera Embedded Software Engineer                                                                                                                     
+44191746	3301010	Sr. Manufacturing Engineering Manager, General Assembly                                                                                               
+44191746	3301035	Sr. Manufacturing Engineering Manager, BIW                                                                                                            
+44191746	3301046	Sr. Manufacturing Engineering Manager, EV Powertrain                                                                                                  
