@@ -1,0 +1,38 @@
+select * from T_User (nolock) where Email = 'Naama.BenNun@amdocs.com'--6877
+
+select * from T_Application (nolock) where CompanyId = 6877 and DeletedHM = 0  order by SentDate
+
+select * from T_Application (nolock) where CompanyId = 6877 and DeletedHM = 0 and Id in(103339195,
+103339196,
+103339197,
+103339198,
+103339199,
+103339200,
+103339201,
+103339202,
+103339203,
+103339204)
+
+--Main Query
+Update T_Application Set DeletionDate = GETDATE()+5,Modified = GETDATE() where CompanyId = 6877 and DeletedHM = 0 and Id in(103339195,
+103339196,
+103339197,
+103339198,
+103339199,
+103339200,
+103339201,
+103339202,
+103339203,
+103339204)
+
+--Rollback Query
+Update T_Application Set DeletionDate = NULL,Modified = GETDATE() where CompanyId = 6877 and DeletedHM = 0 and Id in(103339195,
+103339196,
+103339197,
+103339198,
+103339199,
+103339200,
+103339201,
+103339202,
+103339203,
+103339204)
