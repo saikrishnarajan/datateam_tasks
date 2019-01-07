@@ -2,3 +2,8 @@ select * from T_Company (nolock) where name like '%EF education%' --3016
 select * from T_CandidateState (nolock) where CompanyId = 3016 and name like '%video%'    and WorkflowId = 9606
 
 update T_CandidateState set kind =7 ,modifieddate = getdate() where CompanyId =3016 and id =282682
+
+
+Rollback script :- 
+
+update T_CandidateState set kind =2 ,modifieddate = getdate() where CompanyId =3016 and id =282682
