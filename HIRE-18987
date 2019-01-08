@@ -1,0 +1,38 @@
+
+select CompanyId,Company,* from T_user (nolock) where Email = 'skoning@livevox.com'--6928
+
+select * from T_CustomField (nolock) where CompanyId = 6928 and FieldCode = 'obip__vcip_amount_units___resp' and ObjectType = 1 -- id = 151841
+
+select * from T_CustomField (nolock) where CompanyId = 6928 and FieldCode = 'obip__vcip' and ObjectType = 1 -- id = 151840
+
+select * from T_CustomField (nolock) where CompanyId = 6928 and FieldCode = 'annual_base_salary' and ObjectType = 1 -- id = 151837
+
+select * from T_CustomField (nolock) where CompanyId = 6928 and FieldCode = 'annual_incentive' and ObjectType = 1 -- id = 151839
+
+select * from T_CustomField (nolock) where CompanyId = 6928 and FieldCode = 'aop_budget__annual_incentive_' and ObjectType = 2 -- id = 151827
+
+select * from T_CustomField (nolock) where CompanyId = 6928 and FieldCode = 'obip__vcip' and ObjectType = 2 -- id = 151821
+
+select * from T_CustomField (nolock) where CompanyId = 6928 and FieldCode = 'incentive_plan_type' and ObjectType = 2 -- id = 151817
+
+
+/* 
+BEGIN TRAN
+Update T_customfield set Deleted = 1 Where companyid = 6928 and id in (151841,151840,151837,151839,151827,151821,151817) 
+
+Update T_viewfield set Deleted = 1 where CompanyId = 6928 and deleted = 0 and FieldId in (151841,151840,151837,151839,151827,151821,151817)
+COMMIT
+*/
+
+
+/*
+--rollback query
+BEGIN TRAN
+Update T_CustomField 
+Set Deleted = 0 Where CompanyId = 6928
+And Id in (151841,151840,151837,151839,151827,151821,151817)
+
+Update T_viewfield set Deleted = 0 where CompanyId = 6928 and Id in
+(780449,780450,780452,780455,784617,791473,791984)
+COMMIT
+*/
