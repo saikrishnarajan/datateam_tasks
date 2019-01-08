@@ -14,3 +14,11 @@ update T_application set WorkflowState = 257586, Modified = getdate ()
 where CompanyId = 6730 and id = 100915387
 
 update T_CandidateStateUpdate set StateId = 257586  where CompanyId =6730 and id = 143159008
+
+
+--Rollback Script:- 
+update T_application set WorkflowState = 237550, Modified = getdate () 
+where CompanyId = 6730 and id = 100915387
+
+update T_CandidateStateUpdate set StateId = 237550  where CompanyId =6730 and id = 143159008
+
