@@ -1,0 +1,11 @@
+select * from T_User(nolock) where Email = 'rob_power@starsgroup.com'--3860
+
+select * from T_SourceType(nolock) where CompanyId=3860 and Deleted=0 and ParentId!=0
+
+select Source,SourceType,* from T_Application(nolock) where CompanyId=3860 and DeletedHM=0 and SourceType=528448
+
+--Main Query
+--Update T_SourceType Set Deleted=1 where CompanyId=3860 and Deleted=0 and ParentId!=0
+
+--Update T_Application Set Source=' ',Modified=GETDATE() where CompanyId=3860 and DeletedHM=0 and SourceType=528448
+
