@@ -1,0 +1,21 @@
+db.getCollection('feed').find({"companyId":6288,
+    "target.targetType":"Application",
+    "verb":"NOTES_ADDED", 
+    "object.objectType" : "Notes",
+    "object.objectId" : {$in :[223509753,223509550] }
+       
+    })
+
+    update script :-
+
+    db.getCollection('feed').remove({"companyId":6288,
+    "target.targetType":"Application",
+    "verb":"NOTES_ADDED", 
+    "object.objectType" : "Notes",
+    "object.objectId" : {$in :[223509753,223509550] }
+       
+    })
+
+    Rollback:-
+
+    Will take backup before execute.
