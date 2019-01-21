@@ -1,0 +1,11 @@
+select * from T_User(nolock) where Email='jvanderzell@global-indemnity.com'
+
+select * from T_Job(nolock) where CompanyId=6768 and Deleted = 1 and RequisitionId='1207'--3350428
+
+select * from T_Application(nolock) where CompanyId=6768 and JobId=3350428--No associated applications 0 records
+
+--Main Query
+Update T_Job Set Deleted=0,Modified=GETDATE() where CompanyId=6768 and Deleted = 1 and RequisitionId='1207' and Id=3350428
+
+--Rollback Query
+Update T_Job Set Deleted=1,Modified='2019-01-17 05:37:30.267' where CompanyId=6768 and Deleted = 0 and RequisitionId='1207' and Id=3350428
