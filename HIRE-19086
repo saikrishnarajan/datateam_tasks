@@ -1,0 +1,17 @@
+select * from T_SourceType (nolock) where CompanyId = 6212 and ParentId =618871
+and name in ('Alex_LinkedIn', 
+'Alex_Sourcing', 
+'MG', 
+'MG_LinkedIn',
+'Morgan_Sourcing', 
+'MP_LinkedIn')
+
+
+--update script :-
+update T_SourceType set Deleted = 1 ,modifieddate =GETDATE() 
+where CompanyId = 6212 and id in (637180,644538,644700,645310,645365,646155) and ParentId =618871
+
+
+--Rollback script :-
+update T_SourceType set Deleted = 0 ,modifieddate =GETDATE() 
+where CompanyId = 6212 and id in (637180,644538,644700,645310,645365,646155) and ParentId = 618871
