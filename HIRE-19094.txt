@@ -1,0 +1,55 @@
+select * from T_User (nolock) where Email='ggarcia@torrid.com'--5086
+
+select * from T_SourceType (nolock) where CompanyId=5086 and Name in ('Angie_Wilson','BuiltInLA','HOTT_Match','ICSC','J_Johnson','LinkedIn','LinkedIn_-_NS','LinkedIn_HT','LI-NS','mobileOR','VelvetJobs')
+
+--ParentId=580322
+
+--Main Query
+Update T_SourceType Set Deleted=1, modifieddate=GETDATE() 
+where CompanyId=5086 and Name in ('Angie_Wilson','BuiltInLA','HOTT_Match','ICSC','J_Johnson','LinkedIn','LinkedIn_-_NS','LinkedIn_HT','LI-NS','mobileOR','VelvetJobs') and ParentId=580322
+
+
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Name ='Angie_Wilson'
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Name ='BuiltInLA'
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Name ='HOTT_Match'
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Name ='ICSC'
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-10-10 18:25:27.510'
+where CompanyId=5086 and Name ='J_Johnson'
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Name ='LinkedIn'
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-11-27 12:32:33.077'
+where CompanyId=5086 and Name ='LinkedIn_-_NS'
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Name ='LinkedIn_HT'
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-11-21 10:43:08.583'
+where CompanyId=5086 and Name ='LI-NS'
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2018-02-22 15:17:59.813'
+where CompanyId=5086 and Name ='mobileOR'
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-11-07 16:54:31.800'
+where CompanyId=5086 and Name ='VelvetJobs'
