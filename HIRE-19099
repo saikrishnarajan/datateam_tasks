@@ -1,0 +1,26 @@
+db.getCollection('applicationAuditLog').find({
+    "companyId" : 341,
+    "target.targetType" : "Application",
+    "target.targetId" : {$in: [104310839,94790432,93243588,99948652,104310625]},
+    "actor.actorId" : 22752364,
+    "verb" : "APPLICATION_EDITED"
+    })
+    
+    
+
+    update script :- 
+    
+   db.getCollection('applicationAuditLog').Remove({
+    "companyId" : 341,
+    "target.targetType" : "Application",
+    "target.targetId" : {$in: [104310839,94790432,93243588,99948652,104310625]},
+    "actor.actorId" : 22752364,
+    "verb" : "APPLICATION_EDITED"
+    })
+
+
+    Rollback:- 
+
+    will take the backup
+
+    
