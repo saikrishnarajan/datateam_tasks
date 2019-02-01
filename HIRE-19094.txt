@@ -1,0 +1,69 @@
+select * from T_User (nolock) where Email='ggarcia@torrid.com'--5086
+
+select * from T_SourceType (nolock) where CompanyId=5086 and Name in ('Angie_Wilson','BuiltInLA','HOTT_Match','ICSC','J_Johnson','LinkedIn','LinkedIn_-_NS','LinkedIn_HT','LI-NS','mobileOR','VelvetJobs')
+
+--ParentId=580322
+
+Id
+588427 - LinkedIn
+588639 - HOTT_Match
+591432 - ICSC
+591907 - LinkedIn_HT
+601951 - BuiltInLA
+604163 - Angie_Wilson
+633706 - J_Johnson
+635490 - VelvetJobs
+636218 - LI-NS
+636428 - LinkedIn_-_NS
+641454 - mobileOR
+
+--Main Query
+Update T_SourceType Set Deleted=1, modifieddate=GETDATE() 
+where CompanyId=5086 and Name in ('Angie_Wilson','BuiltInLA','HOTT_Match','ICSC','J_Johnson','LinkedIn','LinkedIn_-_NS','LinkedIn_HT','LI-NS','mobileOR','VelvetJobs') 
+and Id in(588427,588639,591432,591907,601951,604163,633706,635490,636218,636428,641454) and ParentId=580322
+
+
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Id = 604163
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Id = 601951
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Id = 588639 
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Id = 591432
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-10-10 18:25:27.510'
+where CompanyId=5086 and Id = 633706
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Id = 588427
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-11-27 12:32:33.077'
+where CompanyId=5086 and Id = 636428
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-07-15 22:12:06.923'
+where CompanyId=5086 and Id = 591907
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-11-21 10:43:08.583'
+where CompanyId=5086 and Id = 636218
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2018-02-22 15:17:59.813'
+where CompanyId=5086 and Id = 641454
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2017-11-07 16:54:31.800'
+where CompanyId=5086 and Id = 635490
