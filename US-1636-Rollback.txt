@@ -1,6 +1,6 @@
 --Rollback Query
 
-Update T_User Set Name=(REPLACE(Name,'.' + cast(id as nvarchar),'')), Email=(REPLACE(Email,'.' + cast(id as nvarchar),'')), 
+Update T_User Set Name=(Name+'.' + cast(id as nvarchar)), Email=(Email+'.' + cast(id as nvarchar)), 
 IsEmployee = 0, Validated = 0, Disabled=1, CompanyId =  0, Deleted = 1, UserModified = getDate() Where Id in (45666009,45666850,45666920,45665904,
 45666011,45666019,45666068,45666071,45666083,45666123,45666115,45666483,45666130,45666132,45666161,45666226,45666262,45666267,45666275,45666282,
 45665908,45666344,45666364,45666389,45666402,45666421,45666434,45666436,45666451,45666496,45666503,45666507,45666537,45666558,45666367,45666118,
