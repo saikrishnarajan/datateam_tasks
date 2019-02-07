@@ -1,0 +1,5 @@
+--Upate script :-
+update T_Candidate set FirstName = 'Georgia', LastName = 'Izon', Email = 'miss_izon@hotmail.com' where CompanyId = 2337 and id = 57507592
+
+--Rollbakc script :-
+update T_Candidate set FirstName = 'Cristina-Elena', LastName = 'Petcu', Email = 'cristinapetcu28@gmail.com' where CompanyId = 2337 and id = 57507592
