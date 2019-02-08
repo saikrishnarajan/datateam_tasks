@@ -1,0 +1,12 @@
+select  * from T_MessageFrame (nolock) where CompanyId=3424 and FrameName in ('F2F Interview Confirmation','ServiceNow Admin')--33825,66668
+
+--Main Query
+Insert INTO T_EmailTemplateTranslate (EmailTemplateId,CompanyId,Locale,Name,Subject,Body,IsDeleted,CreatedDate,ModifiedDate,CreatedBy,ModifiedBy) 
+(Select Id,CompanyId,'en-US',Framename,Message,Message,0,GETDATE(),GETDATE(),0,NULL from T_MessageFrame where CompanyId=3424 and Id=33825)
+
+Insert INTO T_EmailTemplateTranslate (EmailTemplateId,CompanyId,Locale,Name,Subject,Body,IsDeleted,CreatedDate,ModifiedDate,CreatedBy,ModifiedBy) 
+(Select Id,CompanyId,'en-US',Framename,Message,Message,0,GETDATE(),GETDATE(),0,NULL from T_MessageFrame where CompanyId=3424 and Id=66668)
+
+
+--Rollback Query
+Update T_EmailTemplateTranslate Set EmailTemplateId=-EmailTemplateId,CompanyId=-CompanyId where CompanyId=3424 and EmailTemplateId in (66668,33825)
