@@ -1,0 +1,26 @@
+select * from T_User (nolock) where Email ='julia.wilkins@gooddata.com'--4026
+
+select * from T_CustomField (nolock) where CompanyId = 4026 and FieldCode='salary_expecations_xvbcvfwn' and Deleted=0--Id=114088
+
+select * from T_ViewField (nolock) where CompanyId = 4026 and FieldId=114088 and Deleted=0
+
+select * from T_CustomFieldContent (nolock) where CompanyId = 4026 and FieldId=114088
+
+
+
+--Main Queries
+Update T_CustomField Set Deleted=1 where CompanyId = 4026 and FieldCode='salary_expecations_xvbcvfwn' and Deleted=0 and Id=114088
+
+Update T_ViewField Set Deleted=1 where CompanyId = 4026 and FieldId=114088 and Deleted=0
+
+Update T_CustomFieldContent Set CompanyId=-CompanyId, ItemId=-ItemId, FieldId=-FieldId where CompanyId = 4026 and FieldId=114088
+
+
+
+
+--Roll Back Queries
+Update T_CustomField Set Deleted=0 where CompanyId = 4026 and FieldCode='salary_expecations_xvbcvfwn' and Deleted=0 and Id=114088
+
+Update T_ViewField Set Deleted=0 where CompanyId = 4026 and FieldId=114088 and Deleted=0
+
+Update T_CustomFieldContent Set CompanyId=-CompanyId, ItemId=-ItemId, FieldId=-FieldId where CompanyId = 4026 and FieldId=114088
