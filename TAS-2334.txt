@@ -1,12 +1,18 @@
 select  * from T_MessageFrame (nolock) where CompanyId=3424 and FrameName in ('F2F Interview Confirmation','ServiceNow Admin')--33825,66668
 
 --Main Query
+--Main Query
 Insert INTO T_EmailTemplateTranslate (EmailTemplateId,CompanyId,Locale,Name,Subject,Body,IsDeleted,CreatedDate,ModifiedDate,CreatedBy,ModifiedBy) 
-(Select Id,CompanyId,'en-US',Framename,Message,Message,0,GETDATE(),GETDATE(),0,NULL from T_MessageFrame where CompanyId=3424 and Id=33825)
+(Select Id,CompanyId,'en-US',Framename,'Confirmation of Face to Face Interview for  [job-title]','Hi [candidate-first-name],    You are confirmed for your interview for the [job-title] position.    Your interview is scheduled for  [schedule-date-time]    If possible try to arrive about 10 minutes early so we can discuss the organizational structure of the company.
+    You will be interviewing with the following people:  [interview-team]    Our office is located at:  2201 Cooperative Way  Herndon, VA 20171     We are located on the fourth floor of the building. There is a parking garage behind the building.
+     When you arrive in teh lobby give me a call and I will come down and get into our offices. You can reach me at 703 812 0133. Prior to coming in for the Face to Face Interview, please follow the link below to complete the formal application.
+    [online-form-link: Employment Application]      We look forward to seeing you!    Thanks,    Chris Sobray  Recruiting  Windward IT Solutions  703 812 0133',
+	0,GETDATE(),GETDATE(),0,NULL from T_MessageFrame where CompanyId=3424 and Id=33825)
 
 Insert INTO T_EmailTemplateTranslate (EmailTemplateId,CompanyId,Locale,Name,Subject,Body,IsDeleted,CreatedDate,ModifiedDate,CreatedBy,ModifiedBy) 
-(Select Id,CompanyId,'en-US',Framename,Message,Message,0,GETDATE(),GETDATE(),0,NULL from T_MessageFrame where CompanyId=3424 and Id=66668)
+(Select Id,CompanyId,'en-US',Framename,'ServiceNow Administrators Needed in Reston, VA! ','Hi [candidate-first-name],    Would you be open to discussing a new career opportunity? We are looking to hire a high-energy ServiceNow Administrator to join an established team focusing on a ServiceNow implementation.  As part of this team, you will be responsible for identifying incremental improvement activities relating to IT Infrastructure Library (ITIL®)-based processes, and articulation/discernment of desirable and achievable results relating to those processes.    The ideal candidate would serve as a go-to expert for process and workflow enhancement activities; ensuring that requirements are met through sequenced activities, inputs, and outputs; and are measurable and manageable. As well as working with/leading process reformation teams and uncovering and recommending timely and high-impacting enhancements to day-to-day processes.    Location: Reston, VA    ***Duration: 7 month contract but could be extended based on the work.***     If you''d like to hear more give me a call or shoot me an email to discuss.     If this isn''t an opportunity you''re interested in right now do you happen to know someone that would be interested? WE DO OFFER A $1K EXTERNAL REFERRAL FEE.     Thanks,     Cody Jelinek   Sr. Recruiter   703-424-3939'
+,0,GETDATE(),GETDATE(),0,NULL from T_MessageFrame where CompanyId=3424 and Id=66668)
 
 
 --Rollback Query
-Update T_EmailTemplateTranslate Set EmailTemplateId=-EmailTemplateId,CompanyId=-CompanyId where CompanyId=3424 and EmailTemplateId in (66668,33825)
+DELETE FROM T_EmailTemplateTranslate where CompanyId=3424 and EmailTemplateId in (66668,33825)
