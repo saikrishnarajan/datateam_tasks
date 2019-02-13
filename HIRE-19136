@@ -1,0 +1,5 @@
+--Upate script :-
+update T_application set CandidateId = 77517227, Modified = getdate() where CompanyId =2007 and id = 99361904
+
+--Rollbakc script :-
+update T_application set CandidateId = 73977520, Modified = getdate() where CompanyId =2007 and id = 99361904
