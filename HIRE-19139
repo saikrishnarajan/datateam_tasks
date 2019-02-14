@@ -2,4 +2,4 @@
 --update T_application set CandidateId = 77971139 ,Modified = getdate() where CompanyId = 2337 and id = 105032990
 
 --Rollback script:-
---update T_application set CandidateId = 77971139 ,Modified = getdate() where CompanyId = 2337 and id = 105032990
+--update T_application set CandidateId = 57507592 ,Modified = getdate() where CompanyId = 2337 and id = 105032990
