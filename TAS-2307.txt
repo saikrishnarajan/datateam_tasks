@@ -1,0 +1,11 @@
+select * from T_User (nolock) where Email= 'bgerhardt@compunetix.com'--6408
+
+select * from T_SourceType (nolock) where CompanyId=6408 and Name='WestPACS_Fall_2018'
+
+Select * from T_Application (nolock) where CompanyId=6408 and Source ='WestPACS_Fall_2018' and  SourceType=628005 --no records
+
+--Main Query
+Update T_SourceType Set Deleted=1, modifieddate=getdate() where CompanyId=6408 and Id=653753
+
+--Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate='2018-10-11 10:41:30.170' where CompanyId=6408 and Id=653753
