@@ -12,6 +12,6 @@ select * from T_SourceType (nolock) where CompanyId =6769 and name like '%www.mi
 update T_SourceType set Deleted = 1, modifieddate = getdate() where  CompanyId =6769 and id = 652491 and ParentId = 645186
 
 
---Update script:-
+--Rollback script:-
 
 update T_SourceType set Deleted = 0, modifieddate = getdate() where  CompanyId =6769 and id = 652491 and ParentId = 645186
