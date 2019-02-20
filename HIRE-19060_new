@@ -1,6 +1,4 @@
 --update script:- 
-
-
 declare @counter int
 set @counter =0
 WHILE (@counter<=6 )
@@ -25,7 +23,6 @@ PRINT 'No more rows to update';
 
 
 --Rollback Script:-
-
 declare @counter int
 set @counter =0
 WHILE (@counter<=6 )
