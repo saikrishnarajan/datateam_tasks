@@ -1,0 +1,46 @@
+--update script:- 
+declare @counter int
+set @counter =0
+WHILE (@counter<=6 )
+ BEGIN  
+ WAITFOR DELAY '00:00:20'; --Wait for 20 seconds before updating next batch of 3000
+
+--Main Query Starts Here
+ 
+update T_CustomFieldContent set FieldId  = 154664 where CompanyId = 6387 and FieldId = 122090
+
+--Main Query Ends Here
+
+select @@ROWCOUNT as RecordsUpdated ,@counter as IterationNumber
+  SET @counter = @counter +1    
+  IF @@ROWCOUNT = 0
+     BREAK  
+  ELSE  
+     CONTINUE
+       
+END  
+PRINT 'No more rows to update';
+
+
+--Rollback Script:-
+declare @counter int
+set @counter =0
+WHILE (@counter<=6 )
+ BEGIN  
+ WAITFOR DELAY '00:00:20'; --Wait for 20 seconds before updating next batch of 3000
+
+--Main Query Starts Here
+ 
+update T_CustomFieldContent set FieldId  = 122090 where CompanyId = 6387 and FieldId = 154664
+
+--Main Query Ends Here
+
+select @@ROWCOUNT as RecordsUpdated ,@counter as IterationNumber
+  SET @counter = @counter +1    
+  IF @@ROWCOUNT = 0
+     BREAK  
+  ELSE  
+     CONTINUE
+       
+END  
+PRINT 'No more rows to update';
