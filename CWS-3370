@@ -4,5 +4,10 @@ select * from T_Form (nolock) where CompanyId =7013
 
 select * from T_CustomForm (nolock) where companyId =7013
 
+--update script:-
 
 update T_CustomForm set deleted = 0, updateDate = getdate() where companyId =7013 and id = 5387
+
+--Rollback script:-
+
+update T_CustomForm set deleted = 1, updateDate = '2019-02-14 15:05:20.393' where companyId =7013 and id = 5387
