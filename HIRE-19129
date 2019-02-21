@@ -1,0 +1,513 @@
+update script:-
+
+
+
+--Base salary :-
+-------------------
+
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409944,156057,1,'Quartile 1: 109,000 - 133,499
+Quartile 2: 133,500 - 157,999
+Quartile 3: 158,000 - 182,499
+Quartile 4: 182,500 - 206,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410057,156057,1,'Quartile 1: 109,000 - 133,499
+Quartile 2: 133,500 - 157,999
+Quartile 3: 158,000 - 182,499
+Quartile 4: 182,500 - 206,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410060,156057,1,'Quartile 1: 109,000 - 133,499
+Quartile 2: 133,500 - 157,999
+Quartile 3: 158,000 - 182,499
+Quartile 4: 182,500 - 206,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3174109,156057,1,'Quartile 1: 9,150,000 - 10,312,499
+Quartile 2: 10,312,500 - 11,474,999
+Quartile 3: 11,475,000 - 12,637,499
+Quartile 4: 12,637,500 - 13,799,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408939,156057,1,'Quartile 1: 48,500 - 54,599
+Quartile 2: 54,600 - 60,599
+Quartile 3: 60,600 - 66,599
+Quartile 4: 66,600 - 72,599',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409939,156057,1,'Quartile 1: 109,000 - 133,499
+Quartile 2: 133,500 - 157,999
+Quartile 3: 158,000 - 182,499
+Quartile 4: 182,500 - 206,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409441,156057,1,'Quartile 1: 1,270,000 - 1,684,999
+Quartile 2: 1,685,000 - 2,099,999
+Quartile 3: 2,100,000 - 2,514,999
+Quartile 4: 2,515,000 - 2,929,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409934,156057,1,'Quartile 1: 109,000 - 133,499
+Quartile 2: 133,500 - 157,999
+Quartile 3: 158,000 - 182,499
+Quartile 4: 182,500 - 206,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410184,156057,1,'Quartile 1: 106,000 - 131,499
+Quartile 2: 131,500 - 156,999
+Quartile 3: 157,000 - 182,499
+Quartile 4: 182,500 - 207,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408732,156057,1,'Quartile 1: 142,500 - 160,299
+Quartile 2: 160,300 - 177,999
+Quartile 3: 178,000 - 195,799
+Quartile 4: 195,800 - 213,499',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409941,156057,1,'Quartile 1: 109,000 - 133,499
+Quartile 2: 133,500 - 157,999
+Quartile 3: 158,000 - 182,499
+Quartile 4: 182,500 - 206,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410897,156057,1,'Quartile 1: 127,000 - 156,999
+Quartile 2: 157,000 - 186,999
+Quartile 3: 187,000 - 216,999
+Quartile 4: 217,000 - 246,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3144049,156057,1,'Quartile 1: 909,000 - 1,204,499
+Quartile 2: 1,204,500 - 1,499,999
+Quartile 3: 1,500,000 - 1,794,999
+Quartile 4: 1,795,000 - 2,089,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408931,156057,1,'Quartile 1: 144,000 - 161,999
+Quartile 2: 162,000 - 179,999
+Quartile 3: 180,000 - 197,999
+Quartile 4: 198,000 - 215,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3209609,156057,1,'Quartile 1: 113,000 - 126,999
+Quartile 2: 127,000 - 140,999
+Quartile 3: 141,000 - 154,999
+Quartile 4: 155,000 - 168,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3212627,156057,1,'Quartile 1: 75,600 - 85,099
+Quartile 2: 85,100 - 94,499
+Quartile 3: 94,500 - 103,999
+Quartile 4: 104,000 - 113,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410061,156057,1,'Quartile 1: 109,000 - 133,499
+Quartile 2: 133,500 - 157,999
+Quartile 3: 158,000 - 182,499
+Quartile 4: 182,500 - 206,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3145094,156057,1,'Quartile 1: 95,900 - 117,499
+Quartile 2: 117,500 - 138,999
+Quartile 3: 139,000 - 160,499
+Quartile 4: 160,500 - 181,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3399637,156057,1,'Quartile 1: 136,000 - 167,999
+Quartile 2: 168,000 - 199,999
+Quartile 3: 200,000 - 231,999
+Quartile 4: 232,000 - 263,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410888,156057,1,'Quartile 1: 108,000 - 127,999
+Quartile 2: 128,000 - 147,999
+Quartile 3: 148,000 - 167,999
+Quartile 4: 168,000 - 187,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410043,156057,1,'Quartile 1: 139,000 - 171,999
+Quartile 2: 172,000 - 204,999
+Quartile 3: 205,000 - 237,999
+Quartile 4: 238,000 - 270,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410872,156057,1,'Quartile 1: 82,200 - 97,599
+Quartile 2: 97,600 - 112,999
+Quartile 3: 113,000 - 128,499
+Quartile 4: 128,500 - 143,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3238676,156057,1,'Quartile 1: 53,300 - 59,999
+Quartile 2: 60,000 - 66,599
+Quartile 3: 66,600 - 73,199
+Quartile 4: 73,200 - 79,799',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410107,156057,1,'Quartile 1: 64,100 - 76,099
+Quartile 2: 76,100 - 88,099
+Quartile 3: 88,100 - 100,099
+Quartile 4: 100,100 - 111,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3368557,156057,1,'Quartile 1: 173,000 - 213,999
+Quartile 2: 214,000 - 254,999
+Quartile 3: 255,000 - 295,999
+Quartile 4: 296,000 - 336,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3411706,156057,1,'Quartile 1: 44,700 - 53,099
+Quartile 2: 53,100 - 61,399
+Quartile 3: 61,400 - 69,799
+Quartile 4: 69,800 - 78,099',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409092,156057,1,'Quartile 1: 243,600 - 274,199
+Quartile 2: 274,200 - 304,799
+Quartile 3: 304,800 - 335,399
+Quartile 4: 335,400 - 365,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408876,156057,1,'Quartile 1: 112,500 - 126,399
+Quartile 2: 126,400 - 140,249
+Quartile 3: 140,250 - 154,099
+Quartile 4: 154,100 - 167,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409122,156057,1,'Quartile 1: 207,000 - 255,999
+Quartile 2: 256,000 - 304,999
+Quartile 3: 305,000 - 353,999
+Quartile 4: 354,000 - 402,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3411705,156057,1,'Quartile 1: 59,600 - 72,299
+Quartile 2: 72,300 - 84,999
+Quartile 3: 85,000 - 97,499
+Quartile 4: 97,500 - 109,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408924,156057,1,'Quartile 1: 144,000 - 161,999
+Quartile 2: 162,000 - 179,999
+Quartile 3: 180,000 - 197,999
+Quartile 4: 198,000 - 215,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409792,156057,1,'Quartile 1: 57,300 - 65,199
+Quartile 2: 65,200 - 72,999
+Quartile 3: 73,000 - 80,899
+Quartile 4: 80,900 - 88,699',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3240286,156057,1,'Quartile 1: 121,000 - 148,499
+Quartile 2: 148,500 - 175,999
+Quartile 3: 176,000 - 203,499
+Quartile 4: 203,500 - 230,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408933,156057,1,'Quartile 1: 112,500 - 126,399
+Quartile 2: 126,400 - 140,249
+Quartile 3: 140,250 - 154,099
+Quartile 4: 154,100 - 167,999',2,NULL,NULL,NULL)
+
+
+
+OTE Guidelines:-
+-----------------
+
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3174109,156058,1,'Quartile 1: 12,200,000 - 13,749,999
+Quartile 2: 13,750,000 - 15,299,999
+Quartile 3: 15,300,000 - 16,849,999
+Quartile 4: 16,850,000 - 18,399,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408939,156058,1,'Quartile 1: 80,800 - 90,899
+Quartile 2: 90,900 - 100,999
+Quartile 3: 101,000 - 110,999
+Quartile 4: 111,000 - 120,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408732,156058,1,'Quartile 1: 285,000 - 320,499
+Quartile 2: 320,500 - 355,999
+Quartile 3: 356,000 - 391,499
+Quartile 4: 391,500 - 426,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408931,156058,1,'Quartile 1: 192,000 - 215,999
+Quartile 2: 216,000 - 239,999
+Quartile 3: 240,000 - 263,999
+Quartile 4: 264,000 - 287,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3209609,156058,1,'Quartile 1: 226,000 - 253,999
+Quartile 2: 254,000 - 281,999
+Quartile 3: 282,000 - 309,999
+Quartile 4: 310,000 - 337,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3212627,156058,1,'Quartile 1: 108,000 - 121,499
+Quartile 2: 121,500 - 134,999
+Quartile 3: 135,000 - 148,499
+Quartile 4: 148,500 - 161,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3238676,156058,1,'Quartile 1: 88,800 - 99,899
+Quartile 2: 99,900 - 110,999
+Quartile 3: 111,000 - 121,999
+Quartile 4: 122,000 - 132,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409092,156058,1,'Quartile 1: 406,000 - 456,999
+Quartile 2: 457,000 - 507,999
+Quartile 3: 508,000 - 558,999
+Quartile 4: 559,000 - 609,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408876,156058,1,'Quartile 1: 150,000 - 168,499
+Quartile 2: 168,500 - 186,999
+Quartile 3: 187,000 - 205,499
+Quartile 4: 205,500 - 223,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408924,156058,1,'Quartile 1: 192,000 - 215,999
+Quartile 2: 216,000 - 239,999
+Quartile 3: 240,000 - 263,999
+Quartile 4: 264,000 - 287,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408933,156058,1,'Quartile 1: 150,000 - 168,499
+Quartile 2: 168,500 - 186,999
+Quartile 3: 187,000 - 205,499
+Quartile 4: 205,500 - 223,999',2,NULL,NULL,NULL)
+
+
+RSU Guidelines:-
+-------------------
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409944,156059,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599
+Quartile 3: 144,600 - 187,999
+Quartile 4: 188,000 - 231,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410057,156059,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599
+Quartile 3: 144,600 - 187,999
+Quartile 4: 188,000 - 231,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410060,156059,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599
+Quartile 3: 144,600 - 187,999
+Quartile 4: 188,000 - 231,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3174109,156059,1,'Quartile 1: 24,500 - 42,899
+Quartile 2: 42,900 - 61,199
+Quartile 3: 61,200 - 79,599
+Quartile 4: 79,600 - 97,899',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409939,156059,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599
+Quartile 3: 144,600 - 187,999
+Quartile 4: 188,000 - 231,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409441,156059,1,'Quartile 1: 26,200 - 45,899
+Quartile 2: 45,900 - 65,499
+Quartile 3: 65,500 - 85,199
+Quartile 4: 85,200 - 104,899',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409934,156059,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599
+Quartile 3: 144,600 - 187,999
+Quartile 4: 188,000 - 231,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410184,156059,1,'Quartile 1: 56,800 - 99,399
+Quartile 2: 99,400 - 141,999
+Quartile 3: 142,000 - 184,599
+Quartile 4: 184,600 - 227,199',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408732,156059,1,'Quartile 1: 94,300 - 164,999
+Quartile 2: 165,000 - 235,699
+Quartile 3: 235,700 - 306,399
+Quartile 4: 306,400 - 377,099',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409941,156059,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599
+Quartile 3: 144,600 - 187,999
+Quartile 4: 188,000 - 231,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410897,156059,1,'Quartile 1: 93,200 - 163,099
+Quartile 2: 163,100 - 232,999
+Quartile 3: 233,000 - 302,899
+Quartile 4: 302,900 - 372,799',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3144049,156059,1,'Quartile 1: 14,300 - 25,099
+Quartile 2: 25,100 - 35,899
+Quartile 3: 35,900 - 46,699
+Quartile 4: 46,700 - 57,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408931,156059,1,'Quartile 1: 74,600 - 130,499
+Quartile 2: 130,500 - 186,399
+Quartile 3: 186,400 - 242,299
+Quartile 4: 242,300 - 298,199',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3209609,156059,1,'Quartile 1: 57,400 - 100,399
+Quartile 2: 100,400 - 143,399
+Quartile 3: 143,400 - 186,399
+Quartile 4: 186,400 - 229,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3212627,156059,1,'Quartile 1: 35,000 - 61,199
+Quartile 2: 61,200 - 87,399
+Quartile 3: 87,400 - 113,599
+Quartile 4: 113,600 - 139,799',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410061,156059,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599
+Quartile 3: 144,600 - 187,999
+Quartile 4: 188,000 - 231,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3145094,156059,1,'Quartile 1: 75,200 - 131,599
+Quartile 2: 131,600 - 187,999
+Quartile 3: 188,000 - 244,399
+Quartile 4: 244,400 - 300,799',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3399637,156059,1,'Quartile 1: 181,200 - 317,099
+Quartile 2: 317,100 - 452,999
+Quartile 3: 453,000 - 588,899
+Quartile 4: 588,900 - 724,799',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410888,156059,1,'Quartile 1: 48,400 - 84,699
+Quartile 2: 84,700 - 120,999
+Quartile 3: 121,000 - 157,299
+Quartile 4: 157,300 - 193,599',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410043,156059,1,'Quartile 1: 153,200 - 268,099
+Quartile 2: 268,100 - 382,999
+Quartile 3: 383,000 - 497,899
+Quartile 4: 497,900 - 612,799',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410872,156059,1,'Quartile 1: 48,400 - 84,699
+Quartile 2: 84,700 - 120,999
+Quartile 3: 121,000 - 157,299
+Quartile 4: 157,300 - 193,599',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3238676,156059,1,'Quartile 1: 28,000 - 48,999
+Quartile 2: 49,000 - 69,899
+Quartile 3: 69,900 - 90,899
+Quartile 4: 90,900 - 111,899',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410107,156059,1,'Quartile 1: 37,200 - 65,199
+Quartile 2: 65,200 - 93,099
+Quartile 3: 93,100 - 120,999
+Quartile 4: 121,000 - 148,899',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3368557,156059,1,'Quartile 1: 210,000 - 419,999
+Quartile 2: 420,000 - 629,999
+Quartile 3: 630,000 - 839,999
+Quartile 4: 840,000 - 1,049,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409092,156059,1,'Quartile 1: 103,400 - 206,799
+Quartile 2: 206,800 - 310,199
+Quartile 3: 310,200 - 413,599
+Quartile 4: 413,600 - 516,899',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408876,156059,1,'Quartile 1: 35,000 - 61,199
+Quartile 2: 61,200 - 87,399
+Quartile 3: 87,400 - 113,599
+Quartile 4: 113,600 - 139,799',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409122,156059,1,'Quartile 1: 533,300 - 1,066,699
+Quartile 2: 1,066,700 - 1,599,999
+Quartile 3: 1,600,000 - 2,133,399
+Quartile 4: 2,133,400 - 2,666,699',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3411705,156059,1,'Quartile 1: 35,000 - 61,199
+Quartile 2: 61,200 - 87,399
+Quartile 3: 87,400 - 113,599
+Quartile 4: 113,600 - 139,799',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408924,156059,1,'Quartile 1: 74,600 - 130,499
+Quartile 2: 130,500 - 186,399
+Quartile 3: 186,400 - 242,299
+Quartile 4: 242,300 - 298,199',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3240286,156059,1,'Quartile 1: 75,200 - 131,599
+Quartile 2: 131,600 - 187,999
+Quartile 3: 188,000 - 244,399
+Quartile 4: 244,400 - 300,799',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408933,156059,1,'Quartile 1: 57,400 - 100,399
+Quartile 2: 100,400 - 143,399
+Quartile 3: 143,400 - 186,399
+Quartile 4: 186,400 - 229,399',2,NULL,NULL,NULL)
+
+
+
+RSU Limited Guidelines:-
+----------------------
+
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409944,156060,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410057,156060,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410060,156060,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3174109,156060,1,'Quartile 1: 24,500 - 42,899
+Quartile 2: 42,900 - 61,199',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409939,156060,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409441,156060,1,'Quartile 1: 26,200 - 45,899
+Quartile 2: 45,900 - 65,499',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409934,156060,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410184,156060,1,'Quartile 1: 56,800 - 99,399
+Quartile 2: 99,400 - 141,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408732,156060,1,'Quartile 1: 94,300 - 164,999
+Quartile 2: 165,000 - 235,699',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409941,156060,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410897,156060,1,'Quartile 1: 93,200 - 163,099
+Quartile 2: 163,100 - 232,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3144049,156060,1,'Quartile 1: 14,300 - 25,099
+Quartile 2: 25,100 - 35,899',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408931,156060,1,'Quartile 1: 74,600 - 130,499
+Quartile 2: 130,500 - 186,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3209609,156060,1,'Quartile 1: 57,400 - 100,399
+Quartile 2: 100,400 - 143,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3212627,156060,1,'Quartile 1: 35,000 - 61,199
+Quartile 2: 61,200 - 87,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410061,156060,1,'Quartile 1: 57,800 - 101,199
+Quartile 2: 101,200 - 144,599',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3145094,156060,1,'Quartile 1: 75,200 - 131,599
+Quartile 2: 131,600 - 187,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3399637,156060,1,'Quartile 1: 181,200 - 317,099
+Quartile 2: 317,100 - 452,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410888,156060,1,'Quartile 1: 48,400 - 84,699
+Quartile 2: 84,700 - 120,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410043,156060,1,'Quartile 1: 153,200 - 268,099
+Quartile 2: 268,100 - 382,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410872,156060,1,'Quartile 1: 48,400 - 84,699
+Quartile 2: 84,700 - 120,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3238676,156060,1,'Quartile 1: 28,000 - 48,999
+Quartile 2: 49,000 - 69,899',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3410107,156060,1,'Quartile 1: 37,200 - 65,199
+Quartile 2: 65,200 - 93,099',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3368557,156060,1,'Quartile 1: 210,000 - 419,999
+Quartile 2: 420,000 - 629,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409092,156060,1,'Quartile 1: 103,400 - 206,799
+Quartile 2: 206,800 - 310,199',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408876,156060,1,'Quartile 1: 35,000 - 61,199
+Quartile 2: 61,200 - 87,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3409122,156060,1,'Quartile 1: 533,300 - 1,066,699
+Quartile 2: 1,066,700 - 1,599,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3411705,156060,1,'Quartile 1: 35,000 - 61,199
+Quartile 2: 61,200 - 87,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408924,156060,1,'Quartile 1: 74,600 - 130,499
+Quartile 2: 130,500 - 186,399',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3240286,156060,1,'Quartile 1: 75,200 - 131,599
+Quartile 2: 131,600 - 187,999',2,NULL,NULL,NULL)
+insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+values (1159,3408933,156060,1,'Quartile 1: 57,400 - 100,399
+Quartile 2: 100,400 - 143,399',2,NULL,NULL,NULL)
+
+
+
+Rollback script:-
+---------------
+
+update T_CustomFieldContent set ItemId = -ItemId, FieldId = -FieldId, CompanyId= -CompanyId where CompanyId  =1159 and FieldId = 156057
+and ItemId in (3409944,3410057,3410060,3174109,3408939,3409939,3409441,3409934,3410184,3408732,3409941,3410897,3144049,3408931,3209609,3212627,3410061,3145094,3399637,3410888,3410043,3410872,3238676,3410107,3368557,3411706,3409092,3408876,3409122,3411705,3408924,3409792,3240286,3408933)
+
+update T_CustomFieldContent set ItemId = -ItemId, FieldId = -FieldId, CompanyId= -CompanyId where CompanyId  =1159 and FieldId = 156058
+and ItemId in (3409944,3410057,3410060,3174109,3408939,3409939,3409441,3409934,3410184,3408732,3409941,3410897,3144049,3408931,3209609,3212627,3410061,3145094,3399637,3410888,3410043,3410872,3238676,3410107,3368557,3411706,3409092,3408876,3409122,3411705,3408924,3409792,3240286,3408933)
+
+update T_CustomFieldContent set ItemId = -ItemId, FieldId = -FieldId, CompanyId= -CompanyId where CompanyId  =1159 and FieldId = 156059
+and ItemId in (3409944,3410057,3410060,3174109,3408939,3409939,3409441,3409934,3410184,3408732,3409941,3410897,3144049,3408931,3209609,3212627,3410061,3145094,3399637,3410888,3410043,3410872,3238676,3410107,3368557,3411706,3409092,3408876,3409122,3411705,3408924,3409792,3240286,3408933)
+
+update T_CustomFieldContent set ItemId = -ItemId, FieldId = -FieldId, CompanyId= -CompanyId where CompanyId  =1159 and FieldId = 156060
+and ItemId in (3409944,3410057,3410060,3174109,3408939,3409939,3409441,3409934,3410184,3408732,3409941,3410897,3144049,3408931,3209609,3212627,3410061,3145094,3399637,3410888,3410043,3410872,3238676,3410107,3368557,3411706,3409092,3408876,3409122,3411705,3408924,3409792,3240286,3408933)
