@@ -1,0 +1,21 @@
+select * from T_User(nolock) where Email='slindgren@mariners.com'--6977
+
+select * from T_CustomField (nolock) where CompanyId=6977 and Deleted=0 and Name='Proposed Salary'--156213
+
+select * from T_ViewField (nolock) where CompanyId=6977 and FieldId=156213 and Deleted=0
+
+select * from T_CustomFieldContent(nolock) where CompanyId=6977 and FieldId=156213--no records
+
+
+
+--Main Query
+Update T_CustomField Set Deleted=1 where CompanyId=6977 and Id=156213
+
+Update T_ViewField Set Deleted=1 where CompanyId=6977 and FieldId=156213
+
+
+
+--Rollback Query
+Update T_CustomField Set Deleted=0 where CompanyId=6977 and Id=156213
+
+Update T_ViewField Set Deleted=0 where CompanyId=6977 and FieldId=156213
