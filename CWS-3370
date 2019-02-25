@@ -1,0 +1,16 @@
+select * from T_Company (nolock) where name like 'zones%'--7013
+
+select * from T_Form (nolock) where CompanyId =7013 
+
+select * from T_CustomForm (nolock) where companyId =7013
+
+
+--update script :-
+
+
+update T_CustomForm set name = 'Pakistan_deleted',entityCode = 'pakistan_deleted', updateDate = getdate() where companyId =7013 and id = 5387
+
+--Rollback script :-
+
+
+update T_CustomForm set name = 'Pakistan',entityCode = 'pakistan', updateDate = getdate() where companyId =7013 and id = 5387
