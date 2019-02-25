@@ -4,14 +4,14 @@ select * from T_Company (nolock) where name like '%Joy Kautzer%'
 select * from T_User (nolock) where LastName = 'Kautzer' and FirstName = 'Joy'--6769
 
 
-select * from T_SourceType (nolock) where CompanyId =6769 and name like '%www.minnesotaworks.net%' and ParentId = 645186
+select * from T_SourceType (nolock) where CompanyId =6769 and name like '%minnesotaworks%' and ParentId = 645186
 
 
 --Update script:-
 
-update T_SourceType set Deleted = 1, modifieddate = getdate() where  CompanyId =6769 and id = 652491 and ParentId = 645186
+update T_SourceType set Deleted = 1, modifieddate = getdate() where  CompanyId =6769 and id = 657356 and ParentId = 645186
 
 
 --Rollback script:-
 
-update T_SourceType set Deleted = 0, modifieddate = getdate() where  CompanyId =6769 and id = 652491 and ParentId = 645186
+update T_SourceType set Deleted = 0, modifieddate = getdate() where  CompanyId =6769 and id = 657356 and ParentId = 645186
