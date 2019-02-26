@@ -9,10 +9,7 @@ Values(1159,3322241,134049,1,'2/4/2019Q',2,NULL,NULL,NULL)
 
 
 
------------------------------------------------------------------------------------------------------------------------------------
-
-
-insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
+--insert into T_CustomFieldContent (CompanyId,ItemId,FieldId,Position,Content,Kind,ClientsId,NumericContent,UnitOfMeasure)
 values (1159,2812749,156570,1,'Quartile 1: 137,000 - 169,499
 Quartile 2: 169,500 - 201,999
 Quartile 3: 202,000 - 234,499
