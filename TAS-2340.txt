@@ -1,0 +1,42 @@
+select * from T_User (nolock) where Email='deborah.matsuoka@nutanix.com'--CompanyId=2007
+
+select * from T_CandidateDisposition(nolock) where CompanyId=2007 and Deleted=1 and Name in ('Offer Declined - Compensation','Offer Declined - Competitor','Offer Declined - Counter Offer',
+'Offer Declined - Location','Offer Declined - Position/Scope of Work','Offer Declined - Relocation','Offer Declined - UR - Other','Offer Declined - Work Authorization')
+
+21849 = Offer Declined - Compensation
+79319 = Offer Declined - Location
+79335 = Offer Declined - Position/Scope of Work
+79336 = Offer Declined - Competitor
+79337 = Offer Declined - Counter Offer
+79338 = Offer Declined - Work Authorization
+79340 = Offer Declined - Relocation
+80491 = Offer Declined - UR - Other
+
+Select * from T_CandidateDisposition(nolock) where CompanyId=2007 and Id in (21849,
+80491,
+79319,
+79335,
+79336,
+79337,
+79338,
+79340)
+
+--Main Query
+Update T_CandidateDisposition Set Deleted=0,modifieddate=GETDATE() where CompanyId=2007 and Id in (21849,
+80491,
+79319,
+79335,
+79336,
+79337,
+79338,
+79340)
+
+--Rollback Query
+Update T_CandidateDisposition Set Deleted=1,modifieddate='2019-02-22 09:51:36.997' where CompanyId=2007 and Id = 21849
+Update T_CandidateDisposition Set Deleted=1,modifieddate='2019-02-22 10:10:30.800' where CompanyId=2007 and Id = 80491
+Update T_CandidateDisposition Set Deleted=1,modifieddate='2019-02-22 10:10:20.533' where CompanyId=2007 and Id = 79319
+Update T_CandidateDisposition Set Deleted=1,modifieddate='2019-02-22 10:10:23.610' where CompanyId=2007 and Id = 79335
+Update T_CandidateDisposition Set Deleted=1,modifieddate='2019-02-22 09:51:41.573' where CompanyId=2007 and Id = 79336
+Update T_CandidateDisposition Set Deleted=1,modifieddate='2019-02-22 10:10:16.330' where CompanyId=2007 and Id = 79337
+Update T_CandidateDisposition Set Deleted=1,modifieddate='2019-02-22 10:10:35.033' where CompanyId=2007 and Id = 79338
+Update T_CandidateDisposition Set Deleted=1,modifieddate='2019-02-22 10:10:27.563' where CompanyId=2007 and Id = 79340
