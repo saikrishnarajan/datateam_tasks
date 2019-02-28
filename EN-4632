@@ -1,0 +1,27 @@
+select * from T_user (nolock) where email = '74116@banfield.net'--5370
+
+select * from T_CompanyCategories (nolock) where CompanyId =5370 and Deleted  = 0 and name like '%ZZ%'--2147483648,4294967296
+
+
+select * from T_Job (nolock) where CompanyId =5370 and deleted = 0 and Category in (2147483648,4294967296)
+
+
+select  JobCategories,* from T_Company (nolock) where id = 5370 --6442451199
+
+
+--update script :-
+--update T_Job set Deleted = 1 ,Modified = GETDATE() where CompanyId =5370 and deleted = 0 and Category in (2147483648,4294967296)
+
+--update T_CompanyCategories set Deleted = 1 , modifieddate = GETDATE () where CompanyId =5370 and PkId in (182772,182773)
+
+--update T_Company set JobCategories = JobCategories - 2147483648 where id = 5370
+--update T_Company set JobCategories = JobCategories - 4294967296 where id = 5370
+
+--Rollback script :-
+--update T_Job set Deleted = 0 ,Modified = GETDATE() where CompanyId =5370 and deleted = 1 and Category in (2147483648,4294967296)
+
+--update T_CompanyCategories set Deleted = 0 , modifieddate = GETDATE () where CompanyId =5370 and PkId in (182772,182773)
+
+--update T_Company set JobCategories = JobCategories + 2147483648 where id = 5370
+--update T_Company set JobCategories = JobCategories + 4294967296 where id = 5370
+

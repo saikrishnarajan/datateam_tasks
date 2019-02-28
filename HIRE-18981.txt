@@ -1,0 +1,144 @@
+select CompanyId,Company,* from T_user (nolock) where Email = 'Candie.Anderson@northerntool.com'--6068
+
+select * from T_CustomField (nolock) where CompanyId = 6068 and FieldCode = 'openings_xnabvfwd' -- id = 110174
+
+Select * from T_CustomFieldContent (nolock) where CompanyId = 6068 and FieldId=110174
+
+Select * from T_CustomFieldContent (nolock) where CompanyId = 6068 and FieldId=110174 and ItemId in (2411006,2411644,2412109,2412107,2412110,2412337,2449938,2423807,2484152,2496438,2497959,2498383,2431100,
+2529475,2418397,2431093,2436699,2537974,2539445,2571299,2571573,2587731,2605983,2645237,2645296,2600137,
+2607930,2610693,2631433,2637105,2638141,2645276,2648939,2652121,2664341,2670426,2725586,2652602,
+2655982,2664781,2670077,2675099,2691937,2761845,2793295,2793373,2800604,2808648,2809817,2813400,2819995,
+2753580,2785638,2800641,2807570,2809163,2809772,2809820,2813404,2819998,2885631,2909353,2830585,
+2864344,2904339,2915097,2947345,2975713,2987074,2987638,3003081,2949100,2982121,2987048,3000206,3003075,
+3022411,3033086,3036940,3067933,3100467,3018462,3022363,3036936,3067354,3067934,3095522,3122616,
+3137661,3145444,3085152,3137776,3180838,3211388,3222445,3223208,3240164,3180829,3187948,3247482,3273511,
+3286460,3325100,3283776,3292028)
+
+Select * from T_CustomFieldContent (nolock) where CompanyId = 6068 and FieldId=110174 and ItemId in (2432070,3036665,3285777)
+
+--Main Query
+Update T_CustomFieldContent Set Content = '1' where CompanyId = 6068 and FieldId=110174 and ItemId in (2411006,2411644,2412109,2412107,2412110,2412337,2449938,2423807,2484152,2496438,2497959,2498383,2431100,
+2529475,2418397,2431093,2436699,2537974,2539445,2571299,2571573,2587731,2605983,2645237,2645296,2600137,
+2607930,2610693,2631433,2637105,2638141,2645276,2648939,2652121,2664341,2670426,2725586,2652602,
+2655982,2664781,2670077,2675099,2691937,2761845,2793295,2793373,2800604,2808648,2809817,2813400,2819995,
+2753580,2785638,2800641,2807570,2809163,2809772,2809820,2813404,2819998,2885631,2909353,2830585,
+2864344,2904339,2915097,2947345,2975713,2987074,2987638,3003081,2949100,2982121,2987048,3000206,3003075,
+3022411,3033086,3036940,3067933,3100467,3018462,3022363,3036936,3067354,3067934,3095522,3122616,
+3137661,3145444,3085152,3137776,3180838,3211388,3222445,3223208,3240164,3180829,3187948,3247482,3273511,
+3286460,3325100,3283776,3292028)
+
+Update T_CustomFieldContent Set Content = '2' where CompanyId = 6068 and FieldId=110174 and ItemId in (2432070,3036665,3285777)
+
+Update T_Customfield set kind = 6 Where companyid = 6068 and id = 110174
+
+--Rollback Query
+Update T_CustomField Set Kind = 0 Where CompanyId = 6068And Id = 110174
+
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =120599612
+Update T_CustomFieldContent Set Content = '`' where CompanyId = 6068 and FieldId=110174 and ItemId =120914435
+Update T_CustomFieldContent Set Content = 'Part Time Cashier' where CompanyId = 6068 and FieldId=110174 and ItemId =121658111
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =128344312
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =189851302
+Update T_CustomFieldContent Set Content = 'produce placement lead' where CompanyId = 6068 and FieldId=110174 and ItemId =194225730
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =198220755
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =199663115
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =121452975
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =121453702
+Update T_CustomFieldContent Set Content = 'two' where CompanyId = 6068 and FieldId=110174 and ItemId =121555549
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =121914735
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =123015190
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =125380840
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =126549270
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =126705571
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =126737173
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =129372041
+Update T_CustomFieldContent Set Content = 'P/T' where CompanyId = 6068 and FieldId=110174 and ItemId =130110552
+Update T_CustomFieldContent Set Content = 'P/T PPS' where CompanyId = 6068 and FieldId=110174 and ItemId =130254116
+Update T_CustomFieldContent Set Content = 'Part Time Cashier' where CompanyId = 6068 and FieldId=110174 and ItemId =133043134
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =133063685
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =134728101
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =135927274
+Update T_CustomFieldContent Set Content = 'Part time cashier' where CompanyId = 6068 and FieldId=110174 and ItemId =136534226
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =136740197
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =136968606
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =139573698
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =140253109
+Update T_CustomFieldContent Set Content = 'N/A' where CompanyId = 6068 and FieldId=110174 and ItemId =140365261
+Update T_CustomFieldContent Set Content = 'Sales, Desk help for Parts & Service' where CompanyId = 6068 and FieldId=110174 and ItemId =141163931
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =141169077
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =141171453
+Update T_CustomFieldContent Set Content = 'Part Time Sales' where CompanyId = 6068 and FieldId=110174 and ItemId =141574855
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =141803632
+Update T_CustomFieldContent Set Content = 'Huntsville' where CompanyId = 6068 and FieldId=110174 and ItemId =141842682
+Update T_CustomFieldContent Set Content = 'Ft' where CompanyId = 6068 and FieldId=110174 and ItemId =142291472
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =143116326
+Update T_CustomFieldContent Set Content = 'PT Product Placement' where CompanyId = 6068 and FieldId=110174 and ItemId =143154632
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =143582104
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =143608833
+Update T_CustomFieldContent Set Content = 'Sales / keyholder' where CompanyId = 6068 and FieldId=110174 and ItemId =144069675
+Update T_CustomFieldContent Set Content = 'Full Time' where CompanyId = 6068 and FieldId=110174 and ItemId =145727020
+Update T_CustomFieldContent Set Content = 'Full Time' where CompanyId = 6068 and FieldId=110174 and ItemId =154264491
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =156913666
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =157588868
+Update T_CustomFieldContent Set Content = 'Fulltime' where CompanyId = 6068 and FieldId=110174 and ItemId =160057006
+Update T_CustomFieldContent Set Content = 'Part time product Placement specialist' where CompanyId = 6068 and FieldId=110174 and ItemId =160777565
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =160782526
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =161626325
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =161630516
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =162029589
+Update T_CustomFieldContent Set Content = 'Part time' where CompanyId = 6068 and FieldId=110174 and ItemId =162198872
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =162573729
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =162651130
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =162655435
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =162655940
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =163055473
+Update T_CustomFieldContent Set Content = 'Fulltime' where CompanyId = 6068 and FieldId=110174 and ItemId =163055656
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =163760503
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =163760855
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =165003315
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =168387385
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =171033663
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =173186090
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =173659680
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =174111551
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =178275403
+Update T_CustomFieldContent Set Content = 'Immediate' where CompanyId = 6068 and FieldId=110174 and ItemId =178443802
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =179933897
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =180699745
+Update T_CustomFieldContent Set Content = 'Casselberry' where CompanyId = 6068 and FieldId=110174 and ItemId =181149124
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =181167269
+Update T_CustomFieldContent Set Content = 'Immediate' where CompanyId = 6068 and FieldId=110174 and ItemId =181371592
+Update T_CustomFieldContent Set Content = 'Part-time' where CompanyId = 6068 and FieldId=110174 and ItemId =182345305
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =182561904
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =182562322
+Update T_CustomFieldContent Set Content = 'PT PPS' where CompanyId = 6068 and FieldId=110174 and ItemId =184782357
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =185199374
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =185201335
+Update T_CustomFieldContent Set Content = 'PT 20' where CompanyId = 6068 and FieldId=110174 and ItemId =185908131
+Update T_CustomFieldContent Set Content = 'two' where CompanyId = 6068 and FieldId=110174 and ItemId =186257218
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =186274889
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =186275431
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =188893203
+Update T_CustomFieldContent Set Content = 'parts' where CompanyId = 6068 and FieldId=110174 and ItemId =188983691
+Update T_CustomFieldContent Set Content = 'parts' where CompanyId = 6068 and FieldId=110174 and ItemId =188983807
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =191147948
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =192336036
+Update T_CustomFieldContent Set Content = 'PT' where CompanyId = 6068 and FieldId=110174 and ItemId =192832577
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =195286982
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =197002295
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =197011803
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =197857941
+Update T_CustomFieldContent Set Content = 'Part-Time' where CompanyId = 6068 and FieldId=110174 and ItemId =201264661
+Update T_CustomFieldContent Set Content = 'Part-Time' where CompanyId = 6068 and FieldId=110174 and ItemId =201265546
+Update T_CustomFieldContent Set Content = 'P/T' where CompanyId = 6068 and FieldId=110174 and ItemId =201662155
+Update T_CustomFieldContent Set Content = 'Part Time' where CompanyId = 6068 and FieldId=110174 and ItemId =204159964
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =205497335
+Update T_CustomFieldContent Set Content = 'FT' where CompanyId = 6068 and FieldId=110174 and ItemId =205574540
+Update T_CustomFieldContent Set Content = 'PT Cashier' where CompanyId = 6068 and FieldId=110174 and ItemId =207192357
+Update T_CustomFieldContent Set Content = 'PT PPS' where CompanyId = 6068 and FieldId=110174 and ItemId =208099244
+Update T_CustomFieldContent Set Content = 'Part-Time' where CompanyId = 6068 and FieldId=110174 and ItemId =210741759
+Update T_CustomFieldContent Set Content = 'One' where CompanyId = 6068 and FieldId=110174 and ItemId =211993032
+Update T_CustomFieldContent Set Content = 'two' where CompanyId = 6068 and FieldId=110174 and ItemId =212196693
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =212270319
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =212880447
+Update T_CustomFieldContent Set Content = 'one' where CompanyId = 6068 and FieldId=110174 and ItemId =215802632
