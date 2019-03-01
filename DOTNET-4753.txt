@@ -1,0 +1,50 @@
+Select * From T_User (nolock) Where Email = 'kaiqi.yeo@groupm.com'--1944
+
+select * from T_CustomField(nolock) where CompanyId=1944 and FieldCode='chequed_job_mapping'
+
+select * from T_CustomFieldContent(nolock) where CompanyId=1944 and FieldId=72735 and Content in('Maxus - Associate Level','MEC - Associate Level')
+select * from T_CustomFieldContent(nolock) where CompanyId=1944 and FieldId=72735 and Content in('Maxus - CxO','MEC - CxO')
+select * from T_CustomFieldContent(nolock) where CompanyId=1944 and FieldId=72735 and Content in('Maxus - Director','MEC - Director')
+select * from T_CustomFieldContent(nolock) where CompanyId=1944 and FieldId=72735 and Content in('Maxus - Entry-Level/Grad','MEC - Entry-Level/Grad')
+select * from T_CustomFieldContent(nolock) where CompanyId=1944 and FieldId=72735 and Content in('Maxus - Functional Head','MEC - Functional Head')
+select * from T_CustomFieldContent(nolock) where CompanyId=1944 and FieldId=72735 and Content in('Maxus - Manager / Senior Manager','MEC - Manager / Senior Manager')
+
+--Main Query
+Update T_CustomFieldContent SET Content='Wavemaker - Associate Level' where CompanyId=1944 and FieldId=72735 and Content in ('Maxus - Associate Level','MEC - Associate Level')
+
+Update T_CustomFieldContent SET Content='Wavemaker - CxO' where CompanyId=1944 and FieldId=72735 and Content in ('Maxus - CxO','MEC - CxO')
+
+Update T_CustomFieldContent SET Content='Wavemaker - Director' where CompanyId=1944 and FieldId=72735 and Content in ('Maxus - Director','MEC - Director')
+
+Update T_CustomFieldContent SET Content='Wavemaker - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and Content in ('Maxus - Entry-Level/Grad','MEC - Entry-Level/Grad')
+
+Update T_CustomFieldContent SET Content='Wavemaker - Functional Head' where CompanyId=1944 and FieldId=72735 and Content in ('Maxus - Functional Head','MEC - Functional Head')
+
+Update T_CustomFieldContent SET Content='Wavemaker - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and Content in ('Maxus - Manager / Senior Manager','MEC - Manager / Senior Manager')
+
+
+
+--RollBack Query
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='Maxus - CxO' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and IContent='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='Maxus - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='MEC - CxO' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'
+
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and Content='Wavemaker - Associate Level'

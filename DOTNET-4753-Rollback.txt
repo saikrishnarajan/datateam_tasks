@@ -1,0 +1,864 @@
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1463262
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1501354
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1551743
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1554807
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1629196
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1743737
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1749397
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1749563
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1766759
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1760639
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1809656
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1814009
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1822894
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1859543
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1873332
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1910255
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1926896
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1936329
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1946610
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1982694
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1988393
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1991478
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2004145
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2055426
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2056869
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2060401
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2136253
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2164392
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2184328
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2190587
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2221283
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2232302
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2232306
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2268877
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2294628
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2307375
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2350909
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2375979
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2375980
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2376015
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2376016
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2424903
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2429546
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2438332
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2449528
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2519939
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2523461
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2585160
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2588800
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2646207
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2649302
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2826011
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2916230
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2924312
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2994762
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3052706
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3297534
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3344307
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3349125
+Update T_CustomFieldContent Set Content='Maxus - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3380483
+
+Update T_CustomFieldContent Set Content='Maxus - CxO' where CompanyId=1944 and FieldId=72735 and ItemId=	1825510
+Update T_CustomFieldContent Set Content='Maxus - CxO' where CompanyId=1944 and FieldId=72735 and ItemId=	1884055
+Update T_CustomFieldContent Set Content='Maxus - CxO' where CompanyId=1944 and FieldId=72735 and ItemId=	2377133
+Update T_CustomFieldContent Set Content='Maxus - CxO' where CompanyId=1944 and FieldId=72735 and ItemId=	3024237
+
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1429605
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1437816
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1443415
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1454901
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1483518
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1537126
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1583280
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1677260
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1678888
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1730426
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1730447
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1734705
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1753146
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1753207
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1810649
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1834303
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1836004
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1840631
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1850255
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1862683
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1864246
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1878260
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1893414
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1900455
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1902273
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1904791
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1915645
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1921961
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1954949
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1993785
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2080390
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2084560
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2084573
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2127460
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2144588
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2157349
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2162467
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2178077
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2182449
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2219632
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2240030
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2267335
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2267338
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2271037
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2301279
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2357303
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2363709
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2380511
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2382043
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2384097
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2390991
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2399645
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2415753
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2436106
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2490110
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2515849
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2540823
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2601469
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2601499
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2603743
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2709392
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2709393
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2720189
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2777849
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2826004
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2982793
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3112530
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3146166
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3251599
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3277837
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3326748
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3328516
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3344200
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3344201
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3370944
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3370945
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3370949
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3380336
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3380432
+Update T_CustomFieldContent Set Content='Maxus - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3406683
+
+
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1565811
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1569976
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1575958
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1585945
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1588865
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1588867
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1588869
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1719182
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1749424
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1785130
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1788761
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1795407
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1808188
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1822349
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1880941
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1884071
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1914045
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1915699
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1936341
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1956585
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1960069
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1969874
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1969886
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1971317
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1982608
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2002075
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2004290
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2007302
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2007303
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2007208
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2007305
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2008752
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2021766
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2022950
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2025299
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2036052
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2039937
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2049801
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2053573
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2055573
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2059939
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2063934
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2090449
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2118667
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2127467
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2140879
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2154282
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2169389
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2175933
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2184339
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2150442
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2223037
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2231234
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2231236
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2231239
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2232282
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2233389
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2233404
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2233406
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2255324
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2265389
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2267340
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2267358
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2267393
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2267397
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2270970
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2270998
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2290874
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2303049
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2304533
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2308852
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2310510
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2321024
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2328846
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2330228
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2335646
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2344258
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2357253
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2357491
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2357495
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2370783
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2374161
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2375949
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2375968
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2405354
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2429541
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2434147
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2446158
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2449389
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2451099
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2453470
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2516488
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2516548
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2516550
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2516552
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2516554
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2516609
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2516620
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2542573
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2552296
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2554281
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2559521
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2564794
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2564798
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2579789
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2579810
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2579811
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2583058
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2599267
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2603809
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2622455
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2642548
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2663436
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2683244
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2718664
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2720197
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2720198
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2720205
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2720207
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2779898
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2904011
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2904092
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2974766
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2994603
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2994763
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3035824
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3146176
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3169215
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3192385
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3219498
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3221467
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3281559
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3281738
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3281758
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3285111
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3308715
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3322130
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3328538
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3330472
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3330504
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3330505
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3339883
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3339884
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3344298
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3344308
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3347219
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3347241
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3347244
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3348888
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3375507
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3411040
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3411041
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3411245
+Update T_CustomFieldContent Set Content='Maxus - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3413553
+
+
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	970875
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1036822
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1537273
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1551775
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1691077
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1753203
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1753210
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1780732
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1783976
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1840562
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1850282
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1859329
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1900720
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1902297
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1919858
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1919908
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1946105
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1969855
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2051776
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2060608
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2221300
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2233287
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2233333
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2234780
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2237052
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2342780
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2350908
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2399696
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2438328
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2455522
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2515835
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2585292
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2603250
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2655331
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2720200
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	3215110
+Update T_CustomFieldContent Set Content='Maxus - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	3241037
+
+
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1403373
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1454817
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1469440
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1515312
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1537122
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1484934
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1550589
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1587572
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1588861
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1593534
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1621726
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1626331
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1678550
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1689112
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1713051
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1732480
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1739687
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1745819
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1721227
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1753212
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1734228
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1788954
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1795426
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1822962
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1851712
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1864298
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1877451
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1881271
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1882839
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1882841
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1882842
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1892413
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1902052
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1910368
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1910382
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1910393
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1922205
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1926722
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1932130
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1946450
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1958269
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1961789
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1993851
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1999060
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	1999063
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2007209
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2011517
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2015140
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2025111
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2027490
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2046686
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2053572
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2058701
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2078049
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2080383
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2084722
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2088637
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2088647
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2090445
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2098845
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2100025
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2100027
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2118680
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2120750
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2120761
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2129538
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2148039
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2157317
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2157339
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2157419
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2157517
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2157519
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2157858
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2157906
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2159078
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2159088
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2162464
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2170863
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2170864
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2179329
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2182494
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2183901
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2187268
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2187269
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2202794
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2206641
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2214106
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2214109
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2214117
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2223034
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2223035
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2228912
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2234665
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2234666
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235395
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235401
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235402
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235403
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235405
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235412
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235413
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235415
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235420
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235424
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2235425
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2244960
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2244963
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2244964
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2253450
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2253598
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2267347
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2267376
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2267389
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2267401
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2279782
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2301278
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2303048
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2303051
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2310517
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2327141
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2327439
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2346567
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2349429
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2357284
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2357481
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2357498
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2364027
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2367027
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2367187
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2369167
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2372375
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2374162
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2375971
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2375974
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2375986
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2375989
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2387303
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2387698
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2418370
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2427110
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2429922
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2429954
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2442277
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2453806
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2493404
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2493431
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2516520
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2516579
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2523276
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2542574
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2547339
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2603801
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2609094
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2621868
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2622441
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2684956
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2720193
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2720201
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2720203
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2807155
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2812945
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2829155
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2837629
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2857242
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2887362
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2922024
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	2966169
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3137137
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3233853
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3251798
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3268419
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3275718
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3291510
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3320033
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3320034
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3328552
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3328555
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3349088
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3349662
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3351244
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3353458
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3367103
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3378273
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3380265
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3380271
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3380309
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3380310
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3380311
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3380312
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3380485
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3413482
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3413552
+Update T_CustomFieldContent Set Content='MEC - Associate Level' where CompanyId=1944 and FieldId=72735 and ItemId=	3429614
+
+
+Update T_CustomFieldContent Set Content='MEC - CxO' where CompanyId=1944 and FieldId=72735 and ItemId=	613293
+Update T_CustomFieldContent Set Content='MEC - CxO' where CompanyId=1944 and FieldId=72735 and ItemId=	713740
+Update T_CustomFieldContent Set Content='MEC - CxO' where CompanyId=1944 and FieldId=72735 and ItemId=	1942127
+Update T_CustomFieldContent Set Content='MEC - CxO' where CompanyId=1944 and FieldId=72735 and ItemId=	3062055
+Update T_CustomFieldContent Set Content='MEC - CxO' where CompanyId=1944 and FieldId=72735 and ItemId=	3219362
+
+
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1258405
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1346510
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1408366
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1413141
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1522140
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1534185
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1582385
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1587727
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1697744
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1697747
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1729125
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1844021
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1844026
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1850492
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1878209
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1882777
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1882779
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1890633
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1902263
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1910400
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1915740
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1936339
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1964753
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1991777
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	1999085
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2007292
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2008736
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2016624
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2036258
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2039887
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2051797
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2076783
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2078672
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2088648
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2110365
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2118615
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2158708
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2182566
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2252906
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2253401
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2253437
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2260525
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2260531
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2339138
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2344757
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2357058
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2355623
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2382289
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2401698
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2445518
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2445520
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2530753
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2537247
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2547251
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2566731
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2566735
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2570647
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2601641
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2603521
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2607246
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2626671
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2762568
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2794957
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2843349
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2870605
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	2987356
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3006225
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3056361
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3094350
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3133731
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3196261
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3235965
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3272623
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3308414
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3339718
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3383474
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3406687
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3413278
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3429492
+Update T_CustomFieldContent Set Content='MEC - Director' where CompanyId=1944 and FieldId=72735 and ItemId=	3429494
+
+
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	995230
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1480022
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1560320
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1560742
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1560747
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1586008
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1719303
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1843789
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1808537
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1851697
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1877388
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1881267
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1910168
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1920162
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1928644
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1932149
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1941198
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1948413
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	1961906
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2028517
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2036324
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2074698
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2078674
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2084738
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2113874
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2113882
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2116810
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2121942
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2157375
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2206490
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2221238
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2221244
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2237039
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2251048
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2251070
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2260532
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2321280
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2340916
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2344739
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2344756
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2344762
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2372282
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2372293
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2372294
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2372296
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2372297
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2451136
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2505360
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2513737
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2515873
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2523381
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2532445
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2538866
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2544151
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2552403
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2561385
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2561419
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2562999
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2596833
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2605515
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2626814
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2635778
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2635792
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2639259
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2645982
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2661108
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2674840
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2679534
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2688915
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2766837
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2758947
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2775859
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2889631
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2904089
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	2944587
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3007960
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3039714
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3056682
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3270643
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3295215
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3330471
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3377695
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3377697
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3401766
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3406500
+Update T_CustomFieldContent Set Content='MEC - Entry-Level/Grad' where CompanyId=1944 and FieldId=72735 and ItemId=	3406705
+
+
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	974819
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1343991
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1719178
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1848909
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1961805
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	1971437
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2008872
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2142998
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2179607
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2184083
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2234552
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2291007
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2385881
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2513651
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2777960
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2781797
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2795014
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	2806840
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	3076249
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	3078164
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	3078180
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	3212713
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	3406714
+Update T_CustomFieldContent Set Content='MEC - Functional Head' where CompanyId=1944 and FieldId=72735 and ItemId=	3429609
+
+
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1289805
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1494885
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1532553
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1575946
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1584498
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1591613
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1593097
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1593098
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1593096
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1729000
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1734632
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1774800
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1775426
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1839341
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1857838
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1867192
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1870656
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1882807
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1882843
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1882846
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1882850
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1883620
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1891607
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1900723
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1904622
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1910362
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1910395
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1925261
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1925278
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1936384
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1941195
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1941196
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1966180
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1977730
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	1991537
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2016614
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2028689
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2030552
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2044960
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2051787
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2078796
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2080541
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2082218
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2082350
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2088661
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2088671
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2113872
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2116765
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2132690
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2134314
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2134723
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2142869
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2143193
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2146079
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2146309
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2149613
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2153654
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2171309
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2184334
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2229018
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2260528
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2265243
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2268874
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2273134
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2281793
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2283254
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2285091
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2285316
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2337333
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2337334
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2337336
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2337369
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2377177
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2389172
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2405150
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2418025
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2445950
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2447723
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2453763
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2510532
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2518238
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2519889
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2523283
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2537269
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2539033
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2545411
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2553996
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2588883
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2588886
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2603694
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2634006
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2637708
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2639275
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2659089
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2679532
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2741856
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2768606
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2775849
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2775854
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2777904
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2870608
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2873051
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2883695
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2902347
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2914245
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2970055
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2999398
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3004307
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	2901953
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3015335
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3056227
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3115519
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3148351
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3235869
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3333611
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3346727
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3346729
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3349782
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3370947
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3383423
+Update T_CustomFieldContent Set Content='MEC - Manager / Senior Manager' where CompanyId=1944 and FieldId=72735 and ItemId=	3406496
+
+
