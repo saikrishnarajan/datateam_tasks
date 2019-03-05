@@ -1,0 +1,10 @@
+select * from T_User(nolock) where Email='yortega@legacyair.com'--6996
+
+select * from T_Company(nolock) where Id=6996
+
+
+--Main Query
+Update T_Company Set Address='645 E. Missouri Ave. Suite 205', PostalCode=85012 where id=6996
+
+--Rollback Query
+Update T_Company Set Address='3529 E. Wood Street',PostalCode=85040 where Id=6996
