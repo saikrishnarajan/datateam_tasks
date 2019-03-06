@@ -1,0 +1,13 @@
+select * from T_User (nolock) where Email='Jennifer.Spry@von.ca'--6288
+
+select Name,FieldCode,* from T_CustomField (nolock) where CompanyId=6288 and FieldCode='posting_title'
+
+select * from T_ViewField(nolock) where CompanyId=6288 and FieldId=120777
+
+
+--Main Query
+Update T_CustomField Set Name='SAP Title',FieldCode='SAP_Title' where CompanyId=6288 and Id=120777
+
+--Rollback Query
+Update T_CustomField Set Name='Posting Title',FieldCode='posting_title' where CompanyId=6288 and Id=120777
+
