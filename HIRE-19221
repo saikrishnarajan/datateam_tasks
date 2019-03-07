@@ -1,0 +1,24 @@
+select * from T_Company (nolock) where name like '%JBS%'--6285
+
+
+select * from T_application (nolock) where CompanyId  =6285 and CandidateId =69837372
+
+
+select * from T_candidate (nolock) where  CompanyId = 6285 and  email = 'Shelettew8@gmail.com'
+
+--update script:-
+
+INSERT INTO T_Candidate (CompanyId,FirstName,LastName,Email,Title,Address,Address2,City,PostalCode
+,State,Country,HomePhone,WorkPhone,Mobile,Fax,Company,ApplicationCount,BlackListed)
+VALUES(6285,'Courtney','Wilson','CourtneyWilson000000@jbsssa.com','','','','','','','','','','','','',1,0)
+select SCOPE_IDENTITY()
+update T_Application set CandidateId =SCOPE_IDENTITY() , Modified = getdate() where CompanyId =6285 and id=106581813
+
+update T_Candidate set ApplicationCount =2 where CompanyId =6285 and id = 69837372
+
+--Rollback script:-
+
+update T_Candidate set CompanyId = -CompanyId , FirstName = -FirstName, LastName = -LastName where CompanyId = 6285 and Email = 'CourtneyWilson000000@jbsssa.com'
+update T_Candidate set ApplicationCount =3 where CompanyId =6285 and id = 69837372
+update T_Application set CandidateId =69837372 where CompanyId =6285 and id = 106581813
+
