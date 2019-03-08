@@ -1,0 +1,18 @@
+
+select* from T_User (nolock) where Email = 'alan@omnisci.com'--6162
+
+select * from T_CustomField (nolock) where CompanyId =6162 and name like '%Proposed End Date%'--156995
+
+
+select * from T_ViewField (nolock) where CompanyId =6162 and FieldId =156995
+
+--update script :-
+update T_CustomField set Deleted = 1 where CompanyId =6162 and Id =156995 
+
+update T_ViewField set Deleted = 1 where CompanyId =6162 and id in (813869,813870,813871,813872)
+
+--Rollback Script:-
+
+update T_CustomField set Deleted = 0 where CompanyId =6162 and Id =156995 
+
+update T_ViewField set Deleted = 0 where CompanyId =6162 and id in (813869,813870,813871,813872)
