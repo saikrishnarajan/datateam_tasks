@@ -1,0 +1,25 @@
+Update script:-
+
+update T_Application set CandidateId = 55665780, Modified = getdate() where CompanyId =703 and id = 73442351
+
+update T_Candidate set ApplicationCount = 2 where CompanyId =703 and id = 55665780
+
+
+INSERT INTO T_Candidate (CompanyId,FirstName,LastName,Email,Title,Address,Address2,City,PostalCode
+,State,Country,HomePhone,WorkPhone,Mobile,Fax,Company,ApplicationCount,BlackListed)
+VALUES(703,'Derek','Sparks','','','','','','','','','','','','','',1,0)
+select SCOPE_IDENTITY()
+update T_Application set CandidateId =SCOPE_IDENTITY() , Modified = getdate() where CompanyId =703 and id=102131012
+
+INSERT INTO T_Candidate (CompanyId,FirstName,LastName,Email,Title,Address,Address2,City,PostalCode
+,State,Country,HomePhone,WorkPhone,Mobile,Fax,Company,ApplicationCount,BlackListed)
+VALUES(703,'Keith','Moseley','','','','','','','','','','','','','',1,0)
+select SCOPE_IDENTITY()
+update T_Application set CandidateId =SCOPE_IDENTITY() , Modified = getdate() where CompanyId =703 and id=108009972
+
+update T_Candidate set ApplicationCount = 0  where CompanyId =703 and id = 55165531
+
+
+
+Rollback:-
+update T_Application set CandidateId = 55165531, Modified = getdate() where CompanyId =703 and id in (73442351,102131012,,108009972)
