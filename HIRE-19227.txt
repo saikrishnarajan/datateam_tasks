@@ -12,4 +12,4 @@ Update T_CandidateForm Set ApplicationId=-ApplicationId,FormId=-FormId where App
 
 
 --Rollback Query
-Update T_CandidateForm Set ApplicationId=106030289,FormId=42762 where ApplicationId=106030289 and Id=71124996
+Update T_CandidateForm Set ApplicationId=-ApplicationId,FormId=-FormId where ApplicationId=106030289 and Id=71124996
