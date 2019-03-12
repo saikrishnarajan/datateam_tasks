@@ -1,0 +1,15 @@
+select * from T_User(nolock) where Email='lisa.livingston@impacmail.com'--6831
+
+select CandidateId,DeletedHM,Deleted,* from T_Application(nolock) where CompanyId=6831 and AppFirstName = 'Jessica Leilani'--106030289
+
+Select * from T_Candidate(nolock) where Id=78829670
+
+select * from T_CandidateForm(nolock) where ApplicationId=106030289
+
+
+--Main Query
+Update T_CandidateForm Set ApplicationId=-ApplicationId,FormId=-FormId where ApplicationId=106030289 and Id=71124996
+
+
+--Rollback Query
+Update T_CandidateForm Set ApplicationId=106030289,FormId=42762 where ApplicationId=106030289 and Id=71124996
