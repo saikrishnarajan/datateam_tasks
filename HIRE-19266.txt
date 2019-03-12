@@ -1,0 +1,45 @@
+select * from T_User(nolock) where Email='matthew.sawyer@ideapublicschools.org'--6780
+
+select RequisitionId,* from T_Job(nolock) where CompanyId=6780 and RequisitionId in ('2018-457','2018-1474','2018-1472','2018-1459','2018-1473','2018-1435','2018-1451') and
+Title in ('Director of Student Information Systems (Immediate Opening)','Licensed Specialist in School Psychology (Immediate Opening)','Special Education Teacher - IDEA College Prep Pharr')
+
+
+select * from T_CustomField(nolock) where CompanyId=6780 and Name='Video Screen'--140388
+
+select * from T_CustomFieldContent(nolock) where CompanyId=6780 and FieldId=140388 and ItemId in (3216068,
+3416963,
+3441252,
+3416814,
+3216324,
+3216366,
+3365499,
+3441283,
+3430372,
+3441238,
+3441240,
+3416993,
+3413401,
+3415091)
+
+Campus Leader Video Interview=5ba3cc33e4b0a73c636cef26
+
+Teacher Video Interview=5b23cad2e4b089d14b5da272
+
+Headquarters Video Interview=5ba3cbbce4b0a73c636cef24
+
+
+--Main Query
+Update T_CustomFieldContent Set Content='5b23cad2e4b089d14b5da272' where CompanyId=6780 and FieldId=140388 and ItemId in (3413401,3415091,3416993)
+
+Update T_CustomFieldContent Set Content='5ba3cbbce4b0a73c636cef24' where CompanyId=6780 and FieldId=140388 and ItemId in (3416814,3416963)
+
+Update T_CustomFieldContent Set Content='5ba3cc33e4b0a73c636cef26' where CompanyId=6780 and FieldId=140388 and ItemId in (3216068)
+
+
+
+--Rollback Query
+Update T_CustomFieldContent Set Content='Teacher Video Interview' where CompanyId=6780 and FieldId=140388 and ItemId in (3413401,3415091,3416993)
+
+Update T_CustomFieldContent Set Content='Headquarters Video Interview' where CompanyId=6780 and FieldId=140388 and ItemId in (3416814,3416963)
+
+Update T_CustomFieldContent Set Content='Campus Leader Video Interview' where CompanyId=6780 and FieldId=140388 and ItemId in (3216068)
