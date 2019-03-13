@@ -1,0 +1,13 @@
+db.getCollection('VideoQuestion').find({"companyId" : 206 ,"title": /^\(DELETE/ , "updateDate" : {$gte : ISODate("2019-02-27"),$lte : ISODate("2019-02-29")}
+     })
+
+
+
+update script:-
+
+
+db.getCollection('VideoQuestion').Remove({"companyId" : 206 ,"title": /^\(DELETE/ , "updateDate" : {$gte : ISODate("2019-02-27"),$lte : ISODate("2019-02-29")}
+     })
+
+
+ Rollback:- will take backup before execute on prod.
