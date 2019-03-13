@@ -1,0 +1,16 @@
+select * from T_CandidateState (nolock) where CompanyId = 7013 and id in (289816,289812,
+289814,285708,285707)
+select * from T_application (nolock) where CompanyId =7013 and WorkflowState = 289816
+
+select * from T_Workflow (nolock) where CompanyId = 7013
+
+select * from  T_CandidateStateUpdate (nolock) where CompanyId = 7013 and StateId in (289816,289812,
+289814,285708,285707)
+
+--update script :-
+update T_CandidateStateUpdate set CompanyId = -CompanyId, ApplicationId = - ApplicationId where CompanyId = 7013 and StateId in (289816,289812,
+289814,285708,285707)
+
+--Rollback script:-
+update T_CandidateStateUpdate set CompanyId = -CompanyId, ApplicationId = - ApplicationId where CompanyId = 7013 and StateId in (289816,289812,
+289814,285708,285707)
