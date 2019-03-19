@@ -6,7 +6,7 @@ select * from T_Job(nolock) where CompanyId=6068 and State=512 and Deleted=0
 --Main Query
 Update T_Job Set Deleted=1, Modified=GETDATE() where CompanyId=6068 and State=512
 
-Update T_Application Set JobId=0 where CompanyId=6068 and Id in (select Id from T_Job(nolock) where CompanyId=6068 and State=512 and Deleted=0)
+Update T_Application Set JobId=0, Modified=GETDATE() where CompanyId=6068 and Id in (select Id from T_Job(nolock) where CompanyId=6068 and State=512 and Deleted=0)
 
 --Rollback Query
 Update T_Job Set Deleted=0, Modified='2017-03-30 08:22:43' where CompanyId=6068 and State=512 and Id=2357683
@@ -1722,9 +1722,9 @@ Update T_Job Set Deleted=0, Modified='2019-03-12 09:46:19' where CompanyId=6068 
 Update T_Job Set Deleted=0, Modified='2019-03-12 10:01:34' where CompanyId=6068 and State=512 and Id=3452820
 
 
-Update T_Application Set JobId=2409877 where CompanyId=6068 and Id = 71934994
-Update T_Application Set JobId=2409877 where CompanyId=6068 and Id = 71935053
-Update T_Application Set JobId=2409877 where CompanyId=6068 and Id = 71935501
-Update T_Application Set JobId=2409877 where CompanyId=6068 and Id = 71935512
-Update T_Application Set JobId=2409864 where CompanyId=6068 and Id = 71935313
-Update T_Application Set JobId=2391334 where CompanyId=6068 and Id = 71597374
+Update T_Application Set JobId=2409877, Modified='2017-03-28 00:00:00.000' where CompanyId=6068 and Id = 71934994
+Update T_Application Set JobId=2409877, Modified='2017-03-22 00:00:00.000' where CompanyId=6068 and Id = 71935053
+Update T_Application Set JobId=2409877, Modified='2017-03-29 00:00:00.000' where CompanyId=6068 and Id = 71935501
+Update T_Application Set JobId=2409877, Modified='2017-04-13 00:00:00.000' where CompanyId=6068 and Id = 71935512
+Update T_Application Set JobId=2409864, Modified='2017-04-30 00:00:00.000' where CompanyId=6068 and Id = 71935313
+Update T_Application Set JobId=2391334, Modified='2017-05-04 11:26:10.683' where CompanyId=6068 and Id = 71597374
