@@ -9,9 +9,9 @@ IsEmployee=1
 Update T_User Set Validated=1, IsEmployee=1, CompanyId=6355, UserModified=GETDATE() where Id in (35545978,35546071,35545850,35546145,35545977,35546131)
 
 --Rollback Query
-Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified='2019-01-31 20:58:21.647' where Id = 35545978 and CompanyId=6355
-Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified='2019-01-31 21:01:24.413' where Id = 35546071 and CompanyId=6355
-Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified='2019-01-31 20:54:44.960' where Id = 35545850 and CompanyId=6355
-Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified='2019-03-01 18:56:50.830' where Id = 35546145 and CompanyId=6355
-Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified='2019-03-19 01:38:18.047' where Id = 35545977 and CompanyId=6355
-Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified='2019-02-25 07:51:09.257' where Id = 35546131 and CompanyId=6355
+Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified=GETDATE() where Id = 35545978 and CompanyId=6355
+Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified=GETDATE() where Id = 35546071 and CompanyId=6355
+Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified=GETDATE() where Id = 35545850 and CompanyId=6355
+Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified=GETDATE() where Id = 35546145 and CompanyId=6355
+Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified=GETDATE() where Id = 35545977 and CompanyId=6355
+Update T_User Set Validated=0, IsEmployee=0, CompanyId=0, UserModified=GETDATE() where Id = 35546131 and CompanyId=6355
