@@ -1,0 +1,60 @@
+select * from T_Company(nolock) where Name='Advanced Technology Services'--6612
+
+
+select Id,Name,Email,IsEmployee,Validated,Disabled,CompanyId,Role from T_User(nolock) where CompanyId=0 and IsEmployee=0 and Validated=0 and Email in ('aparker@advancedtech.com',
+'aabusaa@advancedtech.com','albmoral@advancedtech.com','allozano@advancedtech.com','asaenz@advancedtech.com','alelopez@advancedtech.com','aceron@advancedtech.com',
+'apandya@advancedtech.com','apatel@advancedtech.com','autech@advancedtech.com','alaguirr@advancedtech.com','agraham@advancedtech.com','acrouch@advancedtech.com',
+'agill@advancedtech.com','apowers@advancedtech.com','amcelhan@advancedtech.com','acavness@advancedtech.com','awakelan@advancedtech.com','agallard@advancedtech.com',
+'avazquez@advancedtech.com','asolonsk@advancedtech.com','abaker@advancedtech.com','amcgrege@advancedtech.com','bgibson@advancedtech.com','bsidell@advancedtech.com',
+'bkeith@advancedtech.com','bsnyder@advancedtech.com','bhuckaby@advancedtech.com','btormey@advancedtech.com','brwalker@advancedtech.com','bcheaven@advancedtech.com',
+'bfunderb@advancedtech.com','bkezerle@advancedtech.com','brwhite@advancedtech.com','bromano@advancedtech.com','bvanalst@advancedtech.com','bryswill@advancedtech.com',
+'cchain@advancedtech.com','cbeckwit@advancedtech.com','cshockle@advancedtech.com','cschneid@advancedtech.com','csuetron@advancedtech.com','cslaught@advancedtech.com',
+'cthorne@advancedtech.com','cbreashe@advancedtech.com','chrdavis@advancedtech.com','cobrzut@advancedtech.com','cseely@advancedtech.com','cholguin@advancedtech.com',
+'chill@advancedtech.com','dquigley@advancedtech.com','dwalters@advancedtech.com','darsmith@advancedtech.com','dmatson@advancedtech.com','dbojorqu@advancedtech.com',
+'ddomingu@advancedtech.com','dgloria@advancedtech.com','dleimkue@advancedtech.com','dimorale@advancedtech.com','dcarpent@innovativetech.com','dostewar@advancedtech.com',
+'damyx@advancedtech.com','dbarnard@advancedtech.com','dfortman@advancedtech.com','edrodrig@advancedtech.com','ecannon@advancedtech.com','eavis@advancedtech.com',
+'enaviles@advancedtech.com','equinn@advancedtech.com','esierzeg@advancedtech.com','ebanda@advancedtech.com','egaray@advancedtech.com','ekruse@advancedtech.com',
+'eboahene@advancedtech.com','fghafour@advancedtech.com','fhennagi@advancedtech.com','fslaught@advancedtech.com','ggero@advancedtech.com','gstaffel@advancedtech.com',
+'gkline@advancedtech.com','gventeno@advancedtech.com','habennet@advancedtech.com','hegarcia@advancedtech.com','hcastill@advancedtech.com','iroberts@advancedtech.com',
+'iencina@advancedtech.com','jaimarti@advancedtech.com','jasaro@advancedtech.com','jaunderw@advancedtech.com','patward@advancedtech.com','jlopezh@advancedtech.com',
+'mluke@advancedtech.com','jmatheni@advancedtech.com','cmilburn@advancedtech.com','jmadeley@advancedtech.com','jmaffei@advancedtech.com','jeochoa@advancedtech.com',
+'jadawson@advancedtech.com','jpliler@advancedtech.com','jjens@advancedtech.com','jamitche@advancedtech.com','jcomins@advancedtech.com','joemoore@advancedtech.com',
+'jlagunes@advancedtech.com','jaubrey@advancedtech.com','jogreer@advancedtech.com','johlong@advancedtech.com','jolvera@advancedtech.com','jcordova@advancedtech.com',
+'jorgarci@advancedtech.com','jacevedo@advancedtech.com','jobrown@advancedtech.com','wkellebr@advancedtech.com','jomarque@advancedtech.com','joserami@advancedtech.com',
+'jrizo@advancedtech.com','jburkhar@advancedtech.com','jrutkows@advancedtech.com','tsutherl@advancedtech.com','keijohns@advancedtech.com','kehale@advancedtech.com',
+'krogers@advancedtech.com','ketaylor@advancedtech.com','kwansley@advancedtech.com','kiwhitlo@advancedtech.com','kdunn@advancedtech.com','kfitzger@advancedtech.com',
+'kstegner@advancedtech.com','kwass@advancedtech.com','kforbes@advancedtech.com','lhutson@advancedtech.com','lthomas@advancedtech.com','ldavis@advancedtech.com',
+'lmahoney@advancedtech.com','lponceg@advancedtech.com','lgalvan@advancedtech.com','lvazquez@advancedtech.com','madkins@advancedtech.com','mlaresj@advancedtech.com',
+'mobregon@advancedtech.com','maripere@advancedtech.com','mapena@advancedtech.com','mmcreyno@advancedtech.com','mbantche@advancedtech.com','madelgad@advancedtech.com',
+'mhutchin@advancedtech.com','mmedina@advancedtech.com','malderma@advancedtech.com','maguila@advancedtech.com','mbevins@advancedtech.com','mburnard@advancedtech.com',
+'mcarlisl@advancedtech.com','mcorley@advancedtech.com','michdavi@advancedtech.com','mhineman@advancedtech.com','moneill@advancedtech.com','mistephe@advancedtech.com',
+'michwils@advancedtech.com','mlourens@innovativetech.com','ncousins@advancedtech.com','oscgonza@advancedtech.com','pbeaman@advancedtech.com','pahogan@advancedtech.com',
+'pschmitz@innovativetech.com','pjuarez@advancedtech.com','pbieber@advancedtech.com','pizquier@advancedtech.com','pkiefer@advancedtech.com','qmay@advancedtech.com',
+'rmuhamma@advancedtech.com','rfutch@advancedtech.com','rdortch@advancedtech.com','rmata@advancedtech.com','rlunare@advancedtech.com','rbellamy@advancedtech.com',
+'rmorelan@advancedtech.com','ridavids@advancedtech.com','rboyd@advancedtech.com','rmclauri@advancedtech.com','rbornhor@advancedtech.com','rmcinnis@advancedtech.com',
+'roreynol@advancedtech.com','rowillia@advancedtech.com','ruthomas@advancedtech.com','wilallen@advancedtech.com','wmcclint@advancedtech.com','ldelrio@advancedtech.com',
+'srodarte@advancedtech.com','scooke@advancedtech.com','sreeves@advancedtech.com','sbillima@advancedtech.com','tajohnso@advancedtech.com','tbishop@advancedtech.com',
+'twatt@advancedtech.com','timhall@advancedtech.com','tholford@advancedtech.com','trareed@advancedtech.com','tchitwoo@advancedtech.com','tdagen@advancedtech.com',
+'wdavis@advancedtech.com','wsparlin@advancedtech.com','xmontema@advancedtech.com','adsmith@advancedtech.com','adfuente@innovativetech.com','acastril@innovativetech.com',
+'asutton@innovativetech.com','Compensation@advancedtech.com','bstaley@advancedtech.com','bjuntune@advancedtech.com','bwmiller@advancedtech.com','bkeltz@advancedtech.com',
+'cargarci@advancedtech.com','cbublitz@advancedtech.com','cflores@advancedtech.com','dcollins@advancedtech.com','dpasquit@innovativetech.com','ddailey@advancedtech.com',
+'ejimenez@advancedtech.com','egalbrea@advancedtech.com','falvarad@advancedtech.com','gtongate@advancedtech.com','gnewcomb@advancedtech.com','glangsto@advancedtech.com',
+'guimarti@innovativetech.com','hcuatt@innovativetech.com','hturner@advancedtech.com','hrsupport@advancedtech.com','jlankfor@advancedtech.com','jobviteapi@advancedtech.com',
+'jcoppa@innovativetech.com','kbarry@advancedtech.com','kecolema@advancedtech.com','lpagnott@innovativetech.com','msheek@advancedtech.com','mbenthin@advancedtech.com',
+'mvance@advancedtech.com','mwitcher@advancedtech.com','mamezcua@advancedtech.com','jcarden@advancedtech.com','mimiller@advancedtech.com','motaylor@advancedtech.com',
+'mrieuf@advancedtech.com','oacuna@advancedtech.com','pbdean@advancedtech.com','payrollmail@advancedtech.com','pmusso@advancedtech.com','ramiller@advancedtech.com',
+'Rachel.Lenoch@careerbuilder.com','radherna@advancedtech.com','juphilli@advancedtech.com','rgates@advancedtech.com','roramire@advancedtech.com','ggarst@advancedtech.com',
+'sparsons@advancedtech.com','sbisping@advancedtech.com','sbasnett@advancedtech.com','swelch@advancedtech.com','sjones@advancedtech.com','swulffra@advancedtech.com',
+'terminations@advancedtech.com','tysmith@advancedtech.com','belarson@advancedtech.com','brmartin@advancedtech.com','bhegg@advancedtech.com','csanchez@advancedtech.com',
+'fmartine@advancedtech.com','jalgas@advancedtech.com','elink@advancedtech.com','gturner@advancedtech.com')
+
+--Main Query
+Update T_User Set IsEmployee=1, Validated=1, CompanyId=6612, UserModified=GETDATE() where Id in(
+45166304,46810650,46810643,45188023,46359522,46045361,45166305,45166308,46720610,45888087,45188018,46045366,46045360,45166307,45942985,46072968,46190129,43256699,45085766,45729666,46644375,46795508,45268977,46565355,43850454,46190123,46473347,46045371,45322086,45729667,45789666,45085765,46384506,46239546,46423374,45268981,46644379,43049476,45429546,45188016,46335026,46742324,46795521,46810648,46810647,46190131,45888084,46473353,46796246,46045369,46335030,46423380,46423382,46644374,46045372,46423376,46190134,46423375,45729658,46384507,45133358,45055590,46751369,45655194,45789665,45483462,46473354,46644373,46795526,46144751,46045359,45587894,46335035,46795529,45268984,46751370,43531003,46796250,46405683,46644378,46473356,46190133,45655193,46499421,46072966,45729661,46796251,45729657,46423379,45729656,46565357,45055587,46565352,46335032,46045362,42913370,45729664,46473350,46720609,46190126,46190124,46810649,46045363,46565349,45429550,45370745,46796254,46190136,45429561,45574608,45429553,46810651,46499419,45789668,46586297,46473355,45166306,45268985,46335021,45765155,45429548,45429558,45297449,45729659,45655196,45915128,46335033,45188015,46072967,45429564,45888083,46473348,45655192,46525598,46335025,46644372,46473349,46190135,46644377,46423378,45915125,45458206,45268982,45429543,45268983,46281661,45085763,46405682,46335027,45483463,46190125,46045357,45915129,46190130,45789667,45574610,45888088,45429556,45603104,46423381,45085764,45188014,45574611,45188019,45729665,45636720,46335028,45942984,46335018,45655195,45915126,46810642,45106629,45574612,45429532,46281664,45429562,46190127,45429542,45055589,46810645,45888086,45297446,45789664,46335034,45322085,45483461)
+
+
+--Rollback Query
+Update T_User Set IsEmployee=0, Validated=0, CompanyId=0, UserModified=GETDATE() where Id in(
+45166304,46810650,46810643,45188023,46359522,46045361,45166305,45166308,46720610,45888087,45188018,46045366,46045360,45166307,45942985,46072968,46190129,43256699,45085766,45729666,46644375,46795508,45268977,46565355,43850454,46190123,46473347,46045371,45322086,45729667,45789666,45085765,46384506,46239546,46423374,45268981,46644379,43049476,45429546,45188016,46335026,46742324,46795521,46810648,46810647,46190131,45888084,46473353,46796246,46045369,46335030,46423380,46423382,46644374,46045372,46423376,46190134,46423375,45729658,46384507,45133358,45055590,46751369,45655194,45789665,45483462,46473354,46644373,46795526,46144751,46045359,45587894,46335035,46795529,45268984,46751370,43531003,46796250,46405683,46644378,46473356,46190133,45655193,46499421,46072966,45729661,46796251,45729657,46423379,45729656,46565357,45055587,46565352,46335032,46045362,42913370,45729664,46473350,46720609,46190126,46190124,46810649,46045363,46565349,45429550,45370745,46796254,46190136,45429561,45574608,45429553,46810651,46499419,45789668,46586297,46473355,45166306,45268985,46335021,45765155,45429548,45429558,45297449,45729659,45655196,45915128,46335033,45188015,46072967,45429564,45888083,46473348,45655192,46525598,46335025,46644372,46473349,46190135,46644377,46423378,45915125,45458206,45268982,45429543,45268983,46281661,45085763,46405682,46335027,45483463,46190125,46045357,45915129,46190130,45789667,45574610,45888088,45429556,45603104,46423381,45085764,45188014,45574611,45188019,45729665,45636720,46335028,45942984,46335018,45655195,45915126,46810642,45106629,45574612,45429532,46281664,45429562,46190127,45429542,45055589,46810645,45888086,45297446,45789664,46335034,45322085,45483461)
+
+
