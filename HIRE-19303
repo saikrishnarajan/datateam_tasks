@@ -1,0 +1,17 @@
+
+--update script :-
+update T_Application set DeletedHM = 1 , Modified = getdate() where CompanyId = 1815 and JobId in 
+(select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2016-01-01' and SentDate <= '2016-12-31' and Deleted = 1)
+
+update T_Application set DeletedHM = 1 , Modified = getdate() where CompanyId = 1815 and JobId in 
+(select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2015-01-01' and SentDate <= '2015-12-31' and Deleted = 1)
+
+
+
+
+--Rollback script :-
+update T_Application set DeletedHM = 0 , Modified = getdate() where CompanyId = 1815 and JobId in 
+(select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2016-01-01' and SentDate <= '2016-12-31' and Deleted = 1)
+
+update T_Application set DeletedHM = 0 , Modified = getdate() where CompanyId = 1815 and JobId in 
+(select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2015-01-01' and SentDate <= '2015-12-31' and Deleted = 1)
