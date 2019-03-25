@@ -1,0 +1,22 @@
+select * from T_User(nolock) where Email='agarbacz@telemedicineclinic.com'--2442
+
+select * from T_CustomField(nolock) where CompanyId=2442 and FieldCode in ('gross_salary_per_month_xjtavfw1','hourly_base_rate__xktavfw2',
+'price_per_nonreporting_ru_xltavfw3','price_per_reporting_uk_ru_xmtavfw4','price_per_reporting_swe_ru_xnuavfw6','price_per_reporting_dk_ru_xouavfw7',
+'price_per_reporting_no_ru_xpuavfw8','price_per_reporting_de_ru_xquavfw9','price_per_reporting_sp_ru_xruavfwa','other_conditions_xsuavfwb','benefits__xtuavfwc') and Deleted=0
+
+
+select * from T_CustomFieldContent(nolock) where CompanyId=2442 and FieldId in(105954,105955,105956,105957,105958,105959,105960,105961,105962,105963,105964) 
+
+select * from T_ViewField (nolock) where CompanyId=2442 and FieldId in(105954,105955,105956,105957,105958,105959,105960,105961,105962,105963,105964) and Deleted=0
+
+
+--Main Query
+Update T_CustomField Set Deleted=1 where CompanyId=2442 and Id in(105954,105955,105956,105957,105958,105959,105960,105961,105962,105963,105964)
+
+Update T_ViewField Set Deleted=1 where CompanyId=2442 and FieldId in(105954,105955,105956,105957,105958,105959,105960,105961,105962,105963,105964)
+
+
+--Rollback Query
+Update T_CustomField Set Deleted=1 where CompanyId=2442 and Id in(105954,105955,105956,105957,105958,105959,105960,105961,105962,105963,105964)
+
+Update T_ViewField Set Deleted=1 where CompanyId=2442 and FieldId in(105954,105955,105956,105957,105958,105959,105960,105961,105962,105963,105964)
