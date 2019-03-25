@@ -1,0 +1,15 @@
+select * from T_Company (nolock) where id = 4813
+
+/* 
+BEGIN TRAN
+Update T_Company set Address = '1902 Campus Commons Dr, Suite 600', city = 'Reston', State = 'VA', PostalCode = '20191' Where Id = 4813
+COMMIT
+*/
+
+
+/*
+--rollback query
+BEGIN TRAN
+Update T_Company set Address = '1600 Wilson Blvd., Ste 1350', City = 'Arlington', State = 'Virginia',  PostalCode = '22209' Where Id = 4813
+COMMIT
+*/
