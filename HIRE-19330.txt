@@ -10,6 +10,6 @@ Update T_CustomField Set Deleted=1 where CompanyId=6954 and Id in (156457,156460
 Update T_ViewField Set Deleted=1 where CompanyId=6954 and FieldId in (156457,156460) 
 
 --Rollback Query
-Update T_CustomField Set Deleted=1 where CompanyId=6954 and Id in (156457,156460)
+Update T_CustomField Set Deleted=0 where CompanyId=6954 and Id in (156457,156460)
 
-Update T_ViewField Set Deleted=1 where CompanyId=6954 and FieldId in (156457,156460) 
+Update T_ViewField Set Deleted=0 where CompanyId=6954 and FieldId in (156457,156460) 
