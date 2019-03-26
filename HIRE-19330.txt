@@ -1,0 +1,15 @@
+select * from T_Company(nolock) where id =6954
+
+select * from T_CustomField(nolock) where CompanyId=6954 and Name in ('UP Company Identifier','UP Hourly Salary')--156457,156460
+
+select * from T_ViewField(nolock) where CompanyId=6954 and FieldId in (156457,156460)
+
+--Main Query
+Update T_CustomField Set Deleted=1 where CompanyId=6954 and Id in (156457,156460)
+
+Update T_ViewField Set Deleted=1 where CompanyId=6954 and FieldId in (156457,156460) 
+
+--Rollback Query
+Update T_CustomField Set Deleted=1 where CompanyId=6954 and Id in (156457,156460)
+
+Update T_ViewField Set Deleted=1 where CompanyId=6954 and FieldId in (156457,156460) 
