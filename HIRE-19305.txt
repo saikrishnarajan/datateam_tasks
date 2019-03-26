@@ -1,0 +1,37 @@
+select * from T_User(nolock) where Email='wlin@mywirelessgroup.com'--5671
+
+select * from T_CustomField(nolock) where CompanyId=5671 and Deleted=0 and ObjectType=2--101615=Video Screen
+
+select * from T_CustomFieldContent(nolock) where FieldId=101615 and CompanyId=5671 and Content='External Candidates'--'5bf83f0ae4b08652d10049fc'
+
+select RequisitionId,* from T_Job(nolock) where Id=2533604 and CompanyId=5671 and RequisitionId in (1678,1679,1680,1588,1838,1839,1691,1841)
+
+select * from T_CustomFieldContent(nolock) where FieldId=101615 and CompanyId=5671 and Id in (120174797,
+131287421,
+131287736,
+131288010,232403261,232196071,232199379)
+
+External Candidates -> 5bf83f0ae4b08652d10049fc
+Internal - Promotion AM -> 5c54b43ce4b0f0349b22d080
+Internal - Promotion GM -> 5c54b60ae4b0f0349b22d08e
+
+
+--Main Query
+Update T_CustomFieldContent Set Content='5bf83f0ae4b08652d10049fc' where FieldId=101615 and CompanyId=5671 and Id in (120174797,
+131287421,
+131287736,
+131288010,232403261)
+
+Update T_CustomFieldContent Set Content='5c54b43ce4b0f0349b22d080' where FieldId=101615 and CompanyId=5671 and Id = 232196071
+
+Update T_CustomFieldContent Set Content='5c54b60ae4b0f0349b22d08e' where FieldId=101615 and CompanyId=5671 and Id = 232199379
+
+--Rollback Query
+Update T_CustomFieldContent Set Content='External Candidates' where FieldId=101615 and CompanyId=5671 and Id in (120174797,
+131287421,
+131287736,
+131288010,232403261)
+
+Update T_CustomFieldContent Set Content='Internal - Promotion AM' where FieldId=101615 and CompanyId=5671 and Id = 232196071
+
+Update T_CustomFieldContent Set Content='Internal - Promotion GM' where FieldId=101615 and CompanyId=5671 and Id = 232199379
