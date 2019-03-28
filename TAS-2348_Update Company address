@@ -10,6 +10,6 @@ COMMIT
 /*
 --rollback query
 BEGIN TRAN
-Update T_Company set Address = '12112 115th Ave NE, Ste A', City = 'Kirkland', State = 'WA',  PostalCode = '98034' Where Id = 5481
+Update T_Company set Address = '12112 115th Ave NE, Ste A', City = 'Kirkland', State = 'Washington',  PostalCode = '98034' Where Id = 5481
 COMMIT
 */
