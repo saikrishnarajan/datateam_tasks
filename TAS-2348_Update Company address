@@ -1,0 +1,15 @@
+select * from T_Company (nolock) where id = 5481
+
+/* 
+BEGIN TRAN
+Update T_Company set Address = '2380 116th Ave NE', city = 'Bellevue', State = 'WA', PostalCode = '98004' Where Id = 5481
+COMMIT
+*/
+
+
+/*
+--rollback query
+BEGIN TRAN
+Update T_Company set Address = '12112 115th Ave NE, Ste A', City = 'Kirkland', State = 'WA',  PostalCode = '98034' Where Id = 5481
+COMMIT
+*/
