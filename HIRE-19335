@@ -1,0 +1,20 @@
+select Active,* from T_Company (nolock) where Name like '%BioMarin%'--6517
+
+select * from T_CustomField (nolock) where CompanyId = 6517 and Deleted = 0 and ObjectType =1 and id  = 135017
+
+
+select * from T_CustomFieldContent (nolock) where CompanyId =6517 and FieldId =135017 and Content in ('0','1','2')
+
+--update Script:-
+update T_CustomFieldContent set Content = '0-2' where CompanyId = 6517 and FieldId =135017 and id in (213987707,213991890,208342767,208331571,208394905,209157440,212536972,212537075,219881712,230346533,230632986,230875751,215323844,223997083,230175600,230198472,232194241,232990243,235532324,236607867)
+
+--Rollback script:-
+
+update T_CustomFieldContent set Content = '0' where CompanyId =6517 and FieldId =135017 and id in (230632986,230875751,230175600,235532324)
+
+
+update T_CustomFieldContent set Content = '1' where CompanyId =6517 and FieldId =135017 and id in (219881712,230346533,223997083,230198472,232990243)
+
+update T_CustomFieldContent set Content = '2' where CompanyId =6517 and FieldId =135017 and id in (213987707,213991890,208331571,208342767,208394905,209157440,212536972,212537075,215323844,232194241,236607867)
+
+
