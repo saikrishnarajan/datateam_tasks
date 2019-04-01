@@ -1,0 +1,11 @@
+select * from T_User(nolock) where Email='cflack@webmd.net'--6740
+
+select * from T_Job(nolock) where CompanyId=6740 and deleted=1 and RequisitionId='2019-1275'--3467032
+
+select * from T_Application(nolock) where CompanyId=6740 and JobId=3467032-- No associated
+
+--Update Main Query
+Update  T_Job Set Deleted=0, Modified=GETDATE() where CompanyId=6740 and Id=3467032
+
+--Rollback Query
+Update  T_Job Set Deleted=1, Modified='2019-03-21 09:36:30.107' where CompanyId=6740 and Id=3467032
