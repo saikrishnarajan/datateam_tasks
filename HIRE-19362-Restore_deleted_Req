@@ -1,0 +1,19 @@
+
+select * from T_Company (nolock) where id =1256
+
+select * from T_Job where CompanyId = 1256 and RequisitionId = '3111'
+
+/*
+BEGIN TRAN
+Update T_Job set deleted = 0, Modified = getdate() Where companyId = 1256 and id = 3425000
+COMMIT
+*/
+
+
+/*
+--rollback query
+BEGIN TRAN
+Update T_Job
+Set deleted = 1, Modified = '2019-03-31 23:29:01.317' Where companyId = 1256 and id = 3425000
+COMMIT
+*/
