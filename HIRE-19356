@@ -1,0 +1,13 @@
+select * from T_Candidate(nolock) where Id in (
+select CandidateId from T_application (nolock) where id in (102769368,104671941))
+
+
+--updae script:- 
+INSERT INTO T_Candidate (CompanyId,FirstName,LastName,Email,Title,Address,Address2,City,PostalCode
+,State,Country,HomePhone,WorkPhone,Mobile,Fax,Company,ApplicationCount,BlackListed)
+VALUES(4602,'TAEVONNA','POLK','polk.tae8@gmail.com','','','','','','','','','','','','',2,0)
+select SCOPE_IDENTITY()
+update T_Application set CandidateId =SCOPE_IDENTITY() , Modified = getdate() where CompanyId =6285 and id in (102769368,104671941)
+
+--Rollback:- 
+update T_Application set CandidateId = 61349469 where CompanyId =4602 and id in (102769368,104671941)
