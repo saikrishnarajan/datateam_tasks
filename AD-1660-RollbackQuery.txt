@@ -7,7 +7,7 @@ db.getCollection('EntityCustomMetaData').update(
     // update 
     {
        $set:{
-        "values" : [					"United States", 
+        "fields.$.values" : ["United States", 
 					"Afghanistan", 
 					"Albania", 
 					"Algeria", 
