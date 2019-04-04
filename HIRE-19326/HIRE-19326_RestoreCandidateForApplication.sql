@@ -15,27 +15,26 @@ WHere a.CompanyId = 1159 And a.JobId = 2055600			--45397091
 --JobId         : 2055600
 
 /*
---Declare a temp table to store the output from the Insert command
-DECLARE @OutputTbl TABLE (ID INT)
+BEGIN TRAN
+	--Insert the candidate into table
+	INSERT INTO T_Candidate (CompanyId, FirstName, LastName, Email, Title, Address, Address2,City,PostalCode,State,Country,HomePhone,Mobile,WorkPhone, Fax,Company,ApplicationCount,BlackListed) 
+	Values (1159, 'Guy', 'Topff', '','','','','','','','','','','','','',1,'')
 
---Insert the candidate into table
-INSERT INTO T_Candidate (CompanyId, FirstName, LastName, Email, Title, Address, Address2,City,PostalCode,State,Country,HomePhone,Mobile,WorkPhone, Fax,Company,ApplicationCount,BlackListed) 
-OUTPUT INSERTED.ID INTO @OutputTbl(ID)
-Values (1159, 'Guy', 'Topff', '','','','','','','','','','','','','','','')
-
---Update the new created candidateId in Application table, 
---Set Anonimised to 0 and Update Modified date
-Update T_Application Set Candidateid = (Select Id From @OutputTbl), Anonymized = 0, Modified = getDate() Where CompanyId = 1159 And Id = 60011220
+	--Update the new created candidateId in Application table, 
+	--Set Anonimised to 0 and Update Modified date
+	Update T_Application Set CandidateId = SCOPE_IDENTITY(), Anonymized = NULL, Modified = getDate() Where CompanyId = 1159 And Id = 60011220
+COMMIT
 */
 
 /*
 --Rollback
---Update back the older Candidate to the Application
-Update T_Application Set Candidateid = 45397091, Anonymized = 1, Modified = '2018-08-23 21:14:10.810' Where CompanyId = 1159 And Id = 60011220
+BEGIN TRAN
+	--Update back the older Candidate to the Application
+	Update T_Application Set Candidateid = 45397091, Anonymized = 1, Modified = '2018-08-23 21:14:10.810' Where CompanyId = 1159 And Id = 60011220
 
---Deleted the candidate from T_Candidate
-Update T_Candidate Set CompanyId = -CompanyId Where CompanyId = 1159 And FirstName = 'Guy' And LastName = 'Topff'
-
+	--Deleted the candidate from T_Candidate
+	Update T_Candidate Set CompanyId = -CompanyId Where CompanyId = 1159 And FirstName = 'Guy' And LastName = 'Topff'
+COMMIT
 */
 
 
