@@ -1,0 +1,11 @@
+select * from T_Company (nolock) where name like '%splunk%'--90
+
+select FilledOn,* from T_Job (nolock) where CompanyId =90 and RequisitionId ='10254'
+
+--update script:-
+
+update T_Job set FilledOn = '2018-12-19 00:00:00.000',Modified = getdate() where CompanyId = 90 and id = 3223543
+
+
+--Rollback script:-
+update T_Job set FilledOn = '2019-12-19 00:00:00.000',Modified = '2019-03-21 13:40:03.683' where CompanyId = 90 and id = 3223543
