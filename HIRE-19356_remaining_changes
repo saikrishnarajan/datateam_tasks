@@ -1,0 +1,14 @@
+update T_Application set CandidateId =62217253 , Modified = getdate() where CompanyId =4602 and id = 104671941
+
+update T_Candidate set ApplicationCount =1 where CompanyId =4602 and id = 79419204
+
+update T_Candidate set ApplicationCount =4 where CompanyId =4602 and id = 62217253
+
+
+RollbacK:-
+
+update T_Application set CandidateId =79419204 , Modified = getdate() where CompanyId =4602 and id = 104671941
+
+update T_Candidate set ApplicationCount =2 where CompanyId =4602 and id = 79419204
+
+update T_Candidate set ApplicationCount =3 where CompanyId =4602 and id = 62217253
