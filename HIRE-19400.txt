@@ -1,0 +1,17 @@
+select * from T_User(nolock) where Email='hkendrick@genevatrading.com'--4763
+
+select FieldCode,* from T_CustomField(nolock) where CompanyId=4763 and Deleted =0 and Name like 'trader%'--158632,158633,158634,158648
+
+select * from T_ViewField(nolock) where CompanyId=4763 and FieldId in(158632,158633,158634,158648) and Deleted=0--823474,823476,823504,823523,823524,823525
+
+select * from T_ViewField(nolock) where CompanyId=4763 and Name like 'trade%' and Deleted=0
+
+--Main Query
+--Update T_CustomField Set Deleted=1 where CompanyId=4763 and Id in (158632,158633,158634,158648)
+
+--Update T_ViewField Set Deleted=1 where CompanyId=4763 and FieldId in (158632,158633,158634,158648)
+
+--Rollback Query
+--Update T_CustomField Set Deleted=0 where CompanyId=4763 and Id in (158632,158633,158634,158648)
+
+--Update T_ViewField Set Deleted=1 where CompanyId=4763 and Id in (823474,823476,823504,823523,823524,823525)
