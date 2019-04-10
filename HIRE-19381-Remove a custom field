@@ -1,0 +1,19 @@
+select * from T_Company (nolock) where id = 7061
+
+select * from T_CustomField (nolock) where CompanyId = 7061 and Name = 'Have you signed any restrictive covenant agreement with any other employer? Explain' -- id = 158447
+
+/*
+BEGIN TRAN
+Update T_CustomField set deleted = 1 Where CompanyId = 7061 and id = 158447
+Update T_ViewField set deleted = 1 Where CompanyId = 7061 and FieldId = 158447
+COMMIT
+*/
+
+
+/*
+--rollback query
+BEGIN TRAN
+Update T_CustomField set deleted = 0 Where CompanyId = 7061 and id = 158447
+Update T_ViewField set deleted = 0  Where CompanyId = 7061 and FieldId = 158447
+COMMIT
+*/
