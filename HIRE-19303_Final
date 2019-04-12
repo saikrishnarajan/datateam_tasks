@@ -20,39 +20,57 @@ update T_Application  set Deleted = 1 , DeletedHM = 1 ,Modified = getdate() wher
 --To fix the application count :- 
 
 
-update T_Candidate set ApplicationCount = (select actualCount from (
-select c.id, count(a.id) as actualCount, max(c.applicationCount) setCount from T_Application a inner join T_Candidate c on c.id = a.candidateid where a.companyid = 1815
-and a.DeletedHM =0  and 
-a.CandidateId in 
-(select distinct CandidateId from T_Application  (nolock) where CompanyId = 1815 and JobId in 
-(select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2016-01-01' and SentDate <= '2016-12-31' and Deleted = 1))
+update C set C.ApplicationCount =actualCount
+ from T_Candidate C
+ INNER JOIN
+(select c.id as candidate_id, count(a.id) as actualCount, max(c.applicationCount) setCount from T_Application a
+inner join T_Candidate c on c.id = a.candidateid where a.companyid = 1815
+and a.DeletedHM =0  and
+a.CandidateId in
+(select distinct CandidateId from T_Application  (nolock) where CompanyId = 1815 and JobId in
+(select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2016-01-01'
+and SentDate <= '2016-12-31' and Deleted = 1))
 group by c.id
-) as x where x.actualCount != x.setCount) where CompanyId= 1815 
-and id in 
-(select distinct CandidateId from T_Application  (nolock) where CompanyId = 1815 and JobId in 
+) as x on C.ID = x.candidate_id
+where x.actualCount != x.setCount
+and CompanyId= 1815
+and id in
+(select distinct CandidateId from T_Application  (nolock) where CompanyId = 1815 and JobId in
 (select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2016-01-01' and SentDate <= '2016-12-31' and Deleted = 1))
 
-update T_Candidate set ApplicationCount = (select actualCount from (
-select c.id, count(a.id) as actualCount, max(c.applicationCount) setCount from T_Application a inner join T_Candidate c on c.id = a.candidateid where a.companyid = 1815
-and a.DeletedHM =0  and 
-a.CandidateId in 
-(select distinct CandidateId from T_Application  (nolock) where CompanyId = 1815 and JobId in 
-(select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2015-01-01' and SentDate <= '2015-12-31' and Deleted = 1))
+
+update C set C.ApplicationCount =actualCount
+ from T_Candidate C
+ INNER JOIN
+(select c.id as candidate_id, count(a.id) as actualCount, max(c.applicationCount) setCount from T_Application a
+inner join T_Candidate c on c.id = a.candidateid where a.companyid = 1815
+and a.DeletedHM =0  and
+a.CandidateId in
+(select distinct CandidateId from T_Application  (nolock) where CompanyId = 1815 and JobId in
+(select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2015-01-01'
+and SentDate <= '2015-12-31' and Deleted = 1))
 group by c.id
-) as x where x.actualCount != x.setCount) where CompanyId= 1815 
-and id in 
-(select distinct CandidateId from T_Application  (nolock) where CompanyId = 1815 and JobId in 
+) as x on C.ID = x.candidate_id
+where x.actualCount != x.setCount
+and CompanyId= 1815
+and id in
+(select distinct CandidateId from T_Application  (nolock) where CompanyId = 1815 and JobId in
 (select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2015-01-01' and SentDate <= '2015-12-31' and Deleted = 1))
 
-update T_Candidate set ApplicationCount = (select actualCount from (
-select c.id, count(a.id) as actualCount, max(c.applicationCount) setCount from T_Application a inner join T_Candidate c on c.id = a.candidateid where a.companyid = 1815
-and a.DeletedHM =0  and 
-a.CandidateId in 
+update C set C.ApplicationCount =actualCount
+ from T_Candidate C
+ INNER JOIN
+(select c.id as candidate_id, count(a.id) as actualCount, max(c.applicationCount) setCount from T_Application a
+inner join T_Candidate c on c.id = a.candidateid where a.companyid = 1815
+and a.DeletedHM =0  and
+a.CandidateId in
 (select distinct CandidateId from T_Application  (nolock) where CompanyId = 1815 and JobId in 
 (1715608,1715630,1715727))
 group by c.id
-) as x where x.actualCount != x.setCount) where CompanyId= 1815 
-and id in 
+) as x on C.ID = x.candidate_id
+where x.actualCount != x.setCount
+and CompanyId= 1815
+and id in
 (select distinct CandidateId from T_Application  (nolock) where CompanyId = 1815 and JobId in 
 (1715608,1715630,1715727))
 
