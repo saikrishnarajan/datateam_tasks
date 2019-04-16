@@ -1,0 +1,11 @@
+select * from T_User where Email='daniel.goyeneche@nice.com'--324
+
+select * from T_CustomField where CompanyId=324 and FieldCode = 'external_advertising_title'--158456
+
+
+--Main Query
+--Update T_CustomField Set FieldCode='approved_internal_title' where CompanyId=324 and Id=158456
+
+
+--Rollback Query
+--Update T_CustomField Set FieldCode='external_advertising_title' where CompanyId=324 and Id=158456
