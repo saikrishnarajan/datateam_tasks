@@ -1,0 +1,21 @@
+select * from T_User(nolock) where Email='rob_power@starsgroup.com'--3860
+
+
+select CandidateId,Modified,* from T_Application(nolock) where CandidateId in (
+68862716,
+68862680,
+68914553,
+51797005,
+51802079,
+78701549)
+
+--Main Query
+Update T_Application Set DeletedHM=1, Modified=GETDATE() where CompanyId=3860 and CandidateId in (68862716,68862680,68914553,51797005,51802079,78701549)
+
+--Rollback Query
+Update T_Application Set DeletedHM=1, Modified='2017-03-09 05:09:18.057' where CompanyId=3860 and CandidateId = 51797005
+Update T_Application Set DeletedHM=1, Modified='2017-03-09 07:22:24.497' where CompanyId=3860 and CandidateId = 51802079
+Update T_Application Set DeletedHM=1, Modified='2018-05-03 01:52:02.557' where CompanyId=3860 and CandidateId = 68862680
+Update T_Application Set DeletedHM=1, Modified='2018-05-07 08:28:25.307' where CompanyId=3860 and CandidateId = 68862716
+Update T_Application Set DeletedHM=1, Modified='2018-05-25 00:25:47.147' where CompanyId=3860 and CandidateId = 68914553
+Update T_Application Set DeletedHM=1, Modified='2017-04-01 03:33:32.477' where CompanyId=3860 and CandidateId = 78701549
