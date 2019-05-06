@@ -1,0 +1,17 @@
+select * from T_User(nolock) where Email='ehandschuh@newrez.com'
+
+select * from T_SourceType(nolock) where CompanyId=6863 and Name='IndeedSponsored'--655436
+
+select * from T_Application(nolock) where CompanyId=6863 and Source='IndeedSponsored'--649585
+
+select * from T_Application(nolock) where CompanyId=6863 and Source=''
+
+--Main Query
+Update T_SourceType SET Deleted=1, modifieddate=GETDATE() where CompanyId=6863 and Id=655436
+
+Update T_Application SET Source='', Modified=GETDATE() where CompanyId=6863 and Source='IndeedSponsored' and SourceType=649585
+
+--Rollback Query
+Update T_SourceType SET Deleted=0, modifieddate='2018-11-13 10:18:04.903' where CompanyId=6863 and Id=655436
+
+Update T_Application SET Source='IndeedSponsored', Modified=GETDATE() where CompanyId=6863 and Source='IndeedSponsored' and SourceType=649585
