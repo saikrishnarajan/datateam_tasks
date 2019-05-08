@@ -1,0 +1,21 @@
+select * from T_Company (nolock) where id =6993
+
+select * from T_CustomField (nolock) where CompanyId = 6993 and FieldCode = 'adp_pay_rate' -- 160233
+
+select * from T_CustomField (nolock) where CompanyId = 6993 and FieldCode = 'adp_regular_pay_rate' -- 160234
+
+select * from T_CustomField (nolock) where CompanyId = 6993 and FieldCode = 'annual_salary' -- 160235
+
+select * from T_CustomField (nolock) where CompanyId = 6993 and FieldCode = 'hr_location' -- 160228
+
+/*
+BEGIN TRAN
+Update T_CustomField set deleted = 1 Where CompanyId = 6993 and id in (160233,160234,160235,160228)
+*/
+
+
+/*
+--rollback query
+BEGIN TRAN
+Update T_CustomField set deleted = 0 Where CompanyId = 6993 and id in (160233,160234,160235,160228)
+*/
