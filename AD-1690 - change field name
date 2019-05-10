@@ -1,0 +1,23 @@
+select * from T_Company (nolock) where id = 6255
+
+select * from T_CustomField (nolock) where CompanyId = 6255 and FieldCode = 'max_compensation'  --- 120331
+
+select * from T_CustomField (nolock) where CompanyId = 6255 and FieldCode = 'max_compensation_type'  --- 120332
+
+
+/* 
+BEGIN TRAN
+Update T_CustomField set Name = 'Budgeted Salary' , FieldCode = 'budgeted_salary' Where CompanyId = 6255 and id = 120331
+Update T_CustomField set Name = 'Budgeted Salary Type' , FieldCode = 'budgeted_salary_type' Where CompanyId = 6255 and id = 120332
+COMMIT
+*/
+
+
+/*
+--rollback query
+BEGIN TRAN'
+Update T_CustomField set Name = 'Max compensation' , FieldCode = 'max_compensation' Where CompanyId = 6255 and id = 120331
+Update T_CustomField set Name = 'Max Compensation Type' , FieldCode = 'max_compensation_type' Where CompanyId = 6255 and id = 120332
+COMMIT
+*/
+
