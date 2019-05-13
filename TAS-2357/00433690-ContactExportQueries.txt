@@ -1,0 +1,66 @@
+SELECT DISTINCT c.id,
+               firstName,
+               middleName,
+               lastName,
+               a.city,
+               a.state,
+               ci.name
+FROM crmdb.Contact c
+LEFT OUTER JOIN crmdb.Address a on c.Id = a.contactId
+LEFT OUTER JOIN crmdb.ContactInfo ci on c.primaryEmailId = ci.id and ci.type = 4
+Where c.companyId = 6678 And c.Deleted is NULL
+Order by c.Id;
+
+SELECT DISTINCT c.id,
+       ct.name AS 'tag'
+FROM crmdb.Contact c
+Left Outer Join crmdb.ContactCompanyTag cct on c.id = cct.contactId
+Join crmdb.CompanyTag ct on ct.id = cct.companyTagId
+Where c.companyId = 6678 
+Order by c.Id;
+
+SELECT DISTINCT c.id,
+replace(replace(MID(cn.notes,1,32000),CHAR(13),''),CHAR(10),'') AS 'notes1',
+replace(replace(MID(cn.notes,32001,64000),CHAR(13),''),CHAR(10),'') AS 'notes2',
+replace(replace(MID(cn.notes,64001,96000),CHAR(13),''),CHAR(10),'') AS 'notes3',
+cn.createDate 'Note_Created_On'
+FROM crmdb.Contact c
+Join crmdb.ContactNote cn on cn.contactId = c.id
+Where c.companyId = 6678
+Order by c.Id, cn.createDate desc;
+
+SELECT DISTINCT c.id,
+replace(replace(MID(cf.fileData,1,32000),CHAR(13),''),CHAR(10),'') AS 'resume1',
+replace(replace(MID(cf.fileData,32001,64000),CHAR(13),''),CHAR(10),'') AS 'resume2',
+replace(replace(MID(cf.fileData,64001,96000),CHAR(13),''),CHAR(10),'') AS 'resume3',
+replace(replace(cf.fileData,CHAR(13),''),CHAR(10),'') AS 'resume3'
+FROM crmdb.Contact c
+Join crmdb.ContactFile cf on cf.contactId = c.id
+Where c.companyId = 6678
+Order by c.Id;
+
+SELECT id, 
+      firstName, lastName, 
+      sourceName, 
+      createDate, 
+      updateDate, 
+      companyId,  
+      jobTitle, 
+      companyName, 
+      statusId, 
+      sourceTypeId, 
+      sourceName, 
+      candidateId, 
+      workStatus, 
+      workStatusId,
+      Case when workStatus = 0 then 'None'
+           when workStatus = 1 then 'US Citizen'
+           when workStatus = 2 then 'Permanent Resident'
+           when workStatus = 3 then 'H1 Visa'
+           when workStatus = 4 then 'TN Visa'
+           when workStatus = 5 then 'F1 Visa'
+           when workStatus = 6 then 'Decline to Self Identify'
+      End as workStatusName
+FROM crmdb.Contact
+Where CompanyId = 6678 And deleted is null 
+Order By id;
