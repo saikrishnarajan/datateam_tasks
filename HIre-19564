@@ -1,0 +1,18 @@
+
+-- update script :-
+
+INSERT INTO T_Candidate (CompanyId,FirstName,LastName,Email,Title,Address,Address2,City,PostalCode
+,State,Country,HomePhone,WorkPhone,Mobile,Fax,Company,ApplicationCount,BlackListed)
+VALUES(703,'BHAIRAV','MEHTA','bhairavmehta95@gmail.com','','','','','','','','','','','','',1,0)
+select SCOPE_IDENTITY()
+update T_Application set CandidateId =SCOPE_IDENTITY() , Modified = getdate() where CompanyId =703 and id=61204810
+
+update T_Candidate set ApplicationCount =1 where id = 46275919 and CompanyId =703
+
+
+
+
+--Rollback script:-
+update T_Candidate set ApplicationCount =2 where id = 46275919 and CompanyId =703
+
+update T_Application set CandidateId = 46275919 where  CompanyId = 703 and  id = 61204810
