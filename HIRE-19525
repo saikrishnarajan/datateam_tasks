@@ -1,0 +1,11 @@
+select * from T_CustomField(nolock) where CompanyId=6993 and FieldCode = 'annual_salary' and Deleted=0--160235
+
+select * from T_ViewField(nolock) where CompanyId=6993 and FieldId=160235 and Deleted=0
+
+--Main Query
+Update T_CustomField Set Deleted=1 where CompanyId=6993 and Id=160235
+Update T_ViewField Set Deleted=1 where CompanyId=6993 and FieldId=160235
+
+--Rollback Query
+Update T_CustomField Set Deleted=0 where CompanyId=6993 and Id=160235
+Update T_ViewField Set Deleted=0 where CompanyId=6993 and FieldId=160235
