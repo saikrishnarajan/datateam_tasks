@@ -1,0 +1,1 @@
+Update T_SourceType set deleted = 0, Modifieddate = '22019-04-09 15:00:14.850' Where CompanyId = 6993 and id = 661600

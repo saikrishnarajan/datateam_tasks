@@ -1,0 +1,1 @@
+Update T_SourceType set deleted = 1, Modifieddate = now() Where CompanyId = 6993 and id = 661600
