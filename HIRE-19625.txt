@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh18000\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 select * from T_Company(nolock) where Name like '%Code42%'--3886\
+\
+select * from T_Application(nolock) where CompanyId=3886 and SentDate <= '2016-05-22 00:00:00.000'--8940 records\
+\
+--Main query\
+--Run query in bacthes of 3000 until affected rows is (0)\
+declare @counter int\
+set @counter =0\
+WHILE (@counter<=3 ) \
+  BEGIN  \
+  WAITFOR DELAY '00:00:20'; --Wait for 20 seconds before updating next batch of 3000\
+\
+--Main Query Starts Here\
+   \
+update top(3000) T_Application\
+set deletionDate= (select cast(cast(getdate() as date) as datetime) + cast('22:00' as datetime))\
+where CompanyId=3886 and DeletedHM=0 and SentDate < '2016-05-22 00:00:00.000' and deletionDate is null\
+\
+--Main Query Ends Here\
+\
+select @@ROWCOUNT as RecordsUpdated ,@counter as IterationNumber\
+   SET @counter = @counter +1    \
+   IF @@ROWCOUNT = 0 \
+      BREAK  \
+   ELSE  \
+      CONTINUE\
+         \
+END  \
+PRINT 'No more rows to update';\
+\
+\'97Rollback Query\
+update T_Application\
+set deletionDate=null\
+where CompanyId=3886 DeletedHM=0 and SentDate < '2018-01-01 00:00:00.000'}
