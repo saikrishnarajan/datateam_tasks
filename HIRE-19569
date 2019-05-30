@@ -1,0 +1,17 @@
+select * from T_User(nolock) where Email='kristen.mclain@nbfc.com'--6617
+
+
+select * from T_SourceType(nolock) where CompanyId=6617 and Name NOT IN  ('Indeed','Glassdoor','LinkedinFree')
+
+
+
+
+
+--Main Query
+Update T_SourceType SET Deleted=1 , modifieddate=GETDATE() where CompanyId=6617
+
+
+
+--Rollback Query
+Update T_SourceType SET Deleted=0 , modifieddate=GETDATE() where CompanyId=6617
+
