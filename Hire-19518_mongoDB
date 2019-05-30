@@ -1,0 +1,25 @@
+db.getCollection('feed').find({"companyId":6932,
+    "target.targetType":"Application",
+    "verb":"NOTES_ADDED", 
+    "object.subject" :"Imported Note",
+    "object.objectType" : "Notes",
+    "createDate" : {$gte : ISODate("2019-04-25"),$lte : ISODate("2019-04-27")},
+    
+    
+    })
+
+
+
+
+    --update script:-
+
+
+    db.getCollection('feed').remove({"companyId":6932,
+    "target.targetType":"Application",
+    "verb":"NOTES_ADDED", 
+    "object.subject" :"Imported Note",
+    "object.objectType" : "Notes",
+    "createDate" : {$gte : ISODate("2019-04-25"),$lte : ISODate("2019-04-27")},
+    
+    
+    })
