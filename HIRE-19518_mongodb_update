@@ -1,0 +1,21 @@
+db.getCollection('feed').count({"companyId":6932,
+    "target.targetType":"Application",
+    "verb":"NOTES_ADDED", 
+    "object.subject" :"Imported Note",
+    "object.objectType" : "Notes",
+    "createDate" : {$gte : ISODate("2019-05-13"),$lte : ISODate("2019-05-15")},
+    
+    
+    })
+
+
+
+    db.getCollection('feed').Remove({"companyId":6932,
+    "target.targetType":"Application",
+    "verb":"NOTES_ADDED", 
+    "object.subject" :"Imported Note",
+    "object.objectType" : "Notes",
+    "createDate" : {$gte : ISODate("2019-05-13"),$lte : ISODate("2019-05-15")},
+    
+    
+    })
