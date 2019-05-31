@@ -1,0 +1,14 @@
+select * from T_Company (nolock) where id = 6993
+
+
+/*
+BEGIN TRAN
+Update T_CustomField set deleted = 1, FieldCode = 'hr_location_deleted' Where CompanyId = 6993 and id = 160228
+*/
+
+
+/*
+--rollback query
+BEGIN TRAN
+Update T_CustomField set deleted = 0,FieldCode = 'hr_location_deleted'  Where CompanyId = 6993 and id = 160228
+*/
