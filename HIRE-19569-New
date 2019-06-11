@@ -1,0 +1,24 @@
+select * from T_SourceType(nolock) where CompanyId=6617 and ParentId=0 and Deleted=1
+
+Referral
+Referral
+Referral
+Hiring Manager
+Agency
+Career Site
+Job Notification
+Internal
+Recruiter
+Internal Transfer
+Import
+Email
+Web Search
+Resume Search
+Linkedin
+Employee
+
+--Main Query
+Update T_SourceType Set Deleted=0,modifieddate= CURDATE() where CompanyId=6617 and ParentId=0 and Deleted=1
+
+--Rollback Query
+Update T_SourceType Set Deleted=1,modifieddate= CURDATE() where CompanyId=6617 and ParentId=0 and Deleted=0
