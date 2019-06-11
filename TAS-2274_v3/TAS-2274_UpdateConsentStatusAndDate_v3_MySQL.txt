@@ -1,0 +1,26 @@
+DELIMITER $$
+DROP PROCEDURE IF EXISTS TAS_2274_UpdateConsentStatusAndDate$$
+CREATE PROCEDURE TAS_2274_UpdateConsentStatusAndDate()
+BEGIN
+DECLARE counter int default 0; 
+set counter =0;
+chkloop : WHILE (counter<=93) DO
+SELECT SLEEP(20) ;
+update T_Application
+set ConsentStatus = 'ACCEPTED', ConsentDate = '2018-11-08'
+where CompanyId=3016 and DeletedHM=0 
+and SentDate <= '2018-05-25 0:00:00' 
+And (ConsentStatus = 'NOT_REQUESTED' Or ConsentStatus IS NULL)
+And JobId in (Select Id From T_Job Where CompanyId = 3016 And Deleted = 0 And Country in ('Austria','Belgium','Czech Republic','Denmark','Finland','France','Germany','Greece','Hungary','Ireland','Italy','Luxembourg','Malta','Netherlands','Norway','Poland','Portugal','Slovakia','Spain','Sweden','Switzerland','United Kingdom'))
+LIMIT 3000;
+SELECT Row_Count() RecordsUpdated;
+SELECT counter IterationNumber;
+SET counter = counter +1   ; 
+IF Row_Count() = 0 THEN
+LEAVE chkloop;  
+ELSE
+ITERATE chkloop;
+END IF;
+END WHILE chkloop;  
+END$$
+DELIMITER ;
