@@ -1,0 +1,2 @@
+Update T_CandidateState Set Deleted = 0, modifieddate = getDate() Where CompanyId = 854 And Id in (29083, 29084, 29082);
+
