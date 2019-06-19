@@ -1,0 +1,23 @@
+select * from T_User(nolock) where Email='mlandolf@dotdash.com'--4254
+
+select * from T_Company(nolock) where Id=4254
+
+select * from T_Job(nolock) where CompanyId=4254 and Deleted=0 and Title= 'DevOps Engineer (Contract)'--2292195
+
+select * from T_Application(nolock) where CompanyId=4254 and DeletedHM=0 and JobId=2292195
+
+
+--Sql Update Main Query
+Update T_Application Set DeletedHM=1, Modified=GETDATE() where CompanyId=4254 and DeletedHM=0 and JobId=2292195;
+
+--MySql Update Main Query
+Update T_Application Set DeletedHM=1, Modified=CURRENT_TIMESTAMP() where CompanyId=4254 and DeletedHM=0 and JobId=2292195;
+
+
+
+--Sql Update Rollback Query
+Update T_Application Set DeletedHM=0, Modified=GETDATE() where CompanyId=4254 and DeletedHM=0 and JobId=2292195;
+
+--MySql Update Rollback Query
+Update T_Application Set DeletedHM=0, Modified=CURRENT_TIMESTAMP() where CompanyId=4254 and DeletedHM=0 and JobId=2292195;
+
