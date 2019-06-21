@@ -1,0 +1,18 @@
+select * from t_user where Email='steph.valencerina@ringcentral.com';
+/*2908*/
+
+select * from t_sourcetype where CompanyId=2908 and Name='The_Muse';
+/*661388*/
+
+select * from t_application where CompanyId=2908 and DeletedHM=0 and Source='The_Muse';
+
+/*MySql Update Query*/
+Update t_sourcetype Set Deleted=1, modifieddate=CURRENT_TIMESTAMP() where CompanyId=2908 and Id=661388;
+/*Sql Update Query*/
+Update t_sourcetype Set Deleted=1, modifieddate=GETDATE() where CompanyId=2908 and Id=661388;
+
+
+/*Sql Rollback Query*/
+Update t_sourcetype Set Deleted=0, modifieddate=GETDATE() where CompanyId=2908 and Id=661388;
+/*MySql Rollback Query*/
+Update t_sourcetype Set Deleted=0, modifieddate=CURRENT_TIMESTAMP() where CompanyId=2908 and Id=661388;
