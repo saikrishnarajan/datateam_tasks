@@ -1,0 +1,17 @@
+select * from t_user where Email='michaela.hoferova@kiwi.com';
+/*6200*/
+
+select * from t_application where CompanyId=6200 and CandidateId=62002311 ;
+
+select *from t_job where CompanyId=6200 and Id=2707256;
+
+/*MySql Update Query*/
+Update t_application Set DeletedHM=1, Modified=CURRENT_TIMESTAMP() where CompanyId=6200 and CandidateId=62002311;
+/*Sql Update Query*/
+Update t_application Set DeletedHM=1, Modified=GETDATE() where CompanyId=6200 and CandidateId=62002311;
+
+
+/*MySql Update Query*/
+Update t_application Set DeletedHM=0, Modified=CURRENT_TIMESTAMP() where CompanyId=6200 and CandidateId=62002311;
+/*Sql Update Query*/
+Update t_application Set DeletedHM=0, Modified=GETDATE() where CompanyId=6200 and CandidateId=62002311;
