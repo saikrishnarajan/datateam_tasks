@@ -1,0 +1,25 @@
+select * from T_User (nolock) where Email = 'adecesare@paloaltonetworks.com'--341
+
+select * from T_Candidate (nolock) where CompanyId = 341 and Email = 'preyansh.10607@gmail.com'--35089323
+
+select CandidateId,* from T_Application (nolock) where CompanyId =341 and CandidateId =35089323
+
+
+—update script:-
+
+INSERT INTO T_Candidate (CompanyId,FirstName,LastName,Email,Title,Address,Address2,City,PostalCode
+,State,Country,HomePhone,WorkPhone,Mobile,Fax,Company,ApplicationCount,BlackListed)
+VALUES(341,'Deepal','Parikh','deepal.parikh92@gmail.com','','','','','','','','','','','','',1,0)
+select SCOPE_IDENTITY()
+update T_Application set CandidateId =SCOPE_IDENTITY() , Modified = getdate() where CompanyId =341 and id=113496339
+
+update T_Candidate set ApplicationCount =20 where CompanyId =341 and id = 35089323
+update T_Candidate set FirstName = 'Preyansh', LastName = 'Shah' where CompanyId=341  and id = 35089323
+
+
+
+—Rollback script:-
+update T_Application set CandidateId = 35089323, Modified = getdate() where CompanyId =341 and id=113496339
+
+update T_Candidate set ApplicationCount =21 where CompanyId =341 and id = 35089323
+update T_Candidate set FirstName = 'Deepal', LastName = 'Parikh' where CompanyId=341  and id = 35089323
