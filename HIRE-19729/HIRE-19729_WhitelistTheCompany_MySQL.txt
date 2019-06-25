@@ -1,0 +1,1 @@
+Update T_Properties Set Value = Value + ',7017',updateDate=NOW() where Name='Exclude.CustomField.Values.Limit';
