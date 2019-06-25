@@ -1,0 +1,1 @@
+Update T_Properties Set Value = Value - ',7017',updateDate=Cast('2018-11-08 19:03:49.610' as DateTime) where Name='Exclude.CustomField.Values.Limit';
