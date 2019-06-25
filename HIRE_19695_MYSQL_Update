@@ -1,1 +1,0 @@
-Update T_CustomField set kind = 5 Where CompanyId = 968 and Id = 162235;

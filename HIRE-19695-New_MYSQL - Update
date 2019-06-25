@@ -1,0 +1,1 @@
+Update T_CustomField set kind = 5, ValueList = 'JC000001 - Accountant,JC000002 - Account Manager,JC000003 - Accounts Payable Specialist,JC000004 - Administrative Analyst,JC000005 - Administrative Assistant' Where CompanyId = 968 and Id = 160133;
