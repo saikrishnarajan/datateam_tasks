@@ -1,0 +1,15 @@
+select * from T_User(nolock) where Email='matthew.ludwig@groupm.com'---6710
+
+select * from T_SourceType(nolock) where CompanyId=6710 and Deleted=0--664687
+
+select * from T_Application(nolock) where CompanyId=6710 and DeletedHM=0 and SourceType=664687
+
+--SQL Update Query
+Update T_SourceType Set Deleted=1, modifieddate=GETDATE() where CompanyId=6710 and Id=664687
+--MySql Update Query
+Update T_SourceType Set Deleted=1, modifieddate=CURRENT_TIMESTAMP() where CompanyId=6710 and Id=664687
+
+--SQL Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate=GETDATE() where CompanyId=6710 and Id=664687
+--MySql Rollback Query
+Update T_SourceType Set Deleted=0, modifieddate=CURRENT_TIMESTAMP() where CompanyId=6710 and Id=664687
