@@ -1,0 +1,10 @@
+update script:-
+
+update T_Job set CompanyName = '' ,Modified = current_timestamp(3) where CompanyId =434 and Deleted = 0 and CompanyName != ''
+
+Rollback script:-
+
+Took the backup.
+
+
+
