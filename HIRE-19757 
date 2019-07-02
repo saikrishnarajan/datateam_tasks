@@ -1,0 +1,18 @@
+select * from T_User(nolock) where Email='marias@veteransfirst.com'--5085
+
+select * from T_SourceType(nolock) where CompanyId=5085 and Name='iFD'--582239
+
+select * from T_Application(nolock) where CompanyId=5085 and Source='iFD' and SourceType=580284
+
+--MSSQL Update Query
+Update T_SourceType Set Deleted=1, modifieddate=GETDATE() where CompanyId=5085 and id=582239
+
+--MySql Update Query
+Update T_SourceType Set Deleted=1, modifieddate=CURRENT_TIMESTAMP() where CompanyId=5085 and id=582239
+
+
+--MSSQL Update Query
+Update T_SourceType Set Deleted=0, modifieddate=GETDATE() where CompanyId=5085 and id=582239
+
+--MySql Update Query
+Update T_SourceType Set Deleted=0, modifieddate=CURRENT_TIMESTAMP() where CompanyId=5085 and id=582239
