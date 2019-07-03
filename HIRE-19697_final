@@ -1,0 +1,16 @@
+
+update script:-
+
+update T_Application set CandidateId = 83788746,Modified = getdate() where CompanyId =341 and id = 113496339
+
+update T_Candidate  set ApplicationCount = 3 where CompanyId =341 and id  =83788746
+
+update T_Candidate set ApplicationCount = 20 where CompanyId =341 and id  =35089323
+
+Rollback:-
+
+update T_Application set CandidateId = 35089323,Modified = getdate() where CompanyId =341 and id = 113496339
+
+update T_Candidate  set ApplicationCount = 2 where CompanyId =341 and id  =83788746
+
+update T_Candidate set ApplicationCount = 21 where CompanyId =341 and id  =35089323
