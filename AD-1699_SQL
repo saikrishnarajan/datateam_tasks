@@ -1,0 +1,18 @@
+select * from T_Company (nolock) where id =1944
+
+select * from T_CustomField where CompanyId = 1944 and FieldCode = 'mediacomcategory'  ---  id = 161312
+
+/* 
+BEGIN TRAN
+Update T_CustomField set kind = 0 Where CompanyId = 1944 and Id = 161312
+COMMIT
+*/
+
+
+/*
+--rollback query
+BEGIN TRAN
+Update T_CustomField set Kind = 5 Where CompanyId = 1944 and Id = 161312
+COMMIT
+*/
+
