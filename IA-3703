@@ -1,0 +1,8 @@
+select fieldCode, name, * from T_CustomField where 
+FieldCode = 'aurico_packageid' and 
+companyid = 3707;
+
+--Main Query
+Update T_CustomField Set Name='Aurico PackageID' where CompanyId=3707 and id=161805
+--Rollback Query
+Update T_CustomField Set Name='aurico_packageid' where CompanyId=3707 and id=161805
