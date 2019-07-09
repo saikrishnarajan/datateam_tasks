@@ -1,0 +1,1 @@
+Update T_Company set Address = 'Potsdamer Strasse 182,', city = 'Berlin', PostalCode = '10783' Where Id = 6985;

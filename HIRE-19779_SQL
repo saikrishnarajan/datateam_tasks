@@ -1,0 +1,15 @@
+select * from T_Company (nolock) where id = 6985
+
+/* 
+BEGIN TRAN
+Update T_Company set Address = 'Potsdamer Strasse 182,', city = 'Berlin', PostalCode = '10783' Where Id = 6985
+COMMIT
+*/
+
+
+/*
+--rollback query
+BEGIN TRAN
+Update T_Company set Address = '1Oberwallstraße 6', City = 'Berlin',  PostalCode = '10117' Where Id = 6985
+COMMIT
+*/
