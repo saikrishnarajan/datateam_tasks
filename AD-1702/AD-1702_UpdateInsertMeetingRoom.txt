@@ -1,4 +1,3 @@
-Use jvcore;
 Update t_interviewlocation Set Name = 'ADLMEC Room: Boardroom', Email = 'ADLMECRoom.Boardroom@ad.insidemedia.net', Locationid = 157589 Where CompanyId = 1944 And Id = 22169;
 Update t_interviewlocation Set Name = 'BNEMCM Room: Patt''s Room (PAPER)', Email = 'BNEMCMRoom.PattsRoomPAPER@ad.insidemedia.net', Locationid = 75490 Where CompanyId = 1944 And Id = 22172;
 Update t_interviewlocation Set Name = 'BNEMCM Room: Patt''s Room (Rock)', Email = 'BNEMCMRoom.PattsRoomRock@ad.insidemedia.net', Locationid = 75490 Where CompanyId = 1944 And Id = 22173;
