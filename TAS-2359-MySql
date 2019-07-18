@@ -1,6 +1,6 @@
 DELIMITER $$
-DROP PROCEDURE IF EXISTS TAS-2359_UpdateConsentStatusAndDate$$
-CREATE PROCEDURE TAS-2359_UpdateConsentStatusAndDate()
+DROP PROCEDURE IF EXISTS TAS_2359_UpdateConsentStatusAndDate$$
+CREATE PROCEDURE TAS_2359_UpdateConsentStatusAndDate()
 BEGIN
 DECLARE counter int default 0; 
 set counter =0;
