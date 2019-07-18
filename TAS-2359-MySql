@@ -20,4 +20,4 @@ ITERATE chkloop;
 END IF;
 END WHILE chkloop;  
 END$$
-DELIMITER;
+DELIMITER ;
