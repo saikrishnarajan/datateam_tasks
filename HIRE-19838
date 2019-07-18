@@ -1,0 +1,7 @@
+update Script:-
+
+Update T_Company set Address = '351 East 104th Avenue', PostalCode = '99515' Where Id = 6587;
+
+Rollback script:-
+
+Update T_Company set Address = '3000 C Street, Suite 202', PostalCode = '99503' Where Id = 6587;
