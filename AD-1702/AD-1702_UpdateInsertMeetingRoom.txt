@@ -166,7 +166,7 @@ Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Va
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'MANGRM Room: Meeting Room 8', 'MANGRMRoom.MeetingRoom8@ad.insidemedia.net', 0, 38630);
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'MANMOV Room: Apocento', 'MANMOVRoom.Apocento@ad.insidemedia.net', 0, 38630);
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'MANMOV Room: Bowler', 'MANMOVRoom.Bowler@ad.insidemedia.net', 0, 38630);
-Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'MANMOV Room: Bugsy's', 'MANMOVRoom.Bugsys@groupm.com', 0, 38630);
+Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'MANMOV Room: Bugsy''s', 'MANMOVRoom.Bugsys@groupm.com', 0, 38630);
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'MANMOV Room: Chilli Peps', 'MANMOVRoom.ChilliPeps@ad.insidemedia.net', 0, 38630);
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'MANMOV Room: Ponti', 'MANMOVRoom.Ponti@ad.insidemedia.net', 0, 38630);
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'MDS MUM : Board Room', 'MDSMUM.boardroom@mindshareworld.com', 0, 38630);
@@ -206,7 +206,7 @@ Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Va
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'SINMDS Room: Shangri La', 'SINMDSRoom.ShangriLa@ad.insidemedia.net', 0, 34634);
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'SINMDSRoom:Elysium', 'SINMDSRoom.Elysium@ad.insidemedia.net', 0, 34634);
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'SINWMG Room: Fiji', 'SINWMGRoom.Fiji@wmglobal.com', 0, 34634);
-Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'SYDFNP Room: G's Room', 'sydfnproom.g'sroom@financeplusaustralia.com', 0, 40744);
+Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'SYDFNP Room: G''s Room', 'sydfnproom.g''sroom@financeplusaustralia.com', 0, 40744);
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'SYDFNP Room: Not a Bored Room', 'SYDFNPRoom.NotaBoredRoom@financeplusaustralia.com', 0, 40744);
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'SYDGRM Room: 404', 'SYDGRMRoom.404@ad.insidemedia.net', 0, 40744);
 Insert Into t_interviewlocation (CompanyId, Name, Email, Deleted, LocationId) Values (1944, 'SYDGRM Room: NURTURE', 'SYDGRMRoom.NURTURE@ad.insidemedia.net', 0, 40744);
