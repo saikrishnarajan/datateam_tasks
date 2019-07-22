@@ -1,0 +1,4 @@
+Update t_offerletter Set ApplicationId = -ApplicationId Where ApplicationId = 113544835;
+
+/*Rollback*/
+Update t_offerletter Set ApplicationId = -ApplicationId Where Id in (1662793, 1662927, 1669233);
