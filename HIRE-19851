@@ -1,0 +1,19 @@
+update script :-
+
+
+INSERT INTO T_Candidate (CompanyId,FirstName,LastName,Email,Title,Address,Address2,City,PostalCode
+,State,Country,HomePhone,WorkPhone,Mobile,Fax,Company,ApplicationCount,BlackListed)
+VALUES(2286,'K.S.','Jayadev','','','','','','','','','','','','','',1,0);
+SELECT LAST_INSERT_ID();
+update T_Application set CandidateId =LAST_INSERT_ID() , Modified = now() where CompanyId =2286 and id=114721972;
+
+update T_Candidate set ApplicationCount =1 where CompanyId =2286 and id = 84651203;
+
+
+
+Rollback:-
+
+update T_Application set CandidateId =84651203 , Modified = now() where CompanyId =2286 and id=114721972;
+
+update T_Candidate set ApplicationCount =2 where CompanyId =2286 and id = 84651203;
+
