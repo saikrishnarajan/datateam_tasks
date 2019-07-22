@@ -1,0 +1,199 @@
+db.getCollection('VideoFormResponse').insertOne({
+    "_id" : ObjectId("5d312047e4b09ef36a102dc5"),
+    "applicationId" : NumberLong(115773644),
+    "deadline" : ISODate("2019-07-26T07:00:00.000Z"),
+    "intervieweeId" : NumberLong(41629734),
+    "jobId" : NumberLong(3602003),
+    "sendDate" : ISODate("2019-07-19T01:43:35.692Z"),
+    "sentBy" : NumberLong(41200726),
+    "status" : "COMPLETE",
+    "videoForm" : {
+        "$ref" : "VideoForm",
+        "$id" : ObjectId("59197067e4b0ad2f0bed5187")
+    },
+    "companyId" : NumberLong(6290),
+    "createDate" : ISODate("2019-07-19T01:43:35.692Z"),
+    "updateDate" : ISODate("2019-07-19T02:02:35.163Z"),
+    "viewDate" : ISODate("2019-07-19T01:45:55.764Z"),
+    "answers" : [ 
+        {
+            "duration" : 105,
+            "question" : {
+                "$ref" : "VideoQuestion",
+                "$id" : ObjectId("591970dce4b0ad2f0bed5188")
+            },
+            "startTime" : NumberLong(1563500841934),
+            "thumbnailPattern" : "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcwZGNlNGIwYWQyZjBiZWQ1MTg4_{count}",
+            "transcoded" : true,
+            "videoId" : "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcwZGNlNGIwYWQyZjBiZWQ1MTg4",
+            "videoUrls" : [ 
+                "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcwZGNlNGIwYWQyZjBiZWQ1MTg4.mp4", 
+                "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcwZGNlNGIwYWQyZjBiZWQ1MTg4.webM"
+            ]
+        }, 
+        {
+            "duration" : 81,
+            "question" : {
+                "$ref" : "VideoQuestion",
+                "$id" : ObjectId("59197123e4b0ad2f0bed5189")
+            },
+            "startTime" : NumberLong(1563501011879),
+            "thumbnailPattern" : "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxMjNlNGIwYWQyZjBiZWQ1MTg5_{count}",
+            "transcoded" : true,
+            "videoId" : "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxMjNlNGIwYWQyZjBiZWQ1MTg5",
+            "videoUrls" : [ 
+                "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxMjNlNGIwYWQyZjBiZWQ1MTg5.mp4", 
+                "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxMjNlNGIwYWQyZjBiZWQ1MTg5.webM"
+            ]
+        }, 
+        {
+            "duration" : 108,
+            "question" : {
+                "$ref" : "VideoQuestion",
+                "$id" : ObjectId("5919713ae4b0ad2f0bed518a")
+            },
+            "startTime" : NumberLong(1563501161448),
+            "thumbnailPattern" : "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxM2FlNGIwYWQyZjBiZWQ1MThh_{count}",
+            "transcoded" : true,
+            "videoId" : "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxM2FlNGIwYWQyZjBiZWQ1MThh",
+            "videoUrls" : [ 
+                "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxM2FlNGIwYWQyZjBiZWQ1MThh.mp4", 
+                "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxM2FlNGIwYWQyZjBiZWQ1MThh.webM"
+            ]
+        }, 
+        {
+            "duration" : 166,
+            "question" : {
+                "$ref" : "VideoQuestion",
+                "$id" : ObjectId("59197153e4b0ad2f0bed518b")
+            },
+            "startTime" : NumberLong(1563501336913),
+            "thumbnailPattern" : "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxNTNlNGIwYWQyZjBiZWQ1MThi_{count}",
+            "transcoded" : true,
+            "videoId" : "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxNTNlNGIwYWQyZjBiZWQ1MThi",
+            "videoUrls" : [ 
+                "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxNTNlNGIwYWQyZjBiZWQ1MThi.mp4", 
+                "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxNTNlNGIwYWQyZjBiZWQ1MThi.webM"
+            ]
+        }, 
+        {
+            "duration" : 100,
+            "question" : {
+                "$ref" : "VideoQuestion",
+                "$id" : ObjectId("5919716ae4b0ad2f0bed518c")
+            },
+            "startTime" : NumberLong(1563501566290),
+            "thumbnailPattern" : "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxNmFlNGIwYWQyZjBiZWQ1MThj_{count}",
+            "transcoded" : true,
+            "videoId" : "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxNmFlNGIwYWQyZjBiZWQ1MThj",
+            "videoUrls" : [ 
+                "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxNmFlNGIwYWQyZjBiZWQ1MThj.mp4", 
+                "NWQzMTIwNDdlNGIwOWVmMzZhMTAyZGM1NTkxOTcxNmFlNGIwYWQyZjBiZWQ1MThj.webM"
+            ]
+        }
+    ],
+    "viewStatus" : "READY",
+    "completionDate" : ISODate("2019-07-19T02:01:56.665Z")
+});
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+db.getCollection('VideoFormResponse').insertOne({
+    "_id" : ObjectId("5d3118dde4b09ef36a102dc3"),
+    "applicationId" : NumberLong(115773644),
+    "deadline" : ISODate("2019-07-26T07:00:00.000Z"),
+    "intervieweeId" : NumberLong(41629734),
+    "jobId" : NumberLong(3602003),
+    "sendDate" : ISODate("2019-07-19T01:11:57.312Z"),
+    "sentBy" : NumberLong(41200726),
+    "status" : "COMPLETE",
+    "videoForm" : {
+        "$ref" : "VideoForm",
+        "$id" : ObjectId("59197067e4b0ad2f0bed5187")
+    },
+    "companyId" : NumberLong(6290),
+    "createDate" : ISODate("2019-07-19T01:11:57.312Z"),
+    "updateDate" : ISODate("2019-07-19T01:40:56.794Z"),
+    "viewDate" : ISODate("2019-07-19T01:19:35.082Z"),
+    "answers" : [ 
+        {
+            "duration" : 93,
+            "question" : {
+                "$ref" : "VideoQuestion",
+                "$id" : ObjectId("591970dce4b0ad2f0bed5188")
+            },
+            "startTime" : NumberLong(1563499491992),
+            "thumbnailPattern" : "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcwZGNlNGIwYWQyZjBiZWQ1MTg4_{count}",
+            "transcoded" : true,
+            "videoId" : "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcwZGNlNGIwYWQyZjBiZWQ1MTg4",
+            "videoUrls" : [ 
+                "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcwZGNlNGIwYWQyZjBiZWQ1MTg4.mp4", 
+                "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcwZGNlNGIwYWQyZjBiZWQ1MTg4.webM"
+            ]
+        }, 
+        {
+            "duration" : 76,
+            "question" : {
+                "$ref" : "VideoQuestion",
+                "$id" : ObjectId("59197123e4b0ad2f0bed5189")
+            },
+            "startTime" : NumberLong(1563499673896),
+            "thumbnailPattern" : "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxMjNlNGIwYWQyZjBiZWQ1MTg5_{count}",
+            "transcoded" : true,
+            "videoId" : "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxMjNlNGIwYWQyZjBiZWQ1MTg5",
+            "videoUrls" : [ 
+                "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxMjNlNGIwYWQyZjBiZWQ1MTg5.mp4", 
+                "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxMjNlNGIwYWQyZjBiZWQ1MTg5.webM"
+            ]
+        }, 
+        {
+            "duration" : 122,
+            "question" : {
+                "$ref" : "VideoQuestion",
+                "$id" : ObjectId("5919713ae4b0ad2f0bed518a")
+            },
+            "startTime" : NumberLong(1563499835352),
+            "thumbnailPattern" : "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxM2FlNGIwYWQyZjBiZWQ1MThh_{count}",
+            "transcoded" : true,
+            "videoId" : "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxM2FlNGIwYWQyZjBiZWQ1MThh",
+            "videoUrls" : [ 
+                "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxM2FlNGIwYWQyZjBiZWQ1MThh.mp4", 
+                "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxM2FlNGIwYWQyZjBiZWQ1MThh.webM"
+            ]
+        }, 
+        {
+            "duration" : 149,
+            "question" : {
+                "$ref" : "VideoQuestion",
+                "$id" : ObjectId("59197153e4b0ad2f0bed518b")
+            },
+            "startTime" : NumberLong(1563500036290),
+            "thumbnailPattern" : "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxNTNlNGIwYWQyZjBiZWQ1MThi_{count}",
+            "transcoded" : true,
+            "videoId" : "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxNTNlNGIwYWQyZjBiZWQ1MThi",
+            "videoUrls" : [ 
+                "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxNTNlNGIwYWQyZjBiZWQ1MThi.mp4", 
+                "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxNTNlNGIwYWQyZjBiZWQ1MThi.webM"
+            ]
+        }, 
+        {
+            "duration" : 98,
+            "question" : {
+                "$ref" : "VideoQuestion",
+                "$id" : ObjectId("5919716ae4b0ad2f0bed518c")
+            },
+            "startTime" : NumberLong(1563500256680),
+            "thumbnailPattern" : "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxNmFlNGIwYWQyZjBiZWQ1MThj_{count}",
+            "transcoded" : true,
+            "videoId" : "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxNmFlNGIwYWQyZjBiZWQ1MThj",
+            "videoUrls" : [ 
+                "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxNmFlNGIwYWQyZjBiZWQ1MThj.mp4", 
+                "NWQzMTE4ZGRlNGIwOWVmMzZhMTAyZGMzNTkxOTcxNmFlNGIwYWQyZjBiZWQ1MThj.webM"
+            ]
+        }
+    ],
+    "viewStatus" : "READY",
+    "completionDate" : ISODate("2019-07-19T01:40:14.559Z")
+});
