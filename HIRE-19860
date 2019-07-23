@@ -1,0 +1,7 @@
+update script:-
+
+update t_message set Deleted = 1 where companyid = 3331 and id = 471119597;
+
+Rollback script:-
+
+update t_message set Deleted = 0 where companyid = 3331 and id = 471119597;
