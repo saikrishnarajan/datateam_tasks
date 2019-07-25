@@ -1,0 +1,2 @@
+Update t_candidatestateupdate set CompanyId = -CompanyId, ApplicationId = -ApplicationId Where Id in (163338778,163687746,163692969) And StateId = 284524;
+
