@@ -1,0 +1,10 @@
+/*Select Id, DeletedHM, Deleted, ConsentStatus, ConsentRequestedDate, ConsentDate, Modified, Anonymized From t_application where Id in (111209803,110619548,108748407)*/
+/*companyId = 7053,ApplicationIds : pSFLrmwA, pD7ipmwi, pWlrhmwQ*/
+
+
+Update t_application Set DeletedHM = 1, Deleted = 1, Modified = now() Where CompanyId = 7053 And Id in (111209803,110619548,108748407);
+
+/*Rollback*/
+Update t_application Set DeletedHM = 0, Deleted = 0, Modified = '5/10/2019 7:12:45 AM' Where CompanyId = 7053 And Id = 108748407;
+Update t_application Set DeletedHM = 0, Deleted = 0, Modified = '6/18/2019 12:53:02 PM' Where CompanyId = 7053 And Id = 110619548;
+Update t_application Set DeletedHM = 0, Deleted = 0, Modified = '5/10/2019 10:18:43 AM' Where CompanyId = 7053 And Id = 111209803;
