@@ -1,0 +1,7 @@
+update script:-
+
+Update t_application Set DeletedHM = 1, Modified = now() Where CompanyId = 2214 And Id =115915737 ;
+
+Rollback script:-
+
+Update t_application Set DeletedHM = 0, Modified = '7/31/2019 9:54:59 AM' Where CompanyId = 2214 And Id =115915737 ;
