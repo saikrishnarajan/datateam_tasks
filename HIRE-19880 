@@ -1,0 +1,8 @@
+
+update script:-
+
+update t_interview set Id = -Id, ApplicationId = -ApplicationId where Id in (19707552,19761948,19761950,19868427,19868426,19862538,19891479);
+
+Rollback script:-
+
+update t_interview set Id = -Id, ApplicationId = -ApplicationId where Id in (19707552,19761948,19761950,19868427,19868426,19862538,19891479);
