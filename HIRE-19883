@@ -1,0 +1,8 @@
+
+select * from t_properties where Name='Exclude.CustomField.Values.Limit';
+
+/*Main Query*/
+Update t_properties set value= concat(value,',7023'), updateDate=now() where Name='Exclude.CustomField.Values.Limit';
+
+/*Rollback Query*/
+Update t_properties set value = replace(value,',7023',''), updateDate='2019-08-05 12:26:26.772' where Name='Exclude.CustomField.Values.Limit';
