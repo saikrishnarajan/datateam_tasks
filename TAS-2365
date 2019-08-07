@@ -1,0 +1,10 @@
+update script:-
+
+
+Update t_properties set value= concat(value,',5634'), updateDate=now() where Name='Exclude.CustomField.Values.Limit';
+
+
+Rollback script:-
+
+
+Update t_properties set value = replace(value,',5634',''), updateDate='7/7/2019 11:49:51.772' where Name='Exclude.CustomField.Values.Limit';
