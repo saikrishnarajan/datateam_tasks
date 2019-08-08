@@ -1,19 +1,15 @@
 
 
 --update script :-
-update T_Application set DeletedHM = 1 , Modified = getdate() where CompanyId = 1815 and JobId in 
-(select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2016-01-01' and SentDate <= '2016-12-31' and Deleted = 1)
-
-update T_Application set DeletedHM = 1 , Modified = getdate() where CompanyId = 1815 and JobId in 
-(select Id from T_Job (nolock) where CompanyId = 1815 and SentDate > ='2015-01-01' and SentDate <= '2015-12-31' and Deleted = 1)
-
-
-
-
-update T_Job set Deleted =1, Modified = getdate() where CompanyId =1815 and id in (1715608,1715630,1715727)
-
-update T_Application  set Deleted = 1 , DeletedHM = 1 ,Modified = getdate() where CompanyId = 1815 and JobId in (1715608,1715630,1715727)
-
+update T_Application set DeletedHM = 1 , Modified = current_timestamp(3) where CompanyId = 1815 and JobId in
+(select Id from T_Job where CompanyId = 1815 and SentDate >='2016-01-01' and SentDate <= '2016-12-31' and Deleted = 1)
+​
+update T_Application set DeletedHM = 1 , Modified = current_timestamp(3) where CompanyId = 1815 and JobId in
+(select Id from T_Job where CompanyId = 1815 and SentDate >='2015-01-01' and SentDate <= '2015-12-31' and Deleted = 1)
+​
+update T_Job set Deleted =1, Modified = current_timestamp(3) where CompanyId =1815 and id in (1715608,1715630,1715727)
+​
+update T_Application set Deleted = 1 , DeletedHM = 1 ,Modified = current_timestamp(3) where CompanyId = 1815 and JobId in (1715608,1715630,1715727)
 
 
 
