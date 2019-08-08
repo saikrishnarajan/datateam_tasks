@@ -1,0 +1,10 @@
+select * from t_user where Email = 'Scott.Kemp@victaulic.com';/*7023*/
+
+select Title,State,RequisitionId from t_job where companyId=7023 and state =512 and Deleted=0 and SentDate >= '2019/8/1';
+
+
+--Main Query
+Update t_job set t_job.Deleted=1 and t_job.Modified=now() where companyId=7023 and state =512 and Deleted=0 and SentDate >= '2019/8/1';
+
+--Rollbacj Query
+Update t_job set t_job.Deleted=0 and t_job.Modified=now() where companyId=7023 and state =512 and Deleted=0 and SentDate >= '2019/8/1';
