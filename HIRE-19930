@@ -1,0 +1,7 @@
+update script:-
+
+update t_application set DeletedHM= 1, modified =now() where CompanyId =667 and id = 115438210;
+
+Rollback script:-
+
+update t_application set DeletedHM= 0, modified =now() where CompanyId =667 and id = 115438210;
