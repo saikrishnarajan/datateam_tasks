@@ -1,0 +1,50 @@
+
+Update t_sourcetype set Deleted = 1, modifieddate= now() where CompanyId = 3331 And Id in (631365,617746,656806,660342,615161,658363,625520,653447,622538,656603,543638,520065,618466,549237,539963,619460,619788,547444,625408,583168,620429,520170,656357,628246,615157,532421,618519,545616,628955,556023,554783,645982,531714,619868,553630,560004,650454,583169,520068,520052,520060,641864,642726,660404,641395,625636)
+
+/*Rollback*/
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 520052;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 520060;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 520065;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 520068;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 520170;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 531714;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 532421;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 539963;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 543638;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 545616;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 547444;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 549237;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 553630;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 554783;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 556023;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 560004;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 583168;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 583169;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 615157;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 615161;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 617746;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 618466;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 618519;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 619460;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 619788;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 619868;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 620429;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 622538;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 625408;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 625520;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 625636;
+Update t_sourcetype set deleted = 0, modifieddate = '7/15/2017 10:12:04 PM' Where CompanyId = 3331 And Id = 628246;
+Update t_sourcetype set deleted = 0, modifieddate = '7/25/2017 10:07:20 AM' Where CompanyId = 3331 And Id = 628955;
+Update t_sourcetype set deleted = 0, modifieddate = '2017-01-09 11:29:24.000' Where CompanyId = 3331 And Id = 631365;
+Update t_sourcetype set deleted = 0, modifieddate = '2/21/2018 11:55:15 AM' Where CompanyId = 3331 And Id = 641395;
+Update t_sourcetype set deleted = 0, modifieddate = '2018-02-03 10:26:45.000' Where CompanyId = 3331 And Id = 641864;
+Update t_sourcetype set deleted = 0, modifieddate = '3/15/2018 7:56:00 AM' Where CompanyId = 3331 And Id = 642726;
+Update t_sourcetype set deleted = 0, modifieddate = '5/15/2018 2:07:39 PM' Where CompanyId = 3331 And Id = 645982;
+Update t_sourcetype set deleted = 0, modifieddate = '2018-10-08 10:54:22.000' Where CompanyId = 3331 And Id = 650454;
+Update t_sourcetype set deleted = 0, modifieddate = '2018-08-10 10:53:17.000' Where CompanyId = 3331 And Id = 653447;
+Update t_sourcetype set deleted = 0, modifieddate = '2018-06-12 15:53:32.000' Where CompanyId = 3331 And Id = 656357;
+Update t_sourcetype set deleted = 0, modifieddate = '2018-12-12 10:22:15.000' Where CompanyId = 3331 And Id = 656603;
+Update t_sourcetype set deleted = 0, modifieddate = '12/17/2018 2:03:43 AM' Where CompanyId = 3331 And Id = 656806;
+Update t_sourcetype set deleted = 0, modifieddate = '1/28/2019 1:47:22 PM' Where CompanyId = 3331 And Id = 658363;
+Update t_sourcetype set deleted = 0, modifieddate = '3/15/2019 9:33:25 AM' Where CompanyId = 3331 And Id = 660342;
+Update t_sourcetype set deleted = 0, modifieddate = '3/15/2019 3:01:21 PM' Where CompanyId = 3331 And Id = 660404;
