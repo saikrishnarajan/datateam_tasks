@@ -1,0 +1,17 @@
+select * from T_Company where id = 7015
+
+select * from T_Sourcetype where CompanyId = 7015 and id = 666560
+
+/*
+BEGIN TRAN
+Update T_Sourcetype set deleted = 1 Where CompanyId = 7015 and id = 666560
+COMMIT
+*/
+
+
+/*
+--ROLLBACK QUERY
+BEGIN TRAN
+Update T_Sourcetype set deleted = 0 Where CompanyId = 7015 and id = 666560
+COMMIT
+*/
