@@ -3,11 +3,11 @@
 /* select * from T_Sourcetype where CompanyId = 7015 and id = 666560 */
 
 
-Update T_Sourcetype set deleted = 1 Where CompanyId = 7015 and id = 666560;
+Update T_Sourcetype set deleted = 1, Modifieddate = now() Where CompanyId = 7015 and id = 666560;
 
 
 
 /*
 /*ROLLBACK QUERY*/
-Update T_Sourcetype set deleted = 0 Where CompanyId = 7015 and id = 666560;
+Update T_Sourcetype set deleted = 0, Modifieddate = '8/12/2019 7:35:17 AM' Where CompanyId = 7015 and id = 666560;
 */
