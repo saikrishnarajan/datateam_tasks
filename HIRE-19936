@@ -1,0 +1,96 @@
+select * from t_user where email = 'kevinjpbecker@gmail.com';/*6402*/
+
+select * from t_sourcetype where CompanyId=6402 and name ='Christine''s_List_(Texas_Public_Policy_Job_Board)';
+
+select * from t_sourcetype where CompanyId=6402 and name  like '%TX Public Policy%';
+
+select * from t_sourcetype where CompanyId=6402 and name  in ('AALA',
+'AALNC',
+'ABA',
+'Aderant',
+'Agency_-_Courtney_Briglio,_Better_Placement_Bureau',
+'AICPA',
+'AIIM',
+'APALANJ',
+'BALRA',
+'City_&_State_NY',
+'FDU',
+'HandShake_PHL',
+'Law_360',
+'MSU_Denver',
+'NALS',
+'NAWL',
+'NYCRA',
+'OCALRA',
+'PubKLaw',
+'Sacramento_Legal_Recruiters_Association',
+'SLSA',
+'SVPA',
+'TL_Search',
+'Twitter',
+'UCLA',
+'Workplace_Diversity',
+'Write_In');
+
+
+/*MAIN QUERY*/
+Update t_sourcetype Set Deleted=1 , modifieddate= now() where CompanyId=6402 and id in (635587,
+637192,
+637195,
+639307,
+640396,
+640397,
+642558,
+649420,
+650157,
+650922,
+652278,
+653704,
+654147,
+658099,
+658365,
+658482,
+659202,
+659492,
+660324,
+661049,
+661835,
+661974,
+662147,
+662148,
+662916,
+665231,
+665789);
+
+Update t_sourcetype set name='TX Public Policy', modifieddate=now() where CompanyId=6402 and id =656040;
+
+/*ROLLBACK QURY*/
+Update t_sourcetype Set Deleted=0 , modifieddate= now() where CompanyId=6402 and id in (635587,
+637192,
+637195,
+639307,
+640396,
+640397,
+642558,
+649420,
+650157,
+650922,
+652278,
+653704,
+654147,
+658099,
+658365,
+658482,
+659202,
+659492,
+660324,
+661049,
+661835,
+661974,
+662147,
+662148,
+662916,
+665231,
+665789);
+
+Update t_sourcetype set name='Christine''s_List_(Texas_Public_Policy_Job_Board)', modifieddate=now() where CompanyId=6402 and id =656040;
