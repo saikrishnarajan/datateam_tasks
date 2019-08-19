@@ -24,4 +24,8 @@ DELIMITER;
 
 
 
+Rollback:-
 
+update T_Application
+set deletionDate= null
+where CompanyId=4948 and DeletedHM=0 and SentDate < '2018-12-01 00:00:00.000' and deletionDate IS not NULL ;
