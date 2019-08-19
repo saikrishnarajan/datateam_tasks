@@ -1,0 +1,27 @@
+DELIMITER $$
+DROP PROCEDURE IF EXISTS HIRE-19946_UpdateConsentStatusAndDate$$
+CREATE PROCEDURE HIRE-19946_UpdateConsentStatusAndDate()
+BEGIN
+DECLARE counter int default 0; 
+set counter =0;
+chkloop : WHILE (counter<=5 ) DO
+SELECT SLEEP(20) ;
+update T_Application
+set deletionDate= ADDTIME(CURRENT_TIMESTAMP(),'03:00:00.000')
+where CompanyId=6463 and DeletedHM=0 and SentDate <= '2018-02-14 00:00:00.000' and deletionDate IS NULL and Anonymized IS NULL and ConsentDate IS NULL
+LIMIT 3000;
+SELECT Row_Count() RecordsUpdated;
+SELECT counter IterationNumber;
+SET counter = counter +1   ; 
+IF Row_Count() = 0 THEN
+LEAVE chkloop;  
+ELSE
+ITERATE chkloop;
+END IF;
+END WHILE chkloop;  
+END$$
+DELIMITER;
+
+
+
+
