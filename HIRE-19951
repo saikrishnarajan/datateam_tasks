@@ -1,0 +1,13 @@
+update script:-
+
+
+Update T_User Set Name=(REPLACE(Name,CONCAT('.',id),'')), Email=(REPLACE(Email,CONCAT('.',ID),'')),
+IsEmployee = 1, Validated = 1, Disabled=0, CompanyId =  6499, Deleted = 0, UserModified = now() Where Id = 36939927;
+
+
+
+Rollback script:-
+
+
+Update T_User Set Name='epugh@lazparking.com.36939927', Email='epugh@lazparking.com.36939927',
+IsEmployee = 0, Validated = 0, Disabled=0, CompanyId =  0, Deleted = 1, UserModified = getDate() Where Id = 36939927;
