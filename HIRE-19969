@@ -1,0 +1,5 @@
+update script:-
+update t_application set DeletedHM=1, Modified=now() where CompanyId=1815 and JobId=0 and SentDate<='2016-12-31';
+
+Rollback script:-
+update t_application set DeletedHM=0, Modified=now() where CompanyId=1815 and JobId=0 and SentDate<='2016-12-31';
