@@ -1,8 +1,8 @@
 Update Script:-
 
-update t_candidateform set ApplicationId = -ApplicationId, FormId= -FormId where id = 76434481 and ApplicationId = 121001526;
+update t_candidateform set ApplicationId = -ApplicationId, FormId= -FormId where id = 76434481 and ApplicationId = 116001526;
 
 
 Rollback script:-
 
-update t_candidateform set ApplicationId = -ApplicationId, FormId= -FormId where id = 76434481 and ApplicationId = 121001526;
+update t_candidateform set ApplicationId = -ApplicationId, FormId= -FormId where id = 76434481 and ApplicationId = 116001526;
