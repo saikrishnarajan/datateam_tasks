@@ -64,6 +64,8 @@ Update t_sourcetype Set Deleted=1 , modifieddate= now() where CompanyId=6402 and
 
 Update t_sourcetype set name='TX Public Policy', modifieddate=now() where CompanyId=6402 and id =656040;
 
+Update t_sourcetype set name='DataPrivacyCareers', modifieddate=now() where CompanyId=6402 and id =657465;
+
 /*ROLLBACK QURY*/
 Update t_sourcetype Set Deleted=0 , modifieddate= now() where CompanyId=6402 and id in (635587,
 637192,
@@ -94,3 +96,5 @@ Update t_sourcetype Set Deleted=0 , modifieddate= now() where CompanyId=6402 and
 665789);
 
 Update t_sourcetype set name='Christine''s_List_(Texas_Public_Policy_Job_Board)', modifieddate=now() where CompanyId=6402 and id =656040;
+
+Update t_sourcetype set name='dataprivacycareers.com', modifieddate=now() where CompanyId=6402 and id =657465;
