@@ -9,10 +9,10 @@ Select * From T_Properties Where Name='Exclude.CustomField.Values.Limit'*/
 4612,1177,1404,341,87,361,5519,5370,4222,5634,1631,703,6265,667,6499,3307,6262,6517,6780,6740,179,
 6720,7017,6152,7023*/
 
-Update T_Properties Set Value = Value + ',6952',updateDate=now() where Name='Exclude.CustomField.Values.Limit';
+Update T_Properties Set Value = concat(Value , ',6952'),updateDate=now() where Name='Exclude.CustomField.Values.Limit';
 
 
 --RollBack query
-Update T_Properties Set Value = Value - ',6952',updateDate='8/8/2019 10:37:39 PM' where Name='Exclude.CustomField.Values.Limit';
+Update T_Properties Set Value = Replace(Value,',6952',''),updateDate='8/8/2019 10:37:39 PM' where Name='Exclude.CustomField.Values.Limit';
 
 
