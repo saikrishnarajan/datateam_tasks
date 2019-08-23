@@ -1,0 +1,7 @@
+update script:-
+
+update t_candidatestate set Deleted=0, modified = now() where CompanyId= 4745  and Id in (158251,158250,158252);
+
+
+Rollback script:-
+update t_candidatestate set Deleted=1, modified = now() where CompanyId= 4745  and Id in (158251,158250,158252);
