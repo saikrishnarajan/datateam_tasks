@@ -1,0 +1,45 @@
+select * from t_user where email='susan.vandevanter@hobsons.com';/*2245*/
+
+select * from t_job where CompanyId=2245 and RequisitionId in ('1777','1778');
+
+/*1777=3667854,1778=3670671*/
+
+select * from t_application where CompanyId=2245 and JobId in (3667854,3670671) and AppFirstName = 'Nicole' and Applastname = 'Becker';
+
+/*1777=116374849,1778=116198280*/
+
+select * from t_applicationmessage where ApplicationId in (116198280) and Kind =0;
+
+select * from t_interview where ApplicationId in (116198280);
+
+/*MAIN QUERY*/
+Update t_applicationmessage Set ApplicationId=116374849 where ApplicationId=116198280;
+
+Update t_interview set ApplicationId=116374849 where ApplicationId=116198280;
+
+/*ROLLBACK QUERY*/
+Update t_applicationmessage Set ApplicationId=116198280 where Id in (250486606,
+250486611,
+250724825,
+250766471,
+251078072,
+251083919,
+251163574,
+251164587,
+251165429,
+251177020,
+251177021,
+251238825,
+251454105,
+251625363,
+251652269,
+251721136,
+252111843,
+252241006,
+252241156);
+
+Update t_interview set ApplicationId=116198280 where Id in (19993723,
+20068290,
+20078812,
+20002674,
+20002675);
