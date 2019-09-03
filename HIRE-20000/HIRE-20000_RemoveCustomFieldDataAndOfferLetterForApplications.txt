@@ -1,0 +1,27 @@
+/* T_CustomFieldContent to remove data from custom fields */
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 269271540;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 269271543;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 269271546;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 269271549;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 267639612;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 267639615;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 267639618;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 267639621;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 268994012;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 268994015;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 268994018;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 268994021;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 270824136;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 270824139;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 270824142;
+Update t_customfieldcontent Set CompanyId = -CompanyId, ItemId = -ItemId, FieldId = -FieldId Where Id = 270824145;
+
+/* T_offerLetter for the application Ids */
+Update t_offerletter Set ApplicationId = -ApplicationId, FileId = -FileId, UserId = -UserId Where Id = 1733723;
+Update t_offerletter Set ApplicationId = -ApplicationId, FileId = -FileId, UserId = -UserId Where Id = 1734095;
+Update t_offerletter Set ApplicationId = -ApplicationId, FileId = -FileId, UserId = -UserId Where Id = 1722256;
+Update t_offerletter Set ApplicationId = -ApplicationId, FileId = -FileId, UserId = -UserId Where Id = 1723324;
+Update t_offerletter Set ApplicationId = -ApplicationId, FileId = -FileId, UserId = -UserId Where Id = 1731545;
+Update t_offerletter Set ApplicationId = -ApplicationId, FileId = -FileId, UserId = -UserId Where Id = 1731647;
+Update t_offerletter Set ApplicationId = -ApplicationId, FileId = -FileId, UserId = -UserId Where Id = 1745516;
+Update t_offerletter Set ApplicationId = -ApplicationId, FileId = -FileId, UserId = -UserId Where Id = 1745545;
