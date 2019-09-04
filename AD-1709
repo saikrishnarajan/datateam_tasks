@@ -1,0 +1,14 @@
+select * from t_location where CompanyId =5634 and deleted=0 and Country = 'Czech Republic';/*172471*/
+
+select * from t_location where CompanyId =5634 and deleted=0 and Country = 'Macedonia, The Former Yugoslav Republic Of';/*172594*/
+
+Update script:-
+update t_location SET Country ='Czechia', modifieddate=now() where CompanyId=5634 and Id = 172471;
+
+update t_location SET Country ='North Macedonia', modifieddate=now() where CompanyId=5634 and Id = 172594;
+
+
+Rollback script:-
+update t_location SET Country ='Czechia', modifieddate=now() where CompanyId=5634 and Id = 172471;
+
+update t_location SET Country ='North Macedonia', modifieddate=now() where CompanyId=5634 and Id = 172594;
