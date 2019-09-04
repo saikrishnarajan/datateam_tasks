@@ -1,0 +1,11 @@
+Update script:
+
+Update t_interview set ApplicationId = 117788111, Modified=now() where ApplicationId =117665163;
+
+update t_applicationmessage set ApplicationId =117788111 where ApplicationId= 117665163;
+
+Rollback script:-
+
+Update t_interview set ApplicationId = 117665163, Modified=now() where ApplicationId =117788111;
+
+update t_applicationmessage set ApplicationId =117665163 where ApplicationId= 117788111;
