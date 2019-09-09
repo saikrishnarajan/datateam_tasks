@@ -8,5 +8,5 @@ Update T_CustomField set deleted = 1 Where CompanyId = 3860 and id = 168541;
 
 /*
 /*ROLLBACK QUERY*/
-Update T_CustomField set deleted = 0 Where CompanyId = 3860 and id = 168541
+Update T_CustomField set deleted = 0 Where CompanyId = 3860 and id = 168541;
 */
