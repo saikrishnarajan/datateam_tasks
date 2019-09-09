@@ -1,0 +1,12 @@
+/* select * from T_Company where id = 3860 */
+
+/* select * from T_CustomField where CompanyId = 3860 and FieldCode = 'coordinator'  -- 168541 */
+
+
+Update T_CustomField set deleted = 1 Where CompanyId = 3860 and id = 168541;
+
+
+/*
+/*ROLLBACK QUERY*/
+Update T_CustomField set deleted = 0 Where CompanyId = 3860 and id = 168541;
+*/
