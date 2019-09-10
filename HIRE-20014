@@ -1,0 +1,8 @@
+Update script:-
+
+update t_sourcetype SET Deleted =1, modifieddate=now() where CompanyId=5459 and Id=600735;
+
+
+Rollback script:-
+
+update t_sourcetype SET Deleted =0, modifieddate='7/15/2017' where CompanyId=5459 and Id=600735;
