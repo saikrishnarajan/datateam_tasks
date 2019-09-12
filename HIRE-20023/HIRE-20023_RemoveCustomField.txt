@@ -1,0 +1,11 @@
+SELECT * from t_user where email = 'tina.lau@view.com';   /*3707*/
+
+Select * from t_customfield where companyId = 3707 and Name = 'Sourcer'; /* 168970*/
+
+Select * from t_viewfield where COmpanyId = 3707 and FieldId = 168970;
+
+Update t_customfield set Deleted = 1 where CompanyId = 3707 and Id = 168970;
+
+/*Rollback*/
+Update t_customfield set Deleted = 0 where COmpanyId = 3707 and Id = 168970;
+
