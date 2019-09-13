@@ -1,0 +1,23 @@
+select * from t_customfield where CompanyId =6375 and Deleted=0 and Name in ('Min','Mid','Max','Budgeted Amount for Headcount (to be filled in by FP&A)','Bonus Plan');
+select * from t_customfield where CompanyId=6375 and Deleted=0 and Name in ('Annual Salary','Hourly Rate','Base ','Commission','Signing Bonus','Relocation Bonus Amount','Car Allowance Amount','Telecom Allowance Amount') order by id;
+
+select * from t_customfield where CompanyId=6375 and Id in (121364,121365,121366,121367,144057);
+select * from t_customfield where CompanyId=6375 and Id in (122884,122885,122906,122907,124686,124687,144158,144160);
+
+
+update script:-
+
+update t_customfield Set Kind=16 where CompanyId=6375 and Id in (121364,121365,121366,121367,144057);
+
+update t_customfield Set Kind=16 where CompanyId=6375 and Id in (122884,122885,122906,122907,124686,124687,144158,144160);
+
+
+Rollback script:-
+
+update t_customfield Set Kind=0 where CompanyId=6375 and Id in (121364,121365,121366,121367,144057);
+
+update t_customfield Set Kind=0 where CompanyId=6375 and Id in (124686,144158,144160);
+
+update t_customfield Set Kind=6 where CompanyId=6375 and Id in (122885,124687);
+
+update t_customfield Set Kind=8 where CompanyId=6375 and Id in (122884,122906,122907);
