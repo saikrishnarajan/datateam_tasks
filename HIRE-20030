@@ -1,0 +1,15 @@
+select * from t_user where email = 'chandrab@sentinelone.com';/*5878*/
+
+
+select * from t_customfield where CompanyId=5878 and ObjectType=1 and Deleted=0 and id in (169128,169130);
+select * from t_viewfield where CompanyId=5878 and Deleted=0 and FieldId in (169128,169130);
+
+update script:-
+
+update t_customfield set Deleted=1 where CompanyId=5878 and ObjectType=1 and Deleted=0 and id in (169128,169130);
+update t_viewfield set Deleted =1 where CompanyId=5878 and id in(871587);
+
+Rollback script:-
+
+update t_customfield set Deleted=0 where CompanyId=5878 and ObjectType=1 and Deleted=0 and id in (169128,169130);
+update t_viewfield set Deleted =0 where CompanyId=5878 and id in(871587);
