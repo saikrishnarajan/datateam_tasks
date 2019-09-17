@@ -7,6 +7,6 @@ Select * from t_workflow where companyId = 1176 And Id in (11625,11626,1848);
 Update t_candidatestate set Deleted = 0, modifieddate = now() where companyId = 1176 and WorkflowId = 1848 and Id = 43101;
 
 /* Rollback */
-Update t_candidatestate set Deleted = 1, modifieddate = '2018-02-01 10:50:19 AM' where companyId = 1176 and WorkflowId = 1848 and Id = 43101;
+Update t_candidatestate set Deleted = 1, modifieddate = '2018-02-01 10:50:19' where companyId = 1176 and WorkflowId = 1848 and Id = 43101;
 
 
