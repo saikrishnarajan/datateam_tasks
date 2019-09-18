@@ -11,6 +11,8 @@ update t_customfield Set Kind=16 where CompanyId=6375 and Id in (121364,121365,1
 
 update t_customfield Set Kind=16 where CompanyId=6375 and Id in (122884,122885,122906,122907,124686,124687,144158,144160);
 
+update t_customfield Set Kind=5 where CompanyId=6375 and Id in (121364);
+
 
 Rollback script:-
 
