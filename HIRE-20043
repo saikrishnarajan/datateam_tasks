@@ -1,0 +1,15 @@
+select * from t_user where Email ='collins.denny@qomplx.com';/*5385*/
+
+select * from t_customfield where CompanyId=5385 and Deleted=0 and Id=169265;/*169265*/
+
+select * from t_viewfield where CompanyId=5385 and Deleted=0 and FieldId=169265;
+
+Update script:-
+update t_customfield set Deleted=1 Where CompanyId=5385 and Deleted=0 and Id=169265;
+
+RollBack Script:-
+update t_customfield set Deleted=0 Where CompanyId=5385 and Deleted=0 and Id=169265;
+
+
+
+
