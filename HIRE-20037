@@ -4,7 +4,7 @@ insert into t_jobopen (CompanyId, JobId, FromDate, ToDate) values (361,3555639,'
 insert into t_jobopen (CompanyId, JobId, FromDate, ToDate) values (361,3562454,'2019/05/14','2019/05/15');
 insert into t_jobopen (CompanyId, JobId, FromDate, ToDate) values (361,3427473,'2019/02/26','2019/02/28');
 insert into t_jobopen (CompanyId, JobId, FromDate, ToDate) values (361,3565043,'2019/05/15','2019/05/17');
-insert into t_jobopen (CompanyId, JobId, FromDate, ToDate) values (361,3392834,'2019/02/05','2019/01/31');
+insert into t_jobopen (CompanyId, JobId, FromDate, ToDate) values (361,3392834,'2019/01/31','2019/01/31');
 insert into t_jobopen (CompanyId, JobId, FromDate, ToDate) values (361,3549871,'2019/05/07','2019/05/08');
 insert into t_jobopen (CompanyId, JobId, FromDate, ToDate) values (361,3555272,'2019/05/09','2019/05/10');
 insert into t_jobopen (CompanyId, JobId, FromDate, ToDate) values (361,3367174,'2019/01/21','2019/01/31');
