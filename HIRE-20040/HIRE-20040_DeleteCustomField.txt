@@ -1,0 +1,11 @@
+SELECT * from t_user where email = 'collins.denny@qomplx.com';      /*5385*/
+
+Select * from t_customfield where companyid = 5385 and name = 'Base Salary 50th percentile'; /*169260*/
+
+Select * from t_viewfield where companyId = 5385 and FieldId = 169260 And Deleted = 0;
+
+Update t_customfield Set Deleted = 1 Where CompanyId = 5385 And Id = 169260;
+
+/* Rollback */
+Update t_customfield Set Deleted = 0 Where CompanyId = 5385 And Id = 169260;
+
