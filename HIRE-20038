@@ -1,0 +1,9 @@
+update script:-
+update t_candidate set FirstName='Fumino', LastName='Takahashi' where CompanyId=1256 and id=88176592;
+
+update t_application set DeletedHM=0, AppFirstName='Fumino', AppLastName='Takahashi', Modified=Now() where CompanyId=1256 and Id=116263448;
+
+Rollback script:-
+update t_candidate set FirstName='XXXXX', LastName='XXXXX' where CompanyId=1256 and id=88176592;
+
+update t_application set DeletedHM=1, AppFirstName='Fumino', AppLastName='Takahashi', Modified=Now() where CompanyId=1256 and Id=116263448;
