@@ -1,0 +1,10 @@
+/*SELECT * from t_user where email = 'kfischer@loandepot.com';   */ /*667*/
+
+/*Select * from t_job where companyId = 667 And RequisitionId = '10562'; */ /*3777583*/
+
+/*Select * from t_application where companyId = 667 And JobId = 3777583; */ /* 0 candidates */
+
+Update t_job Set Deleted = 0, Modified = now() Where CompanyId = 667 And Id = 3777583;
+
+/*Rollback*/
+/* Update t_job Set Deleted = 1, Modified = '2019-09-18 11:19:51' Where CompanyId = 667 And Id = 3777583; */
