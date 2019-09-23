@@ -1,9 +1,39 @@
-update script:-
-update t_candidate set FirstName='Fumino', LastName='Takahashi' where CompanyId=1256 and id=88176592;
 
-update t_application set DeletedHM=0, AppFirstName='Fumino', AppLastName='Takahashi', Modified=Now() where CompanyId=1256 and Id=116263448;
+update script:- 
+
+update t_application set CandidateId=86209950,DeletedHM=0, Modified=Now() where CompanyId=1256 and Id=116263448;
+
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (250604199,116263448,46684132,1,' 2019-07-28 22:58:07.335 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (250605221,116263448,33835903,1,' 2019-07-28 23:26:02.171 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (250605447,116263448,46684132,1,' 2019-07-28 23:31:03.402 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (250605870,116263448,33835903,1,' 2019-07-28 23:42:36.400 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (250780094,116263448,46684132,0,' 2019-07-29 23:56:09.721 ',' Note: Inside Sales Representative - Fumino Takahashi',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (250792635,116263448,33835903,1,' 2019-07-30 03:47:24.066 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (250793434,116263448,46684132,1,' 2019-07-30 04:02:05.938 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (250807271,116263448,33835903,1,' 2019-07-30 06:36:25.721 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (250952407,116263448,46684132,1,' 2019-07-31 01:52:24.060 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (251086915,116263448,33835903,1,' 2019-07-31 19:06:43.789 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (251097374,116263448,46684132,1,' 2019-07-31 22:20:51.161 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (251247901,116263448,33835903,1,' 2019-08-01 20:15:29.266 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (251967229,116263448,33835903,1,' 2019-08-07 23:55:08.132 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (251967343,116263448,46684132,1,' 2019-08-07 23:58:05.771 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (251968491,116263448,33835903,1,' 2019-08-08 00:18:56.473 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (251969379,116263448,46684132,1,' 2019-08-08 00:40:27.176 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (251985343,116263448,33835903,1,' 2019-08-08 05:30:22.711 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (253384142,116263448,46684132,1,' 2019-08-20 02:49:20.126 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (253421963,116263448,33835903,1,' 2019-08-20 08:25:55.373 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (253531274,116263448,46684132,1,' 2019-08-20 22:22:19.105 ',' Re: Application for Inside Sales Representative - Zscaler',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (255468014,116263448,46684132,1,' 2019-09-05 22:20:30.973 ',' Next Steps :: Zscaler :: Panel discussion',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (255642608,116263448,33835903,1,' 2019-09-07 19:02:24.428 ',' Re: Next Steps :: Zscaler :: Panel discussion',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (255701848,116263448,46684132,1,' 2019-09-08 22:50:22.666 ',' Re: Next Steps :: Zscaler :: Panel discussion',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (255861810,116263448,33835903,1,' 2019-09-09 17:33:45.743 ',' Re: Next Steps :: Zscaler :: Panel discussion',0);
+insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (256062017,116263448,46684132,1,' 2019-09-11 02:07:50.331 ',' Prep-up call or meeting for upcoming Panel discussion :: Zscaler',0);
+
 
 Rollback script:-
-update t_candidate set FirstName='XXXXX', LastName='XXXXX' where CompanyId=1256 and id=88176592;
 
-update t_application set DeletedHM=1, AppFirstName='Fumino', AppLastName='Takahashi', Modified=Now() where CompanyId=1256 and Id=116263448;
+update t_application set CandidateId=88176592,DeletedHM=1, Modified=Now() where CompanyId=1256 and Id=116263448;
+
+
+update t_applicationmessage set IsDeleted=1 where Id in (250604199,250605221,250605447,250605870,250780094,250792635,250793434,250807271,250952407,251086915,251097374,251247901,251967229,251967343,251968491,251969379,251985343,253384142,253421963,253531274,255468014,255642608,255701848,255861810,256062017,255861810,256062017);
+
