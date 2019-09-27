@@ -30,6 +30,12 @@ insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject
 insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject, IsDeleted) values (256062017,116263448,46684132,1,' 2019-09-11 02:07:50.331 ',' Prep-up call or meeting for upcoming Panel discussion :: Zscaler',0);
 
 
+
+update t_candidate set ApplicationCount=2 where id =86209950;
+
+update t_application set Anonymized =0, Modified=now() where Id=116263448;
+
+
 Rollback script:-
 
 update t_application set CandidateId=88176592,DeletedHM=1, Modified=Now() where CompanyId=1256 and Id=116263448;
