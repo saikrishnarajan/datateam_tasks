@@ -33,7 +33,7 @@ insert into t_applicationmessage (Id, ApplicationId, UserId, Kind, Date, Subject
 
 update t_candidate set ApplicationCount=2 where id =86209950;
 
-update t_application set Anonymized =0, Modified=now() where Id=116263448;
+update t_application set Anonymized =null, Modified=now() where Id=116263448;
 
 
 Rollback script:-
