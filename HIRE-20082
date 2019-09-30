@@ -1,0 +1,8 @@
+udpate script:-
+
+update T_CandidateState set kind =7, modifieddate = getdate() where CompanyId =1064 and id =312853;
+
+
+Rollback:-
+
+update T_CandidateState set kind =2, modifieddate = getdate() where CompanyId =1064 and id =312853;
