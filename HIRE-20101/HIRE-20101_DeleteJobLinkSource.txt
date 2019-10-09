@@ -1,0 +1,11 @@
+Select * from t_user where email = 'steph.valencerina@ringcentral.com';  /*2908*/
+
+SELECT * from t_sourcetype s
+where s.CompanyId = 2908 And s.Deleted = 0 And s.Name = 'https://app.jobvite.com/j?cj=oTV5afwN&s=GlassdoorSponsored' 
+order by s.Name; /*668400*/
+
+
+Update t_sourcetype Set Deleted = 1, modifieddate = now() Where CompanyId = 2908 And Id = 668400;
+
+/*Rollback*/
+Update t_sourcetype Set Deleted = 0, modifieddate = '2019-09-27 14:04:00' Where CompanyId = 2908 And Id = 668400;
