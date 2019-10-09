@@ -1,0 +1,15 @@
+select * from t_customfield where CompanyId=6375 and Id in (121365,121366,121367,144057);
+
+
+select * from t_customfieldcontent where CompanyId=6375 and FieldId in (121365,121366,121367,144057);
+
+update script:-
+
+update t_customfield set kind=0, DisplayType=null where  CompanyId=6375 and Id in (121365,121366,121367,144057);
+
+update t_customfieldcontent set UnitOfMeasure=null where CompanyId=6375 and FieldId in (121365,121366,121367,144057);
+
+Rollback script:-
+update t_customfield set kind=16, DisplayType='UseAllActiveCompanyCurrencies' where  CompanyId=6375 and Id in (121365,121366,121367,144057);
+
+update t_customfieldcontent set UnitOfMeasure='USD' where CompanyId=6375 and FieldId in (121365,121366,121367,144057);
