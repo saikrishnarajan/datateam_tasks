@@ -1,0 +1,16 @@
+INSERT INTO T_Candidate (CompanyId,FirstName,LastName,Email,Title,Address,Address2,City,PostalCode
+,State,Country,HomePhone,WorkPhone,Mobile,Fax,Company,ApplicationCount,BlackListed)
+VALUES(6288,'Debbie','Carmichael','','','','','','','','','','','','','',1,0);
+
+update T_Application set CandidateId =Last_insert_ID() , Modified = now() where CompanyId =6288 and id=119925197;
+
+update T_Candidate set ApplicationCount =2 where CompanyId =6288 and id = 79221340;
+
+
+
+
+Rollback;-
+
+update T_Application set CandidateId =79221340, Modified = now() where CompanyId =6288 and id=119925197;
+
+update T_Candidate set ApplicationCount =3 where CompanyId =6288 and id = 79221340;
