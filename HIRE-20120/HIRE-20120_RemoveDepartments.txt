@@ -1,0 +1,47 @@
+SELECT * from t_user where Email = 'bernice_chuang@genpt.com';  /*6170*/
+
+Select Id, DepartmentId, Department, Modified from t_job where CompanyId = 6170 and Deleted = 0 
+And DepartmentId > 0;
+
+/*Update Department as blank*/
+Update t_job Set DepartmentId = 0, Department = '', Modified = now() Where CompanyId = 6170 And Deleted = 0 And DepartmentId in (105326, 108130);
+
+
+/*Rollback*/
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-05 05:59:11.000' Where CompanyId = 6170 And Id = 2646479;
+Update t_job Set DepartmentId = 108130, Department = 'test86', Modified = '2019-04-01 02:18:36.000' Where CompanyId = 6170 And Id = 2649629;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-08-09 06:04:39.000' Where CompanyId = 6170 And Id = 3609845;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-08-13 08:35:22.000' Where CompanyId = 6170 And Id = 3696821;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-06 06:55:52.000' Where CompanyId = 6170 And Id = 3698553;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-12 02:01:26.000' Where CompanyId = 6170 And Id = 3699154;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-10-04 12:45:03.000' Where CompanyId = 6170 And Id = 3699178;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-30 06:23:11.000' Where CompanyId = 6170 And Id = 3700127;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-08-26 10:12:56.000' Where CompanyId = 6170 And Id = 3701602;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-23 01:53:02.000' Where CompanyId = 6170 And Id = 3712328;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-03 03:12:52.000' Where CompanyId = 6170 And Id = 3713943;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-08-28 08:52:19.000' Where CompanyId = 6170 And Id = 3713964;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-10 10:22:45.000' Where CompanyId = 6170 And Id = 3713978;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-04 02:49:21.000' Where CompanyId = 6170 And Id = 3714734;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-04 03:14:58.000' Where CompanyId = 6170 And Id = 3715350;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-08-21 09:27:28.000' Where CompanyId = 6170 And Id = 3718033;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-10-03 01:22:54.000' Where CompanyId = 6170 And Id = 3718908;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-08-25 05:02:57.000' Where CompanyId = 6170 And Id = 3720851;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-04 02:56:36.000' Where CompanyId = 6170 And Id = 3720964;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-08-14 06:50:54.000' Where CompanyId = 6170 And Id = 3721710;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-19 02:51:50.000' Where CompanyId = 6170 And Id = 3737780;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-10-08 11:06:04.000' Where CompanyId = 6170 And Id = 3738678;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-10-02 09:00:32.000' Where CompanyId = 6170 And Id = 3746449;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-08-26 10:12:29.000' Where CompanyId = 6170 And Id = 3751294;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-05 11:04:45.000' Where CompanyId = 6170 And Id = 3767096;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-11 07:53:41.000' Where CompanyId = 6170 And Id = 3768493;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-30 08:05:53.000' Where CompanyId = 6170 And Id = 3769360;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-06 10:25:12.000' Where CompanyId = 6170 And Id = 3770151;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-27 08:22:15.000' Where CompanyId = 6170 And Id = 3772629;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-10-08 03:36:58.000' Where CompanyId = 6170 And Id = 3777356;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-24 02:34:12.000' Where CompanyId = 6170 And Id = 3777391;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-17 07:42:12.000' Where CompanyId = 6170 And Id = 3780563;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-19 01:33:42.000' Where CompanyId = 6170 And Id = 3800101;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-09-19 01:36:37.000' Where CompanyId = 6170 And Id = 3800145;
+Update t_job Set DepartmentId = 108130, Department = 'test86', Modified = '2019-10-14 10:58:10.000' Where CompanyId = 6170 And Id = 3853764;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-10-14 10:16:27.000' Where CompanyId = 6170 And Id = 3858078;
+Update t_job Set DepartmentId = 105326, Department = 'Test', Modified = '2019-10-14 10:14:07.000' Where CompanyId = 6170 And Id = 3858094;
