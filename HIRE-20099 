@@ -1,8 +1,0 @@
-select * from t_user where email='christine.choi@cj.net';/*companyid=6812*/
-
-db.getCollection('VideoForm').find({companyId : 6812,"active" : false})
-
-PLEASE TAKE A BACKUP OF THE OBJECTS BEFORE DELETING
-
-//**Main Query**//
-db.getCollection('VideoForm').remove({companyId : 6812,"active" : false})
