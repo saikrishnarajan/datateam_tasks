@@ -1,0 +1,24 @@
+DELIMITER $$
+DROP PROCEDURE IF EXISTS HIRE-20131_UpdatePIIDataForCandidates$$
+CREATE PROCEDURE HIRE-20131_UpdatePIIDataForCandidates()
+BEGIN
+DECLARE counter int default 0; 
+set counter =0;
+chkloop : WHILE (counter<5) DO
+SELECT SLEEP(20) ;
+update T_Application
+set DeletedHM = 1, deletiondate=DATE_ADD(NOW(), INTERVAL 3 HOUR)
+where CompanyId=6463 and DeletedHM=0 
+and (SentDate >= '2011-02-01' and SentDate <= '2018-02-14')
+LIMIT 3000;
+SELECT Row_Count() RecordsUpdated;
+SELECT counter IterationNumber;
+SET counter = counter +1   ; 
+IF Row_Count() = 0 THEN
+LEAVE chkloop;  
+ELSE
+ITERATE chkloop;
+END IF;
+END WHILE chkloop;  
+END$$
+DELIMITER ;
