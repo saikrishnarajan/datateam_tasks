@@ -1,0 +1,34 @@
+SELECT * from t_user where Email = 'diakovides@alixpartners.com';  /*2200*/
+
+Select * from t_user where Email = 'klongo@alixpartners.com' And CompanyId = 2200; /* RecruiterId to update : 11883874 */
+
+Select * from t_user where CompanyId = 2200 and Id = 44324222; /*2935483 - JobId : lreidy@alixpartners.com*/
+
+Select Id From t_job where CompanyId = 2200 And Deleted = 0 And RequisitionId in ('2018MDTRS','LondonFASMD','ParisHistoricalEIMD','ParisHistoricalFSMD','EILondonTMTMD','2014IMSMD','Paris2013IMSMD','MadridHistoricalEIManagingDirector','Munich2013TRSMD','Paris2013EIMD','2017EIMDNationwide','LondonTRSMD','2016TRSMD','ParisIMSMD','2018EIMD','MunichHistoricalEIManagingDirector','2014PECoverageMD','2017CFO','LondonEIMD','2016LOEMD','B-MDDub18','2016IMSMD','2018MDCandidates','2018EIMDUK','2017MDCandidates','MDCandidates','2015GeneralCounsel','2019MDs','2017DigitalMD','ParisTRSMD','2016TRSMDNewYork','2017TRSMD','MunichEIMD','MunichTRSMD','TEST  MD TEST','ParisHistoricalEIManagingDirector','2017LOEMD','2014EIMDNationwide','2017Q3RecruitmentSeniorD/MD-DRAFT','2015EIMDNationwide','Munich2013EIMD','Paris2013TRSMD','LondonEIFinancialServicesMD','2016EIMDNationwide','2015IMSMD') Order By Id;
+
+Select * from t_jobowner where CompanyId = 2200 And IsRecruiter = 1 And JobId in (Select Id From t_job where CompanyId = 2200 And Deleted = 0 And RequisitionId in ('2018MDTRS','LondonFASMD','ParisHistoricalEIMD','ParisHistoricalFSMD','EILondonTMTMD','2014IMSMD','Paris2013IMSMD','MadridHistoricalEIManagingDirector','Munich2013TRSMD','Paris2013EIMD','2017EIMDNationwide','LondonTRSMD','2016TRSMD','ParisIMSMD','2018EIMD','MunichHistoricalEIManagingDirector','2014PECoverageMD','2017CFO','LondonEIMD','2016LOEMD','B-MDDub18','2016IMSMD','2018MDCandidates','2018EIMDUK','2017MDCandidates','MDCandidates','2015GeneralCounsel','2019MDs','2017DigitalMD','ParisTRSMD','2016TRSMDNewYork','2017TRSMD','MunichEIMD','MunichTRSMD','TEST  MD TEST','ParisHistoricalEIManagingDirector','2017LOEMD','2014EIMDNationwide','2017Q3RecruitmentSeniorD/MD-DRAFT','2015EIMDNationwide','Munich2013EIMD','Paris2013TRSMD','LondonEIFinancialServicesMD','2016EIMDNationwide','2015IMSMD'));
+(Select Id From t_job where CompanyId = 2200 And Deleted = 0
+And RequisitionId in ('2018MDTRS','LondonFASMD','ParisHistoricalEIMD','ParisHistoricalFSMD','EILondonTMTMD','2014IMSMD',
+'Paris2013IMSMD','MadridHistoricalEIManagingDirector','Munich2013TRSMD','Paris2013EIMD','2017EIMDNationwide','LondonTRSMD',
+'2016TRSMD','ParisIMSMD','2018EIMD','MunichHistoricalEIManagingDirector','2014PECoverageMD','2017CFO','LondonEIMD',
+'2016LOEMD','B-MDDub18','2016IMSMD','2018MDCandidates','2018EIMDUK','2017MDCandidates','MDCandidates','2015GeneralCounsel',
+'2019MDs','2017DigitalMD','ParisTRSMD','2016TRSMDNewYork','2017TRSMD','MunichEIMD','MunichTRSMD','TEST  MD TEST',
+'ParisHistoricalEIManagingDirector','2017LOEMD','2014EIMDNationwide','2017Q3RecruitmentSeniorD/MD-DRAFT','2015EIMDNationwide',
+'Munich2013EIMD','Paris2013TRSMD','LondonEIFinancialServicesMD','2016EIMDNationwide','2015IMSMD'));
+
+/*Insert Recruiter for the jobId*/
+Insert into t_jobowner (JobId, CompanyId, UserId, IsRecruiter)
+ (Select Id, 2200, 11883874, 1 From t_job
+ Where CompanyId = 2200 And Deleted = 0 
+ And Id in (682772,688936,726232,737731,737740,737754,737779,737783,762563,768199,769586,770076,770119,776501,776507,776696,
+ 776734,779361,779362,989588,996260,1069533,1189003,1203802,1375252,1385191,1708773,1731705,1777939,1788577,2014834,2227880,
+ 2239653,2239682,2257287,2298966,2306293,2529313,2743143,2747603,2866549,2932984,2935483,3002079,3351158));
+ 
+ /*Rollback*/
+ Update t_jobowner Set CompanyId = -CompanyId, UserId = -UserId, JobId = -JobId 
+ Where CompanyId = 2200 
+ And UserId = 11883874 
+ And IsRecruiter = 1 
+ And JobId in (682772,688936,726232,737731,737740,737754,737779,737783,762563,768199,769586,770076,770119,776501,776507,776696,
+ 776734,779361,779362,989588,996260,1069533,1189003,1203802,1375252,1385191,1708773,1731705,1777939,1788577,2014834,2227880,
+ 2239653,2239682,2257287,2298966,2306293,2529313,2743143,2747603,2866549,2932984,2935483,3002079,3351158);
