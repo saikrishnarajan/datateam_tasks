@@ -1,0 +1,15 @@
+select * from t_user where email='malegre@affinity-petcare.com';
+
+select * from t_candidate where companyid=7025 and Email='giannettoeleonora@gmail.com';
+
+select * from t_application where CompanyId=7025 and CandidateId in (84783719,88719155);
+
+/*Main Query*/
+Update t_application set CandidateId=84783719, Modified=now() where CompanyId=7025 and Id in (119766846,119766894);
+
+Update t_candidate set ApplicationCount=4 where CompanyId=7025 and id=84783719;
+
+/*Rollback Query*/
+Update t_application set CandidateId=88719155, Modified=now() where CompanyId=7025 and Id in (119766846,119766894);
+
+Update t_candidate set ApplicationCount=2 where CompanyId=7025 and id=84783719;
