@@ -1,0 +1,10 @@
+SELECT * from t_user Where Email = 'chrisboccuzzo@dwt.com';   /* 6995 */
+
+Select * From T_Properties Where Name='Exclude.CustomField.Values.Limit';
+/*4764,327,1845,5080,4145,1159,4834,4982,126,5001,189,3378,299,3772,2007,190,563,422,717,3230,1418,4612,1177,1404,341,87,361,5519,5370,4222,1631,703,6265,667,6499,3307,6262,6517,6780,6740,179,6720,7017,6152,7023,6952,5634,3380,3380*/
+
+Update T_Properties Set Value = concat(Value , ',6995'),updateDate=now() where Name='Exclude.CustomField.Values.Limit';
+
+
+/*RollBack query*/
+Update T_Properties Set Value = Replace(Value,',6995',''),updateDate='10/10/2019 9:23:44 PM' where Name='Exclude.CustomField.Values.Limit';
