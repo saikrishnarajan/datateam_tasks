@@ -1,0 +1,23 @@
+Update t_sourcetype Set Name = 'Engage_page', modifieddate = now() Where CompanyId = 3860 And Id = 583847;
+Update t_application Set Source = 'Engage_page', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = "Engage_Page";
+
+Update t_sourcetype Set Name = 'Jobs_in_Malta', modifieddate = now() Where CompanyId = 3860 And Id = 617222;
+Update t_application Set Source = 'Jobs_in_Malta', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = "Jobsinmalta";
+
+Update t_sourcetype Set Name = 'Target_Jobs', modifieddate = now() Where CompanyId = 3860 And Id = 617678;
+Update t_application Set Source = 'Target_Jobs', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = "Targetjobs";
+
+Update t_sourcetype Set Name = 'Target_Jobs_email', modifieddate = now() Where CompanyId = 3860 And Id = 633653;
+Update t_application Set Source = 'Target_Jobs_email', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = "TargetJobsEmail";
+
+Update t_sourcetype Set Name = 'Top_Language_Jobs', modifieddate = now() Where CompanyId = 3860 And Id = 576270;
+Update t_application Set Source = 'Top_Language_Jobs', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = "TopLang";
+
+Update t_sourcetype Set Name = 'Zaplata', modifieddate = now() Where CompanyId = 3860 And Id = 628602;
+Update t_application Set Source = 'Zaplata', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = 'zaplata';
+
+Update t_application Set Source = 'Jobsite', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = "jobsite";
+Update t_application Set Source = 'Naukri', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = "naukri";
+Update t_application Set Source = 'Careers site – desktop', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = "stars-group - Desktop";
+Update t_application Set Source = 'Careers site – mobile', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = "stars-group - Mobile";
+Update t_application Set Source = 'Careers site – tablet', Modified = now() Where companyId = 3860 And DeletedHM = 0 And Source = "stars-group - Tablet";

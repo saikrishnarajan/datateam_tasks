@@ -1,0 +1,38 @@
+SELECT * from t_user where Email = 'rob_power@starsgroup.com';  /*3860*/
+
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name in ('Engage_Page','Jobsinmalta','Targetjobs','TargetJobsEmail','TopLang','zaplata','jobsite','naukri','stars-group - Desktop','stars-group - Mobile','stars-group - Tablet');
+
+/*Engage_Page to Engage_page*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'Engage_Page';
+/*Jobsinmalta to Jobs_in_Malta*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'Jobsinmalta';
+/*Referral_Share to Referral_share - Not available*/
+Select * from t_sourcetype where CompanyId = 3860  And Name like 'Referral_Share%';
+/*Targetjobs to Target_Jobs*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'Targetjobs';
+/*TargetJobsEmail to Target_Jobs_email*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'TargetJobsEmail';
+/*TopLang to Top_Language_Jobs*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'TopLang';
+
+/*jobsite to Jobsite - Already done*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'jobsite';
+/*naukri to Naukri - Already done*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'naukri';
+/*zaplata to Zaplata*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'zaplata';
+/*stars-group – Desktop to Careers site – desktop - Not available*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'stars-group - Desktop';
+/*stars-group – Mobile to Careers site – mobile  - Not available*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'stars-group - Mobile';
+/*stars-group – Tablet to Careers site – tablet  - Not available*/
+Select * from t_sourcetype where CompanyId = 3860 and Deleted = 0 And Name = 'stars-group - Tablet';
+
+
+Select Id, Source, Modified from t_application where companyId = 3860 And DeletedHM = 0 And Source in ('Engage_Page','Jobsinmalta','Targetjobs','TargetJobsEmail','TopLang','zaplata');
+
+Select Id, Source, Modified from t_application where companyId = 3860 And DeletedHM = 0 And Source in ('jobsite','naukri','stars-group - Desktop','stars-group - Mobile','stars-group - Tablet') order by Source;
+
+
+
+
