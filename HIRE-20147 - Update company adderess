@@ -1,0 +1,11 @@
+/* select * from T_Company where id = 6162 */
+
+
+Update T_Company set Address = '100 Montgomery Street, Suite 500', City = 'San Francisco', State = 'CA', PostalCode = '94104', Country = 'USA' Where Id = 6162;
+
+
+
+/*
+/*ROLLBACK QUERY*/
+Update T_Company set Address = '1 Front St.', City = 'San Francisco', State = 'California',  PostalCode = '94111' Where Id = 6162;
+*/
