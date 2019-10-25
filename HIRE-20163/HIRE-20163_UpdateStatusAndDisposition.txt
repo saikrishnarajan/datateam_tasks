@@ -1,0 +1,16 @@
+SELECT * from t_User where Email = 'malegre@affinity-petcare.com'; /*7025*/
+
+Select * from t_sourcetype where companyId = 7025 and Code = 'im'; /*657419 : Import*/
+
+Select * from t_candidatestate where companyId = 7025 and name = 'Rejected From Screening Form'; /*288237*/
+Select * from t_candidatestate where companyId = 7025 and name = 'Rejected'; /* 285405*/
+
+Select * from t_candidatedisposition where CompanyId = 7025 And name like 'Rejected%';  /*90443*/
+
+Select Id, SourceType, WorkFlowState,Disposition, Modified  From t_application where CompanyId = 7025 ANd DeletedHM = 0 And SourceType = 657419 And WorkflowState = 288237;
+
+/*Update State and Disposition for imported candidates*/
+Update t_application Set WorkFlowState = 285405, Disposition = 90443, Modified = now() Where CompanyId = 7025 ANd DeletedHM = 0 And SourceType = 657419 And WorkflowState = 288237;
+
+
+
