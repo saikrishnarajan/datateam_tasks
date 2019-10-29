@@ -1,0 +1,11 @@
+select * from t_user where email='ginae@myhrpartnerinc.com';
+
+select * from t_application where CompanyId=4967 and AppFirstName='Melissa' and Applastname='Allen';
+
+select * from t_applicationmessage where ApplicationId=119625812;
+
+/*Update Query*/
+Update t_applicationmessage set IsDeleted=1 where ApplicationId=119625812;
+
+/*Rollback Query*/
+Update t_applicationmessage set IsDeleted=0 where ApplicationId=119625812;
