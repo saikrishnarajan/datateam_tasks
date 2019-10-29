@@ -6,11 +6,9 @@ select * from t_application where CompanyId=5210 and JobId in (select id from t_
 
 
 /*Main Query*/
-Update t_job set Deleted=1, Modified=now() where CompanyId=5210 and NOT (Country ='United States');
-Update t_application set DeletedHM=1,deletiondate=DATE_ADD(NOW(), INTERVAL 3 HOUR) where CompanyId=5210 and JobId in (select id from t_job where CompanyId=5210 and NOT (Country ='United States'));
+Update t_application set DeletedHM=0,deletiondate=DATE_ADD(NOW(), INTERVAL 3 HOUR) where CompanyId=5210 and JobId in (select id from t_job where CompanyId=5210 and NOT (Country ='United States'));
 
 
 /*Rollback Query*/
-Update t_job set Deleted=0, Modified=now() where CompanyId=5210 and NOT (Country ='United States');
-Update t_application set DeletedHM=0,deletiondate=null where CompanyId=5210 and JobId in (select id from t_job where CompanyId=5210 and NOT (Country ='United States'));
+Update t_application set DeletedHM=1,deletiondate=null where CompanyId=5210 and JobId in (select id from t_job where CompanyId=5210 and NOT (Country ='United States'));
 
