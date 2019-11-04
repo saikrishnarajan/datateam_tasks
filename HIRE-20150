@@ -1,0 +1,16 @@
+select * from t_user where email='alejandro.ortiz@ideapublicschools.org';
+
+select * from t_candidatestate where CompanyId = 6780 and deleted=0 and name like '%video%' and WorkflowId in (10560);
+
+select * from t_interviewtype where CompanyId=6780;
+
+select * from t_workflow where CompanyId=6780;
+
+/*10501 - Non-Screener
+10560 - Principal In Residence*/
+
+/*Main Update Query*/
+Update t_candidatestate set kind=7,modifieddate=now() where CompanyId = 6780 and deleted=0 and name like '%video%' and WorkflowId = 10560;
+
+/*Rollback Query*/
+Update t_candidatestate set kind=1,modifieddate='2019-10-18 06:42:54' where CompanyId = 6780 and deleted=0 and name like '%video%' and WorkflowId = 10560;
