@@ -1,0 +1,19 @@
+SELECT * from t_user where email = 'lori.lando@flagshipcredit.com';   /*5034*/
+
+Select * from t_applicationmessage where ApplicationId = 119870846 
+And Subject like '%Background Link Not Yet Complete - Flagship Credit Acceptance%'; /*For Tyanna Brown*/
+
+Select * from t_applicationmessage where ApplicationId = 119803475 And Kind = 1; /*For Mikiesha Bessix*/
+
+
+/*Updates*/
+/* Delete Messages for Application : 119870846 : Tyanna Brown */
+Update t_applicationmessage set IsDeleted=1 where ApplicationId in (262067701,262081429,262083727,262098820,262102798);
+/* Delete Messages for Application : 119870846 : Mikiesha Bessix */
+Update t_applicationmessage set IsDeleted=1 where ApplicationId in (260891972,260803826);
+
+/*Rollback*/
+/* Restore Messages for Application : 119870846 : Tyanna Brown */
+Update t_applicationmessage set IsDeleted=0 where ApplicationId in (262067701,262081429,262083727,262098820,262102798);
+/* Restore Messages for Application : 119870846 : Mikiesha Bessix */
+Update t_applicationmessage set IsDeleted=0 where ApplicationId in (260891972,260803826);
