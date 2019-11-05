@@ -1,0 +1,12 @@
+select * from t_user where email='yumiko.wilson@seasoned.co';
+
+select * from t_user where companyid=7154;
+
+select * from t_company where id=7154;/*alyssa.curlee@seasoned.co*/
+
+/*Main Update Query*/
+Update t_company set ContactName='Alyssa Curlee', ContactEmail='alyssa.curlee@seasoned.co' where id=7154;
+
+
+/*Rollback Query*/
+Update t_company set ContactName='Yumiko Wilson', ContactEmail='yumiko.wilson@seasoned.com' where id=7154;
