@@ -1,0 +1,9 @@
+select * from t_user where email='valeriezink@accentcare.com';
+
+select id,deletiondate,anonymized,deleted,deletedhm,appfirstname,applastname,candidateid,jobid from t_application where companyid=4771 and  AppLastName='Culbreath';
+
+/*Main Update Query*/
+update t_application set Deleted=0, deletedhm=0, Modified=now() where companyid=4771 and id in (115098452,115098767,116965757,116965836,116965691,116965905);
+
+/*Rollback Query*/
+update t_application set Deleted=1, deletedhm=1, Modified=now() where companyid=4771 and id in (115098452,115098767,116965757,116965836,116965691,116965905);
