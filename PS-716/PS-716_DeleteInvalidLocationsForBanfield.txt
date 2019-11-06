@@ -1,0 +1,7 @@
+Select Id,CompanyId,Name,Deleted,modifieddate from t_location where CompanyId = 5370 And name like '%<strong>%';
+
+/* Remove Invalid Locations */
+Update t_location set Deleted = 1, modifieddate = now() where CompanyId = 5370 And Name like '%<strong>%';
+
+/* Rollback */
+Update t_location set Deleted = 0, modifieddate = now() where CompanyId = 5370 And Name like '%<strong>%';
