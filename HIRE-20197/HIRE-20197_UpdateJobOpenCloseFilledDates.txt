@@ -1,0 +1,18 @@
+/* Update queries */
+/* ReqId = 28 */
+Insert Into t_jobopen (CompanyId,JobId,FromDate,ToDate) Values (7066,3663659,'2018-05-01 00:00:00','2018-10-01 00:00:00');
+Update t_job Set FilledOn = '2018-10-01 00:00:00',Modified = now() Where CompanyId = 7066 And Id = 3663659;
+
+/* ReqId = 52 */
+Update t_jobopen Set FromDate = '2019-04-18 00:00:00', ToDate = '2019-07-02 00:00:00' Where CompanyId = 7066 And PkId = 5308706;
+Update t_job Set FilledOn = '2019-07-02 00:00:00',Modified = now() Where CompanyId = 7066 And Id = 3663683;
+
+
+/* Rollback queries */
+/* ReqId = 28 */
+Update t_jobopen Set CompanyId = -CompanyId, JobId = -JobId Where CompanyId = 7066 And JobId = 3663659;
+Update t_job Set FilledOn = '2018-10-01 00:00:00',Modified = '8/23/2019 7:13:52 AM' Where CompanyId = 7066 And Id = 3663659;
+
+/* ReqId = 52 */
+Update t_jobopen Set FromDate = '4/18/2019 12:00:00 PM',ToDate = NULL Where CompanyId = 7066 And PkId = 5308706;
+Update t_job Set FilledOn = NULL,Modified = '8/15/2019 8:17:31 AM' Where CompanyId = 7066 And Id = 3663683;
