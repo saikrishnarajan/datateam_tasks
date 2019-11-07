@@ -1,7 +1,45 @@
 Select Id,CompanyId,Name,Deleted,modifieddate from t_location where CompanyId = 5370 And name like '%<strong>%';
 
 /* Remove Invalid Locations */
-Update t_location set Deleted = 1, modifieddate = now() where CompanyId = 5370 And Name like '%<strong>%';
+DELIMITER $$
+DROP PROCEDURE IF EXISTS PS-716_DeleteInvalidLocations$$
+CREATE PROCEDURE PS-716_DeleteInvalidLocations()
+BEGIN
+DECLARE counter int default 0; 
+set counter =0;
+chkloop : WHILE (counter<=16) DO
+SELECT SLEEP(20) ;
+Update t_location set Deleted = 1, modifieddate = now() where CompanyId = 5370 And Name like '%<strong>%' LIMIT 3000;
+SELECT Row_Count() RecordsUpdated;
+SELECT counter IterationNumber;
+SET counter = counter +1   ; 
+IF Row_Count() = 0 THEN
+LEAVE chkloop;  
+ELSE
+ITERATE chkloop;
+END IF;
+END WHILE chkloop;  
+END$$
+DELIMITER ;
 
 /* Rollback */
-Update t_location set Deleted = 0, modifieddate = now() where CompanyId = 5370 And Name like '%<strong>%';
+DELIMITER $$
+DROP PROCEDURE IF EXISTS PS-716_RB_DeleteInvalidLocations$$
+CREATE PROCEDURE PS-716_RB_DeleteInvalidLocations()
+BEGIN
+DECLARE counter int default 0; 
+set counter =0;
+chkloop : WHILE (counter<=16) DO
+SELECT SLEEP(20) ;
+Update t_location set Deleted = 0, modifieddate = now() where CompanyId = 5370 And Name like '%<strong>%' LIMIT 3000;
+SELECT Row_Count() RecordsUpdated;
+SELECT counter IterationNumber;
+SET counter = counter +1   ; 
+IF Row_Count() = 0 THEN
+LEAVE chkloop;  
+ELSE
+ITERATE chkloop;
+END IF;
+END WHILE chkloop;  
+END$$
+DELIMITER ;
