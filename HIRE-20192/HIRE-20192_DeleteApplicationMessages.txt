@@ -1,0 +1,16 @@
+SELECT * from t_user where email = 'rdiaz@certainaffinity.com';   /*6557*/
+
+Select * from t_candidate where companyId = 6557 And FirstName = 'Anthony' And Lastname = 'Cordero'; /*86613011*/
+
+Select * from t_job where CompanyId = 6557 And RequisitionId = 'ATX-323'; /*3719442*/
+
+Select * from t_application where companyId = 6557 And JobId = 3719442 And CandidateId = 86613011 And DeletedHM = 0; /*116822201*/
+
+Select * from t_applicationmessage where ApplicationId = 116822201 
+And Subject like '%Button%'; /*For Anthony Cordero*/
+
+/*Remove Application Messages with Subject Buttons*/
+Update T_ApplicationMessage Set IsDeleted = 1 Where ApplicationId = 116822201 And Id in (261492827,261497288,261500654);
+
+/*Rollback*/
+Update T_ApplicationMessage Set IsDeleted = 0 Where ApplicationId = 116822201 And Id in (261492827,261497288,261500654);
