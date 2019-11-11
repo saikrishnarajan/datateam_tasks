@@ -1,0 +1,116 @@
+SELECT * from t_user where email = 'rbakare@ashoka.org';  /*5970*/
+
+Select * from t_JobType where CompanyId = 5970 And Deleted = 0 And Id in (27338,27339) order by Name;
+/*
+27338 : Full Time
+27339 : Part Time
+*/
+
+Select Id, JobType, DATE_FORMAT(Modified,'%Y-%m-%d %h:%i:%s') "Modified" from t_job where CompanyId = 5970 And Deleted = 0 And JobType in (27338, 27339) order by JobType, Id;
+
+/* Updates */
+Update t_job Set JobType = 0, Modified = now() Where CompanyId = 5970 And Deleted = 0 And JobType in (27338,27339);
+
+Update t_jobtype Set Deleted = 1, modifieddate = now() Where CompanyId = 5970 And Id in (27338,27339);
+
+/*Rollback*/
+/* Restore back the jobtypes */
+Update t_jobtype Set Deleted = 0, modifieddate = '2017-07-15 10:12:26' Where CompanyId = 5970 And Id in (27338,27339);
+/*Update back the jobtypes accordingly in t_job table [Recommended : This can be done through API updates as well*/
+Update t_job Set JobType = 27338, Modified = '2019-01-30 01:23:30' Where CompanyId = 5970 And Id = 2444394;
+Update t_job Set JobType = 27338, Modified = '2018-10-15 09:19:29' Where CompanyId = 5970 And Id = 2503558;
+Update t_job Set JobType = 27338, Modified = '2018-02-15 07:30:20' Where CompanyId = 5970 And Id = 2507489;
+Update t_job Set JobType = 27338, Modified = '2019-03-29 01:51:55' Where CompanyId = 5970 And Id = 2507493;
+Update t_job Set JobType = 27338, Modified = '2017-11-24 07:37:09' Where CompanyId = 5970 And Id = 2510633;
+Update t_job Set JobType = 27338, Modified = '2019-10-21 01:00:44' Where CompanyId = 5970 And Id = 2519164;
+Update t_job Set JobType = 27338, Modified = '2018-07-11 06:15:00' Where CompanyId = 5970 And Id = 2563879;
+Update t_job Set JobType = 27338, Modified = '2017-10-13 03:17:02' Where CompanyId = 5970 And Id = 2584790;
+Update t_job Set JobType = 27338, Modified = '2019-09-04 09:24:41' Where CompanyId = 5970 And Id = 2715167;
+Update t_job Set JobType = 27338, Modified = '2018-01-08 11:48:12' Where CompanyId = 5970 And Id = 2748964;
+Update t_job Set JobType = 27338, Modified = '2019-03-23 10:09:34' Where CompanyId = 5970 And Id = 2776785;
+Update t_job Set JobType = 27338, Modified = '2019-10-16 12:50:18' Where CompanyId = 5970 And Id = 2788741;
+Update t_job Set JobType = 27338, Modified = '2018-10-15 09:23:31' Where CompanyId = 5970 And Id = 2800017;
+Update t_job Set JobType = 27338, Modified = '2019-09-12 01:03:02' Where CompanyId = 5970 And Id = 2809081;
+Update t_job Set JobType = 27338, Modified = '2019-01-30 02:03:59' Where CompanyId = 5970 And Id = 2817587;
+Update t_job Set JobType = 27338, Modified = '2018-06-14 02:13:32' Where CompanyId = 5970 And Id = 2819850;
+Update t_job Set JobType = 27338, Modified = '2018-03-22 10:03:16' Where CompanyId = 5970 And Id = 2828465;
+Update t_job Set JobType = 27338, Modified = '2019-10-21 01:01:50' Where CompanyId = 5970 And Id = 2828466;
+Update t_job Set JobType = 27338, Modified = '2018-03-26 05:35:54' Where CompanyId = 5970 And Id = 2834019;
+Update t_job Set JobType = 27338, Modified = '2019-03-06 02:07:39' Where CompanyId = 5970 And Id = 2843151;
+Update t_job Set JobType = 27338, Modified = '2019-01-30 02:04:59' Where CompanyId = 5970 And Id = 2866892;
+Update t_job Set JobType = 27338, Modified = '2018-06-04 09:06:41' Where CompanyId = 5970 And Id = 2885456;
+Update t_job Set JobType = 27338, Modified = '2019-03-12 05:23:53' Where CompanyId = 5970 And Id = 2920730;
+Update t_job Set JobType = 27338, Modified = '2019-04-09 03:19:54' Where CompanyId = 5970 And Id = 2979100;
+Update t_job Set JobType = 27338, Modified = '2018-11-05 08:01:23' Where CompanyId = 5970 And Id = 3006823;
+Update t_job Set JobType = 27338, Modified = '2018-11-05 08:07:58' Where CompanyId = 5970 And Id = 3006837;
+Update t_job Set JobType = 27338, Modified = '2018-11-05 08:01:39' Where CompanyId = 5970 And Id = 3006845;
+Update t_job Set JobType = 27338, Modified = '2018-11-05 08:00:57' Where CompanyId = 5970 And Id = 3006856;
+Update t_job Set JobType = 27338, Modified = '2018-11-05 08:07:47' Where CompanyId = 5970 And Id = 3006883;
+Update t_job Set JobType = 27338, Modified = '2018-07-24 09:33:28' Where CompanyId = 5970 And Id = 3006899;
+Update t_job Set JobType = 27338, Modified = '2018-08-27 09:49:51' Where CompanyId = 5970 And Id = 3019339;
+Update t_job Set JobType = 27338, Modified = '2019-01-30 01:28:27' Where CompanyId = 5970 And Id = 3051567;
+Update t_job Set JobType = 27338, Modified = '2019-01-25 12:32:48' Where CompanyId = 5970 And Id = 3054889;
+Update t_job Set JobType = 27338, Modified = '2019-03-06 02:06:34' Where CompanyId = 5970 And Id = 3064179;
+Update t_job Set JobType = 27338, Modified = '2019-03-28 11:10:07' Where CompanyId = 5970 And Id = 3082155;
+Update t_job Set JobType = 27338, Modified = '2018-10-29 07:31:29' Where CompanyId = 5970 And Id = 3121856;
+Update t_job Set JobType = 27338, Modified = '2019-03-20 06:36:47' Where CompanyId = 5970 And Id = 3126392;
+Update t_job Set JobType = 27338, Modified = '2018-12-10 08:30:47' Where CompanyId = 5970 And Id = 3145052;
+Update t_job Set JobType = 27338, Modified = '2019-05-16 05:52:31' Where CompanyId = 5970 And Id = 3155467;
+Update t_job Set JobType = 27338, Modified = '2019-07-31 02:23:16' Where CompanyId = 5970 And Id = 3167460;
+Update t_job Set JobType = 27338, Modified = '2019-07-04 01:23:39' Where CompanyId = 5970 And Id = 3167472;
+Update t_job Set JobType = 27338, Modified = '2019-05-27 09:26:20' Where CompanyId = 5970 And Id = 3174493;
+Update t_job Set JobType = 27338, Modified = '2018-10-23 07:34:37' Where CompanyId = 5970 And Id = 3174893;
+Update t_job Set JobType = 27338, Modified = '2018-12-20 03:39:20' Where CompanyId = 5970 And Id = 3192347;
+Update t_job Set JobType = 27338, Modified = '2019-10-24 01:26:25' Where CompanyId = 5970 And Id = 3196356;
+Update t_job Set JobType = 27338, Modified = '2019-01-25 12:32:30' Where CompanyId = 5970 And Id = 3197068;
+Update t_job Set JobType = 27338, Modified = '2018-10-31 03:41:08' Where CompanyId = 5970 And Id = 3199008;
+Update t_job Set JobType = 27338, Modified = '2019-06-20 05:25:38' Where CompanyId = 5970 And Id = 3236227;
+Update t_job Set JobType = 27338, Modified = '2018-10-30 09:23:31' Where CompanyId = 5970 And Id = 3243326;
+Update t_job Set JobType = 27338, Modified = '2019-10-02 05:20:24' Where CompanyId = 5970 And Id = 3243381;
+Update t_job Set JobType = 27338, Modified = '2018-10-30 09:20:39' Where CompanyId = 5970 And Id = 3243444;
+Update t_job Set JobType = 27338, Modified = '2019-05-28 07:18:14' Where CompanyId = 5970 And Id = 3254231;
+Update t_job Set JobType = 27338, Modified = '2019-08-16 04:54:04' Where CompanyId = 5970 And Id = 3270881;
+Update t_job Set JobType = 27338, Modified = '2019-03-29 01:56:14' Where CompanyId = 5970 And Id = 3271376;
+Update t_job Set JobType = 27338, Modified = '2019-09-04 05:35:45' Where CompanyId = 5970 And Id = 3281714;
+Update t_job Set JobType = 27338, Modified = '2019-10-16 03:22:29' Where CompanyId = 5970 And Id = 3294419;
+Update t_job Set JobType = 27338, Modified = '2019-02-07 03:06:21' Where CompanyId = 5970 And Id = 3300015;
+Update t_job Set JobType = 27338, Modified = '2019-01-25 08:20:21' Where CompanyId = 5970 And Id = 3302771;
+Update t_job Set JobType = 27338, Modified = '2019-02-27 04:22:15' Where CompanyId = 5970 And Id = 3324843;
+Update t_job Set JobType = 27338, Modified = '2019-02-06 05:28:28' Where CompanyId = 5970 And Id = 3328660;
+Update t_job Set JobType = 27338, Modified = '2019-10-24 01:32:32' Where CompanyId = 5970 And Id = 3375624;
+Update t_job Set JobType = 27338, Modified = '2019-06-28 01:50:21' Where CompanyId = 5970 And Id = 3380196;
+Update t_job Set JobType = 27338, Modified = '2019-04-03 06:24:48' Where CompanyId = 5970 And Id = 3382019;
+Update t_job Set JobType = 27338, Modified = '2019-08-25 08:19:35' Where CompanyId = 5970 And Id = 3398365;
+Update t_job Set JobType = 27338, Modified = '2019-09-23 10:27:27' Where CompanyId = 5970 And Id = 3489654;
+Update t_job Set JobType = 27338, Modified = '2019-08-25 07:49:15' Where CompanyId = 5970 And Id = 3510925;
+Update t_job Set JobType = 27338, Modified = '2019-05-13 04:32:57' Where CompanyId = 5970 And Id = 3524562;
+Update t_job Set JobType = 27338, Modified = '2019-06-07 07:27:28' Where CompanyId = 5970 And Id = 3532137;
+Update t_job Set JobType = 27338, Modified = '2019-07-31 02:23:52' Where CompanyId = 5970 And Id = 3569862;
+Update t_job Set JobType = 27338, Modified = '2019-07-05 05:00:24' Where CompanyId = 5970 And Id = 3572521;
+Update t_job Set JobType = 27338, Modified = '2019-08-16 03:43:30' Where CompanyId = 5970 And Id = 3615804;
+Update t_job Set JobType = 27338, Modified = '2019-09-09 01:34:28' Where CompanyId = 5970 And Id = 3653456;
+Update t_job Set JobType = 27338, Modified = '2019-09-09 01:33:29' Where CompanyId = 5970 And Id = 3653457;
+Update t_job Set JobType = 27338, Modified = '2019-09-17 12:58:19' Where CompanyId = 5970 And Id = 3655014;
+Update t_job Set JobType = 27338, Modified = '2019-09-09 12:58:03' Where CompanyId = 5970 And Id = 3656927;
+Update t_job Set JobType = 27338, Modified = '2019-09-12 12:42:01' Where CompanyId = 5970 And Id = 3661735;
+Update t_job Set JobType = 27338, Modified = '2019-07-17 07:34:28' Where CompanyId = 5970 And Id = 3677959;
+Update t_job Set JobType = 27338, Modified = '2019-09-04 06:43:54' Where CompanyId = 5970 And Id = 3727913;
+Update t_job Set JobType = 27338, Modified = '2019-09-16 06:30:37' Where CompanyId = 5970 And Id = 3790911;
+Update t_job Set JobType = 27338, Modified = '2019-10-25 11:30:13' Where CompanyId = 5970 And Id = 3880807;
+Update t_job Set JobType = 27338, Modified = '2019-10-25 01:13:52' Where CompanyId = 5970 And Id = 3881547;
+Update t_job Set JobType = 27338, Modified = '2019-10-29 08:56:43' Where CompanyId = 5970 And Id = 3884303;
+Update t_job Set JobType = 27338, Modified = '2019-10-29 09:02:16' Where CompanyId = 5970 And Id = 3884726;
+Update t_job Set JobType = 27338, Modified = '2019-10-31 01:47:19' Where CompanyId = 5970 And Id = 3890551;
+Update t_job Set JobType = 27338, Modified = '2019-11-07 11:13:41' Where CompanyId = 5970 And Id = 3900748;
+Update t_job Set JobType = 27338, Modified = '2019-11-10 09:13:40' Where CompanyId = 5970 And Id = 3906185;
+Update t_job Set JobType = 27339, Modified = '2018-12-12 10:59:13' Where CompanyId = 5970 And Id = 2689777;
+Update t_job Set JobType = 27339, Modified = '2019-01-25 11:13:58' Where CompanyId = 5970 And Id = 2801991;
+Update t_job Set JobType = 27339, Modified = '2018-05-29 07:29:49' Where CompanyId = 5970 And Id = 2862387;
+Update t_job Set JobType = 27339, Modified = '2018-05-11 05:42:14' Where CompanyId = 5970 And Id = 2933082;
+Update t_job Set JobType = 27339, Modified = '2018-11-26 10:21:14' Where CompanyId = 5970 And Id = 3121871;
+Update t_job Set JobType = 27339, Modified = '2019-09-30 06:06:37' Where CompanyId = 5970 And Id = 3439909;
+Update t_job Set JobType = 27339, Modified = '2019-05-16 05:51:13' Where CompanyId = 5970 And Id = 3468737;
+Update t_job Set JobType = 27339, Modified = '2019-05-24 01:13:38' Where CompanyId = 5970 And Id = 3503204;
+Update t_job Set JobType = 27339, Modified = '2019-08-29 03:08:01' Where CompanyId = 5970 And Id = 3756345;
+Update t_job Set JobType = 27339, Modified = '2019-09-20 01:20:32' Where CompanyId = 5970 And Id = 3762472;
+Update t_job Set JobType = 27339, Modified = '2019-11-05 09:46:11' Where CompanyId = 5970 And Id = 3896354;
