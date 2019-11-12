@@ -1,0 +1,9 @@
+SELECT * from t_user where email = 'jvang@plusrelocation.com';  /*7015*/
+
+Select * from t_sourcetype where companyId = 7015 and name = 'jobsinminneapolis.com'; /*668968*/
+
+/*Remove job link source */
+Update t_sourcetype Set Deleted = 1, modifieddate = now() Where CompanyId = 7015 And Id = 668968;
+
+/*Rollback*/
+Update t_sourcetype Set Deleted = 0, modifieddate = '2019-10-14 12:15:00 PM' Where CompanyId = 7015 And Id = 668968;
