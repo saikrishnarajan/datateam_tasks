@@ -1,0 +1,10 @@
+select * from t_applicationmessage where ApplicationId = 117477039 and isdeleted=1;
+
+
+update script:-
+
+update t_applicationmessage set IsDeleted=0 where id in (253338712,253338757);
+
+Rollback script:-
+
+update t_applicationmessage set IsDeleted=1 where id in (253338712,253338757);
