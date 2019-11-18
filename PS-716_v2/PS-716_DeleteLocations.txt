@@ -6,15 +6,15 @@ BEGIN
 DECLARE items_remaining int default 0;
 /*Get total count of the location as per the filter*/
 SELECT COUNT(Id) into items_remaining From t_location where companyId = 5370 And Name like '%<strong>%'
-AND Id Not In (select locationid from t_job where companyid=5370 And deleted = 0);
+AND Id Not In (select locationid from t_job where companyid=5370 And deleted = 0)And Deleted = 0 ;
 /*Loop based on the items_remaining*/
 chkloop : WHILE (items_remaining>0) DO
 /*Delete the locations with only 3000 in every iteration*/
 Update t_location set Deleted = 1, modifieddate = now() where CompanyId = 5370 And Name like '%<strong>%'
-AND Id Not In (select locationid from t_job where companyid=5370 And deleted = 0) LIMIT 3000;
+And Deleted = 0 AND Id Not In (select locationid from t_job where companyid=5370 And deleted = 0) LIMIT 3000;
 
 SELECT COUNT(Id) into items_remaining From t_location where companyId = 5370 And Name like '%<strong>%'
-AND Id Not In (select locationid from t_job where companyid=5370 And deleted = 0);
+AND Id Not In (select locationid from t_job where companyid=5370 And deleted = 0) And Deleted = 0 ;
 
 END WHILE chkloop;  
 END$$
