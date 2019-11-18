@@ -1,0 +1,41 @@
+select * from t_user where Email='jharvey@freedomfinancialnetwork.com';/*4727*/
+
+select * from t_job where CompanyId=4727 and RequisitionId in ('13420','13347');/*3610710,3591989*/
+select * from t_candidate where CompanyId=4727 and FirstName='Shalini' and LastName='Gopalakrishnan';/*79931090*/
+select * from t_candidate where CompanyId=4727 and FirstName='Manish' and LastName='Skekhar';/*65773935*/
+
+
+select * from t_application where CompanyId=4727 and CandidateId in (79931090)and JobId=3610710;
+select * from t_application where CompanyId=4727 and CandidateId in (65773935)and Jobid=3591989;
+
+
+select * from t_offerletter where ApplicationId in (116066501,116877941);
+
+select * from t_customfield where CompanyId=4727 and Name like '%ADP Pay Rate (Value)%';/*106445*/
+select * from t_customfield where CompanyId=4727 and Name like '%Annual Salary%';/*80841*/
+select * from t_customfield where CompanyId=4727 and Name like '%Bonus Type%';/*100149*/
+select * from t_customfield where CompanyId=4727 and Name like '%Bonus%';/*80842*/
+select * from t_customfield where CompanyId=4727 and Name like '%Performance%';/*115726*/
+
+select * from t_viewfield where CompanyId=4727 and fieldid in (80842,106445,100149,80841,115726);
+
+select * from t_customfieldcontent where CompanyID= 4727 and itemid in(116066501,116877941)and FieldId in(106445,80841,100149,80842,115726) ;
+
+
+
+update script:-
+
+
+update t_customfieldcontent set Content='' where CompanyId=4727 and itemid in(116066501,116877941)and FieldId in(106445,80841,100149,80842,115726);
+
+
+Rollback script:-
+
+update t_customfieldcontent set Content='126000' where CompanyId=4727 and id =276293023;
+update t_customfieldcontent set Content='4846.15' where CompanyId=4727 and id =276293024;
+update t_customfieldcontent set Content='10' where CompanyId=4727 and id =276293025;
+update t_customfieldcontent set Content='Quarterly' where CompanyId=4727 and id =276293026;
+update t_customfieldcontent set Content='133000' where CompanyId=4727 and id =276537325;
+update t_customfieldcontent set Content='5115.39' where CompanyId=4727 and id =276537326;
+update t_customfieldcontent set Content='10' where CompanyId=4727 and id =276537327;
+update t_customfieldcontent set Content='Quarterly' where CompanyId=4727 and id =276537328;
