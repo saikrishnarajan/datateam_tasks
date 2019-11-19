@@ -1,0 +1,10 @@
+select id from t_offerletter where ApplicationId in (116066501,116877941);
+
+
+update script:-
+
+update t_offerletter set ApplicationId= ApplicationId where Id in (1780016,1780071,1780011,1780104,1780302);
+
+
+Rollback script:-
+update t_offerletter set ApplicationId= ApplicationId where Id in (1780016,1780071,1780011,1780104,1780302);
