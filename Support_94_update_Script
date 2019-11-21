@@ -1,0 +1,11 @@
+select * from t_subsidiary where CompanyId=434 and Id=0;
+
+select id, SubsidiaryId from t_job where CompanyId=434 and  Deleted=0 and SubsidiaryId !=0;
+
+
+
+update script:-
+
+update t_job set SubsidiaryId=0, Modified=now() where CompanyId=434 and  Deleted=0 and SubsidiaryId !=0;
+
+
