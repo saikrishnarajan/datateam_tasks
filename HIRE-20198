@@ -1,0 +1,14 @@
+select * from t_jobvitemessage where MessageId in (select id from t_message where CompanyId=6889 and deleted=0);
+
+
+
+
+update script:-
+update t_jobvitemessage set MessageId= -MessageId  where MessageId in (select id from t_message where CompanyId=6889 and deleted=0);
+
+
+
+Rollback script:-
+update t_jobvitemessage set MessageId= -MessageId  where MessageId in (select id from t_message where CompanyId=6889 and deleted=0);
+
+
