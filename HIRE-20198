@@ -4,11 +4,11 @@ select * from t_jobvitemessage where MessageId in (select id from t_message wher
 
 
 update script:-
-update t_jobvitemessage set MessageId= -MessageId  where MessageId in (select id from t_message where CompanyId=6889 and deleted=0);
-
+update t_jobvitemessage j join t_message m on m.Id=j.MessageId set j.MessageId= -j.MessageId where m.CompanyId=6889 and m.deleted=0 ;
+update t_jobvitemessage j join t_message m on m.Id=j.MessageId set j.SenderId= -j.SenderId,j.RecipientId=-j.RecipientId where m.CompanyId=6889 and m.deleted=0 ;
 
 
 Rollback script:-
 update t_jobvitemessage set MessageId= -MessageId  where MessageId in (select id from t_message where CompanyId=6889 and deleted=0);
 
-
+update t_jobvitemessage j join t_message m on m.Id=j.MessageId set j.SenderId= -j.SenderId,j.RecipientId=-j.RecipientId where m.CompanyId=6889 and m.deleted=0 ;
