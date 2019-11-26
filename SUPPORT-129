@@ -1,0 +1,10 @@
+
+select * from t_application where CompanyId=6323 and AppFirstName=‘tyson’;
+
+select * from t_message  where CompanyId=6323 and  MessageId=122221649;
+
+/*Main Update Query*/
+Update T_message Set HasAttachments=0 where CompanyId=6323 and id=496938947;
+
+/*Rollback Query*/
+Update T_message Set HasAttachments=1 where CompanyId=6323 and id=496938947;
